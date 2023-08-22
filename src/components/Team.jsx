@@ -3,7 +3,7 @@ import ProfileCardAlt from './sub/ProfileCardAlt'
 
 import { useTranslation } from 'react-i18next'
 // importing images
-import imgAlmat from '/assets/img/team/Almat.jpg'
+import imgLeila from '/assets/img/team/Leila.jpg'
 import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
 import imgHeghine from '/assets/img/team/Heghine.jpg'
 import imgNurzhan from '/assets/img/team/Nurzhan.jpg'
@@ -64,8 +64,8 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoVladimir.fullname')} position={t('infoVladimir.position')}
             img={imgVladimir} achievements={t('infoVladimir.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAlmat.fullname')} position={t('infoAlmat.position')}
-            img={imgAlmat} achievements={t('infoAlmat.achievements', { returnObjects: true })} />
+          <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
+            img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoBatyrkhan.fullname')} position={t('infoBatyrkhan.position')}
             img={imgBatyrkhan} achievements={t('infoBatyrkhan.achievements', { returnObjects: true })} />

@@ -152,12 +152,12 @@ const en = {
     },
     infoAlmat: {
       fullname: 'Almat Orazali',
-      position: 'Software Team',
+      position: 'Software/Control System Team',
       achievements: ["Backend developer at CaliforniaRP GTA V server", "2 year freelance frontend developer"]
     },
     infoBatyrkhan: {
       fullname: 'Batyrkhan Sharipbay',
-      position: 'Software Team',
+      position: 'Software/Control System Team',
       achievements: ['Lead the team which won first place in Software Hackathon by StepIT Academy',
         'Awarded for the contribution in presenting Science Project in the Republican Physics Olympiad']
     },

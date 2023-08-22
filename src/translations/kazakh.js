@@ -151,12 +151,12 @@ const kk = {
     },
     infoAlmat: {
       fullname: 'Алмат Оразәлі',
-      position: 'Бағдарламалау тобы',
+      position: 'Бағдарламалау/Система тобы',
       achievements: ["CaliforniaRP GTA V серверінің backend әзірлеушісі", "2 жыл фриланс frontend әзірлеушісі"]
     },
     infoBatyrkhan: {
       fullname: 'Батырхан Шәріпбай',
-      position: 'Бағдарламалау тобы',
+      position: 'Бағдарламалау/Система тобы',
       achievements: ['StepIT Academy ұйымдастырған топтық Хакатонда бірінші орын иегері',
         'Физикадан Республикалық ғылыми жобалар олимпиадасының жеңімпазы']
     },

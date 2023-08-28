@@ -5,6 +5,7 @@ const kk = {
     linkRoadmap: 'Roadmap және прогресс',
     linkTeam: 'Топ',
     linkAdvisers: 'Кеңесшілер',
+    linkPartners: 'Серіктестер',
     mobileSocialMedia: 'Әлеуметтік желілеріміз'
   },
   announcement: {
@@ -228,10 +229,21 @@ const kk = {
       position: 'Сапаны бақылау (QA) тобы',
       achievements: ['IGeo Istanbul 2021 күміс және IGeo Paris 2022 қола медаль иегері', 'National Geographic Qazaqstan көмекші-жазушысы']
     },
+    infoAruzhan: {
+      fullname: 'Аружан Акимхан',
+      position: 'Қаржы және ресурс тобы',
+      achievements: ['IEOx WiC’21 Қола, FBLA 2020 Қазақстандық делегация', 'НУ Физика кафедрасында зерттеу ассистенті']
+    },
     infoAizhar: {
       fullname: 'Айжар Куденова',
       position: 'Қаржы және ресурс тобы',
       achievements: ['Technovation Girls 2021 жартылай финалисті', 'МТУ халықаралық математика олимпиадасының жеңімпазы']
+    },
+    infoAlisher: {
+      fullname: 'Алишер Сабигалиев',
+      position: 'Механика тобы',
+      achievements: ['NIS VOLUNTEERS SEMEY ұйымының негізін қалаушы',
+       '«Ғылым әлемін ашу» ғарыштық зерттеулер жарысының XVI халықаралық ғылыми конкурсында 3-дәрежелі Диплом иегері']
     }
   },
   advisers: {
@@ -265,6 +277,9 @@ const kk = {
       fullname: 'Prashant Jamwal',
       achievements: ['Jewel of India сыйлығының иегері', 'Дүниежүзілік банктің 2 грантын ұтып алып, бірнеше стартап компанияларды іске қосты']
     }
+  },
+  partners: {
+    header: 'Серіктес-демеушілер'
   },
   contact: {
     shortInfo: `

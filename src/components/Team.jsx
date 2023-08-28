@@ -17,6 +17,8 @@ import imgDenis from '/assets/img/team/Denis.jpg'
 import imgDana from '/assets/img/team/Dana.jpg'
 import imgZhamila from '/assets/img/team/Zhamila.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
+import imgAlisher from '/assets/img/team/Alisher.jpg'
+import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
@@ -24,9 +26,9 @@ const Team = () => {
   return (
     <div id="team" className='w-full py-16 lg:py-20'>
       <div className='max-w-[1240px] mx-auto px-4'>
-        <h1 className='text-primary md:text-6xl sm:text-5xl text-4xl font-bold md:py-6 text-center'>{t('header')}</h1>
+        <h1 className='text-primary md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 text-center'>{t('header')}</h1>
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
-        <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
 
           <ProfileCardAlt fullname={t('infoHeghine.fullname')} position={t('infoHeghine.position')}
             img={imgHeghine} achievements={t('infoHeghine.achievements', { returnObjects: true })} />
@@ -37,8 +39,14 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoDana.fullname')} position={t('infoDana.position')}
             img={imgDana} achievements={t('infoDana.achievements', { returnObjects: true })} />
 
+          <ProfileCardAlt fullname={t('infoAruzhan.fullname')} position={t('infoAruzhan.position')}
+            img={imgAruzhan} achievements={t('infoAruzhan.achievements', { returnObjects: true })} />
+
           <ProfileCardAlt fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
             img={imgYussuf} achievements={t('infoYussuf.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoAlisher.fullname')} position={t('infoAlisher.position')}
+            img={imgAlisher} achievements={t('infoAlisher.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoTomiris.fullname')} position={t('infoTomiris.position')}
             img={imgTomiris} achievements={t('infoTomiris.achievements', { returnObjects: true })} />
@@ -55,6 +63,12 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoYerkebulan.fullname')} position={t('infoYerkebulan.position')}
             img={imgYerkebulan} achievements={t('infoYerkebulan.achievements', { returnObjects: true })} />
 
+          <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
+            img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoBatyrkhan.fullname')} position={t('infoBatyrkhan.position')}
+            img={imgBatyrkhan} achievements={t('infoBatyrkhan.achievements', { returnObjects: true })} />
+
           <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
@@ -64,14 +78,8 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoVladimir.fullname')} position={t('infoVladimir.position')}
             img={imgVladimir} achievements={t('infoVladimir.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
-            img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
-
-          <ProfileCardAlt fullname={t('infoBatyrkhan.fullname')} position={t('infoBatyrkhan.position')}
-            img={imgBatyrkhan} achievements={t('infoBatyrkhan.achievements', { returnObjects: true })} />
-
-          <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
-            achievements={t('infoAizhar.achievements', { returnObjects: true })} />
+          {/* <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
+            achievements={t('infoAizhar.achievements', { returnObjects: true })} /> */}
 
         </div>
       </div>

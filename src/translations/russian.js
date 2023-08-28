@@ -5,6 +5,7 @@ const ru = {
     linkRoadmap: 'Roadmap и прогресс',
     linkTeam: 'Команда',
     linkAdvisers: 'Советники',
+    linkPartners: 'Партнеры',
     mobileSocialMedia: 'Наши соц. сети'
   },
   announcement: {
@@ -226,10 +227,21 @@ const ru = {
       position: 'Команда обеспечения качества (QA)',
       achievements: ['Серебряный призер IGeo Istanbul 2021, бронзовый призер IGeo Paris 2022', 'Стажер-писатель National Geographic Qazaqstan']
     },
+    infoAruzhan: {
+      fullname: 'Аружан Акимхан',
+      position: 'Команда Финансов/Ресурсов',
+      achievements: ['IEOx WiC’21 бронза, Казахстанская делегация FBLA 2020', 'Стажировка в должности ассистента-исследователя в НУ, факультет физики']
+    },
     infoAizhar: {
       fullname: 'Куденова Айжар',
       position: 'Команда Финансов/Ресурсов',
       achievements: ['Полуфиналистка Technovation Girls 2021', 'Победитель международной олимпиады по математике от МГТУ']
+    },
+    infoAlisher: {
+      fullname: 'Сабигалиев Алишер',
+      position: 'Команда Механики',
+      achievements: ["Основатель организации 'НИШ ВОЛОНТЕРЫ СЕМЕЙ'",
+      'Диплом 3 степени XVI Международного научного конкурса по космическим исследованиям «Открывая мир науки»']
     }
   },
   advisers: {
@@ -264,6 +276,9 @@ const ru = {
       fullname: 'Prashant Jamwal',
       achievements: ['Обладатель награды Jewel of India', 'Выиграл 2 гранта от Всемирного Банка и запустил несколько стартап компании']
     }
+  },
+  partners: {
+    header: 'Партнеры и спонсоры'
   },
   contact: {
     shortInfo: `

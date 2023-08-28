@@ -5,6 +5,7 @@ const en = {
     linkRoadmap: 'Roadmap & Progress',
     linkTeam: 'Team',
     linkAdvisers: 'Advisers',
+    linkPartners: 'Partners',
     mobileSocialMedia: 'Our social media'
   },
   announcement: {
@@ -227,10 +228,21 @@ const en = {
       position: 'Quality Assurance Team',
       achievements: ['IGeo Istanbul 2021 Silver, IGeo Paris 2022 Bronze medal winner', 'National Geographic Qazaqstan intern writer-contributor']
     },
+    infoAruzhan: {
+      fullname: 'Aruzhan Akimkhan',
+      position: 'Resource and Finance Team',
+      achievements: ['IEOx WiC Bronze’21, FBLA 2020 Kazakhstani Delegation', 'Internship as Research Assistant at NU SSH, Physics Department']
+    },
     infoAizhar: {
       fullname: 'Aizhar Kudenova',
       position: 'Resource and Finance Team',
       achievements: ['Semifinalist of Technovation Girls 2021', 'Winner of international math olympiad from MSTU']
+    },
+    infoAlisher: {
+      fullname: 'Alisher Sabigaliyev',
+      position: 'Mechanical Team',
+      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation', 
+        '3rd degree Diploma at the XVI International Scientific Competition in Space Research "Opening the World of Science"']
     }
   },
   advisers: {
@@ -265,6 +277,9 @@ const en = {
       fullname: 'Prashant Jamwal',
       achievements: ['Jewel of India Award holder', 'Won two grants from the World Bank and has launched the startup companies']
     },
+  },
+  partners: {
+    header: 'Partners & Sponsors'
   },
   contact: {
     shortInfo: `

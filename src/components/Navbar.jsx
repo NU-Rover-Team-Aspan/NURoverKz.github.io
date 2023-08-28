@@ -46,6 +46,7 @@ const Navbar = () => {
         <li className='p-4 hover:text-primary'><a href='#roadmap'>{t('linkRoadmap')}</a></li>
         <li className='p-4 hover:text-primary'><a href='#team'>{t('linkTeam')}</a></li>
         <li className='p-4 hover:text-primary'><a href='#advisers'>{t('linkAdvisers')}</a></li>
+        <li className='p-4 hover:text-primary'><a href='#partners'>{t('linkPartners')}</a></li>
         <li className='py-4'><RxDividerVertical size={28} /></li>
         <li className='py-4 px-2 hover:text-primary'>
           <a target="_blank" href={linkedInLink} className="transition-colors duration-300 hover:text-primary">
@@ -103,6 +104,9 @@ const Navbar = () => {
           </li>
           <li className='p-4 border-b border-gray-600'>
             <a className='hover:text-primary' href='#advisers' onClick={handleNav}>{t('linkAdvisers')}</a>
+          </li>
+          <li className='p-4 border-b border-gray-600'>
+            <a className='hover:text-primary' href='#partners' onClick={handleNav}>{t('linkPartners')}</a>
           </li>
           <li className='p-4 border-gray-600'>
             <p className='text-primary'>{t('mobileSocialMedia')}:</p>

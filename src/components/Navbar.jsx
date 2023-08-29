@@ -32,9 +32,6 @@ const Navbar = () => {
     setNav(!nav);
   }
 
-  const instagramLink = 'https://instagram.com/rover.team.kz?igshid=MzNlNGNkZWQ4Mg==';
-  const linkedInLink = 'https://www.linkedin.com/in/nazarbayev-university-rover-team-a49524273';
-
   return (
     <nav className='flex justify-between items-center max-w-[1240px] mx-auto px-4 pt-2'>
       <a href="/">
@@ -49,12 +46,12 @@ const Navbar = () => {
         <li className='p-4 hover:text-primary'><a href='#partners'>{t('linkPartners')}</a></li>
         <li className='py-4'><RxDividerVertical size={28} /></li>
         <li className='py-4 px-2 hover:text-primary'>
-          <a target="_blank" href={linkedInLink} className="transition-colors duration-300 hover:text-primary">
+          <a target="_blank" href={import.meta.env.VITE_LINKEDIN} className="transition-colors duration-300 hover:text-primary">
             <AiFillLinkedin size={24} />
           </a>
         </li>
         <li className='py-4 px-2 hover:text-primary'>
-          <a target="_blank" href={instagramLink}
+          <a target="_blank" href={import.meta.env.VITE_INSTAGRAM}
             className="transition-colors duration-300 hover:text-primary">
             <AiFillInstagram size={24} />
           </a>
@@ -111,10 +108,10 @@ const Navbar = () => {
           <li className='p-4 border-gray-600'>
             <p className='text-primary'>{t('mobileSocialMedia')}:</p>
             <div className="flex items-center mt-3 space-x-3">
-              <a target="_blank" href={linkedInLink} className="transition-colors duration-300 hover:text-primary">
+              <a target="_blank" href={import.meta.env.VITE_LINKEDIN} className="transition-colors duration-300 hover:text-primary">
                 <AiFillLinkedin size={42} />
               </a>
-              <a target="_blank" href={instagramLink}
+              <a target="_blank" href={import.meta.env.VITE_INSTAGRAM}
                 className="transition-colors duration-300 hover:text-primary">
                 <AiFillInstagram size={42} />
               </a>

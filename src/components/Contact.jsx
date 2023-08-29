@@ -8,9 +8,6 @@ import { useTranslation, Trans } from 'react-i18next'
 const Contact = () => {
   const { t } = useTranslation('translation');
 
-  const instagramLink = 'https://instagram.com/rover.team.kz?igshid=MzNlNGNkZWQ4Mg==';
-  const linkedInLink = 'https://www.linkedin.com/in/nazarbayev-university-rover-team-a49524273';
-
   return (
     <div id="contact" className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-8">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -67,10 +64,10 @@ const Contact = () => {
             { t('contact.social.name') }
           </p>
           <div className="flex items-center mt-3 space-x-3">
-            <a target="_blank" href={linkedInLink} className="text-gray-500 transition-colors duration-300 hover:text-primary">
+            <a target="_blank" href={import.meta.env.VITE_LINKEDIN} className="text-gray-500 transition-colors duration-300 hover:text-primary">
               <AiFillLinkedin size={28}/>
             </a>
-            <a target="_blank" href={instagramLink}
+            <a target="_blank" href={import.meta.env.VITE_INSTAGRAM}
               className="text-gray-500 transition-colors duration-300 hover:text-primary">
               <AiFillInstagram size={28}/>
             </a>
@@ -82,7 +79,10 @@ const Contact = () => {
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          © Copyright 2023s. All rights reserved.
+          Copyright © 2023 Nazarbayev University Rover Team. All rights reserved.
+        </p>
+        <p className="text-sm text-gray-600">
+          Designed by <a href="https://github.com/sb2rhan" target='_blank'>sb2rhan</a>
         </p>
       </div>
     </div>

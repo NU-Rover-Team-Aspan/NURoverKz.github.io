@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "add-domain": "echo \"nurover.kz\" > dist/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

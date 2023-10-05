@@ -6,11 +6,9 @@ import { useTranslation } from 'react-i18next'
 import imgLeila from '/assets/img/team/Leila.jpg'
 import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
 import imgHeghine from '/assets/img/team/Heghine.jpg'
-import imgNurzhan from '/assets/img/team/Nurzhan.jpg'
 import imgYussuf from '/assets/img/team/Yussuf.jpg'
 import imgTomiris from '/assets/img/team/Tomiris.jpg'
 import imgMuslim from '/assets/img/team/Muslim.jpg'
-import imgVladimir from '/assets/img/team/Vladimir.jpg'
 import imgSymbat from '/assets/img/team/Symbat.jpg'
 import imgZhaniya from '/assets/img/team/Zhaniya.jpg'
 import imgDenis from '/assets/img/team/Denis.jpg'
@@ -19,6 +17,11 @@ import imgZhamila from '/assets/img/team/Zhamila.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 import imgAlisher from '/assets/img/team/Alisher.jpg'
 import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
+import imgAizhar from '/assets/img/team/Aizhar.jpg'
+import imgAibar from '/assets/img/team/Aibar.jpg'
+import imgAlikhan from '/assets/img/team/Alikhan.jpg'
+import imgSultan from '/assets/img/team/Sultan.jpg'
+import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
@@ -38,6 +41,9 @@ const Team = () => {
 
           <ProfileCardAlt fullname={t('infoDana.fullname')} position={t('infoDana.position')}
             img={imgDana} achievements={t('infoDana.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
+            img={imgAizhar} achievements={t('infoAizhar.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoAruzhan.fullname')} position={t('infoAruzhan.position')}
             img={imgAruzhan} achievements={t('infoAruzhan.achievements', { returnObjects: true })} />
@@ -66,16 +72,11 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
 
-          <div className='lg:col-start-2'>
-            <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
-              img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
-          </div>
+          <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
+            img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}
             img={imgMuslim} achievements={t('infoMuslim.achievements', { returnObjects: true })} />
-            
-          {/* <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
-            achievements={t('infoAizhar.achievements', { returnObjects: true })} /> */}
 
         </div>
       </div>

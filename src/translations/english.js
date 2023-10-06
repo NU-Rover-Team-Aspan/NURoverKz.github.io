@@ -180,6 +180,12 @@ const en = {
       achievements: ['Research Assistant at Biomaterials and Regenerative Engineering Laboratory',
         'Top 1 CGPA in class (Chemical Engineering-2025) with 3 consecutive Dean’s List Awards']
     },
+    infoAlikhan: {
+      fullname: 'Alikhan Kalmakhanbet',
+      position: 'Nuclear Reactor Team',
+      achievements: ['Gold medal on President Olympiad VII', 
+        'Involvement in Chemistry Olympiads']
+    },
     infoMuslim: {
       fullname: 'Muslim Adedamola Alaran',
       position: 'Software/Control System Team',
@@ -243,7 +249,19 @@ const en = {
       position: 'Mechanical Team',
       achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation', 
         '3rd degree Diploma at the XVI International Scientific Competition in Space Research "Opening the World of Science"']
-    }
+    },
+    infoSultan: {
+      fullname: 'Sultan Kasenov',
+      position: 'Software/Control System Team',
+      achievements: ['3rd place winner in the Machine Learning Hackathon organized by Quantori and GDSC in NU', 
+        '1st place in the Republican Astrophysics Olympiad']
+    },
+    infoAibat: {
+      fullname: 'Aibat Mukametkali',
+      position: 'Mechanical Team',
+      achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 
+        'Python Tech Orda grant owner']
+    },
   },
   advisers: {
     header: 'Advisory board',

@@ -224,10 +224,11 @@ const en = {
       position: 'Quality Assurance Team',
       achievements: ['UniSat Project 2022 by UNICEF Graduate', '2nd place at Microsoft Imagine Cup Junior Local Hackathon']
     },
-    infoAidana: {
-      fullname: 'Aidana Kenzhebayeva',
+    infoZhuldyz: {
+      fullname: 'Zhuldyz Karamatdinova',
       position: 'Resource and Finance Team',
-      achievements: ['5 years in project development', 'Won 2,5 million tenge on Samsumg Solve for tomorrow 2021']
+      achievements: ['Winner of the silver award in IYMC 2021', 
+      '3rd and 2nd places in Phystech International Olympiad in Mathematics and Physics']
     },
     infoYerkebulan: {
       fullname: 'Tazabek Yerkebulan',
@@ -259,8 +260,7 @@ const en = {
     infoAibat: {
       fullname: 'Aibat Mukametkali',
       position: 'Mechanical Team',
-      achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 
-        'Python Tech Orda grant owner']
+      achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 'Python Tech Orda grant owner']
     },
   },
   advisers: {

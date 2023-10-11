@@ -223,10 +223,11 @@ const ru = {
       position: 'Команда обеспечения качества (QA)',
       achievements: ['Выпускница проекта UniSat 2022 от ЮНИСЕФ', '2-е место на хакатоне Microsoft Imagine Cup Junior Local']
     },
-    infoAidana: {
-      fullname: 'Кенжебаева Айдана',
+    infoZhuldyz: {
+      fullname: 'Караматдинова Жулдыз',
       position: 'Команда Финансов/Ресурсов',
-      achievements: ['5 лет опыта в разработке проектов', 'Выиграла 2,5 млн тенге на Samsung Solve for tomorrow 2021']
+      achievements: ['Обладатель серебряной награды IYMC 2021',
+      '3-е и 2-е места на Международной олимпиаде Phystech по математике и физике']
     },
     infoYerkebulan: {
       fullname: 'Тазабек Еркебұлан',

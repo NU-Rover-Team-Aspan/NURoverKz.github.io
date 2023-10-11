@@ -225,10 +225,11 @@ const kk = {
       position: 'Сапаны бақылау (QA) тобы',
       achievements: ['UNICEF ұйымдастырған UniSat Project 2022 түлегі', 'Microsoft Imagine Cup Junior Local Hackathon-ында 2 орын']
     },
-    infoAidana: {
-      fullname: 'Айдана Кенжебаева',
+    infoZhuldyz: {
+      fullname: 'Жулдыз Караматдинова',
       position: 'Қаржы және ресурс тобы',
-      achievements: ['Жобалар дамыту саласында 5 жыл', 'Samsung Solve for tomorrow 2021 сайысынан 2,5 миллион теңге ұтыс иегері']
+      achievements: ['IYMC 2021 күміс жүлдесінің иегері',
+        'Математика және физика бойынша Phystech халықаралық олимпиадасында 3 және 2 орын']
     },
     infoYerkebulan: {
       fullname: 'Еркебұлан Тазабек',

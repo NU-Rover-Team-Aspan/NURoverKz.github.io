@@ -36,6 +36,15 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoHeghine.fullname')} position={t('infoHeghine.position')}
             img={imgHeghine} achievements={t('infoHeghine.achievements', { returnObjects: true })} />
 
+          <ProfileCardAlt fullname={t('infoAlisher.fullname')} position={t('infoAlisher.position')}
+            img={imgAlisher} achievements={t('infoAlisher.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoAibat.fullname')} position={t('infoAibat.position')}
+            img={imgAibat} achievements={t('infoAibat.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
+            img={imgYussuf} achievements={t('infoYussuf.achievements', { returnObjects: true })} />
+
           <ProfileCardAlt fullname={t('infoSymbat.fullname')} position={t('infoSymbat.position')}
             img={imgSymbat} achievements={t('infoSymbat.achievements', { returnObjects: true })} />
 
@@ -48,14 +57,8 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoAruzhan.fullname')} position={t('infoAruzhan.position')}
             img={imgAruzhan} achievements={t('infoAruzhan.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
-            img={imgYussuf} achievements={t('infoYussuf.achievements', { returnObjects: true })} />
-
-          <ProfileCardAlt fullname={t('infoAlisher.fullname')} position={t('infoAlisher.position')}
-            img={imgAlisher} achievements={t('infoAlisher.achievements', { returnObjects: true })} />
-
-          <ProfileCardAlt fullname={t('infoAibat.fullname')} position={t('infoAibat.position')}
-            img={imgAibat} achievements={t('infoAibat.achievements', { returnObjects: true })} />
+          <ProfileCardAlt fullname={t('infoZhuldyz.fullname')} position={t('infoZhuldyz.position')}
+            img={imgZhuldyz} achievements={t('infoZhuldyz.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoTomiris.fullname')} position={t('infoTomiris.position')}
             img={imgTomiris} achievements={t('infoTomiris.achievements', { returnObjects: true })} />
@@ -77,16 +80,16 @@ const Team = () => {
 
           <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
-
-          <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
+        </div>
+        <div className="grid mt-10 gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
+        <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}
             img={imgMuslim} achievements={t('infoMuslim.achievements', { returnObjects: true })} />
 
-<ProfileCardAlt fullname={t('infoSultan.fullname')} position={t('infoSultan.position')}
+          <ProfileCardAlt fullname={t('infoSultan.fullname')} position={t('infoSultan.position')}
             img={imgSultan} achievements={t('infoSultan.achievements', { returnObjects: true })} />
-
         </div>
       </div>
     </div>

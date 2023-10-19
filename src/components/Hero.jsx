@@ -40,14 +40,6 @@ const Hero = () => {
         <p>{t('hero.infoStatic')}</p>
         <span ref={el} />
       </div>
-
-      <div className='relative mt-16 md:mt-36'>
-        <a target="_blank" href={import.meta.env.VITE_FORM_LINK}
-          className="text-white bg-[#00850b] font-semibold rounded-lg px-5 py-2.5 text-center inline-flex items-center"
-        >
-          {t('announcement.full_action')}
-        </a>
-      </div>
     </div>
   )
 }

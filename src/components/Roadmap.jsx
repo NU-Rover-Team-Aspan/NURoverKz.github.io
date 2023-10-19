@@ -40,7 +40,7 @@ const Roadmap = () => {
       </div>
       <div className='w-full max-w-[1240px] mx-auto'>
         <RoverDetails header={t('roverTRL1.header')} img={imgRoverTRL1}
-          anchor={{ name: t('roverTRL1.moreInfo'), link: 'https://www.instagram.com/p/Cu646JmMynb/?igshid=MzRlODBiNWFlZA==' }}
+          // anchor={{ name: t('roverTRL1.moreInfo'), link: 'https://www.instagram.com/p/Cu646JmMynb/?igshid=MzRlODBiNWFlZA==' }}
           characteristics={[
             { name: t('roverTRL1.body.name'), descript: t('roverTRL1.body.description') },
             { name: t('roverTRL1.wheels.name'), descript: t('roverTRL1.wheels.description') },

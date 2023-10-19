@@ -7,13 +7,11 @@ import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
 import Roadmap from "./components/Roadmap"
 import Team from "./components/Team"
-import AnnouncementBanner from "./components/sub/AnnouncementBanner"
 
 function App() {
 
   return (
     <div className="text-white">
-      <AnnouncementBanner/>
       <header className="sticky top-0 z-50 bg-black">
         <Navbar/>
       </header>

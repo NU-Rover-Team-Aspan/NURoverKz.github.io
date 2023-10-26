@@ -262,6 +262,11 @@ const en = {
       position: 'Mechanical Team',
       achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 'Python Tech Orda grant owner']
     },
+    infoSanzhar: {
+      fullname: 'Sanzhar Kosshybay',
+      position: 'Mechanical Team',
+      achievements: ['Team leader, Cosmothon by SEDS chapter, 2nd place', 'Republican Olympiad during the high school year in physics, 2nd place']
+    }
   },
   advisers: {
     header: 'Advisory board',

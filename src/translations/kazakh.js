@@ -262,6 +262,11 @@ const kk = {
       fullname: 'Айбат Мұқаметқали',
       position: 'Механика тобы',
       achievements: ['NU IMechE ұйымдастырған инженерлік хакатонда 2 орын', 'Python Tech Orda грантының иегері']
+    },
+    infoSanzhar: {
+      fullname: 'Санжар Косшыбай',
+      position: 'Механика тобы',
+      achievements: ['SEDS chapter, "Cosmothon" байқауында 2 орынды ұтқан топ басшысы', 'Физикадан Республикалық олимпиада жүлдегері']
     }
   },
   advisers: {

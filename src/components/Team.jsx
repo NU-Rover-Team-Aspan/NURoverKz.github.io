@@ -22,6 +22,7 @@ import imgAibat from '/assets/img/team/Aibat.jpg'
 import imgAlikhan from '/assets/img/team/Alikhan.jpg'
 import imgSultan from '/assets/img/team/Sultan.jpg'
 import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
+import imgSanzhar from '/assets/img/team/Sanzhar.jpg'
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
@@ -41,6 +42,9 @@ const Team = () => {
 
           <ProfileCardAlt fullname={t('infoAibat.fullname')} position={t('infoAibat.position')}
             img={imgAibat} achievements={t('infoAibat.achievements', { returnObjects: true })} />
+
+          <ProfileCardAlt fullname={t('infoSanzhar.fullname')} position={t('infoSanzhar.position')}
+            img={imgSanzhar} achievements={t('infoSanzhar.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
             img={imgYussuf} achievements={t('infoYussuf.achievements', { returnObjects: true })} />
@@ -80,9 +84,8 @@ const Team = () => {
 
           <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
-        </div>
-        <div className="grid mt-10 gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
-        <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
+
+<ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}

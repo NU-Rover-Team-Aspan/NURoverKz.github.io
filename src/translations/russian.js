@@ -260,6 +260,12 @@ const ru = {
       fullname: 'Мұқаметқали Айбат',
       position: 'Команда Механики',
       achievements: ['2-е место на инженерном хакатоне, организованном NU IMechE', 'Обладатель гранта Python Tech Orda']
+    },
+    infoSanzhar: {
+      fullname: 'Косшыбай Санжар',
+      position: 'Команда Механики',
+      achievements: ['Лидер команды, занявшей 2-е место в чемпионате "Cosmothon", SEDS chapter',
+        '2-е место в Республиканской Олимпиаде Физики']
     }
   },
   advisers: {

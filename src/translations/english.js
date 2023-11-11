@@ -302,7 +302,21 @@ const en = {
     },
   },
   partners: {
-    header: 'Partners & Sponsors'
+    header: 'Partners & Sponsors',
+    support: {
+      header: 'Want to support our mission?',
+      para: `
+          <orange_text>By making a donation to our project, </orange_text>you can directly contribute to the progress and success of this groundbreaking mission.
+          Your generosity will help us to: develop prototypes, buy materials, sponsor the participation and other fees in competitions`,
+      action: 'Donate now',
+      modalHeader: 'Donation and Support',
+      bankDetails: {
+        header: '"NU Rover" bank details',
+        phone: 'Phone number',
+        card: 'Card number'
+      },
+      clickToCopy: 'Click to copy'
+    }
   },
   contact: {
     shortInfo: `

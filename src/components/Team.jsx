@@ -12,7 +12,6 @@ import imgMuslim from '/assets/img/team/Muslim.jpg'
 import imgSymbat from '/assets/img/team/Symbat.jpg'
 import imgZhaniya from '/assets/img/team/Zhaniya.jpg'
 import imgDenis from '/assets/img/team/Denis.jpg'
-import imgDana from '/assets/img/team/Dana.jpg'
 import imgZhamila from '/assets/img/team/Zhamila.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 import imgAlisher from '/assets/img/team/Alisher.jpg'
@@ -52,9 +51,6 @@ const Team = () => {
           <ProfileCardAlt fullname={t('infoSymbat.fullname')} position={t('infoSymbat.position')}
             img={imgSymbat} achievements={t('infoSymbat.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoDana.fullname')} position={t('infoDana.position')}
-            img={imgDana} achievements={t('infoDana.achievements', { returnObjects: true })} />
-
           <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
             img={imgAizhar} achievements={t('infoAizhar.achievements', { returnObjects: true })} />
 
@@ -84,8 +80,9 @@ const Team = () => {
 
           <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
-
-<ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
+        </div>
+        <div className="mt-10 grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
+          <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
           <ProfileCardAlt fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}

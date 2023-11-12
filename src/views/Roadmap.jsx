@@ -1,7 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import RoverDetails from "./sub/RoverDetails"
+import RoverDetails from 'src/components/roadmap/RoverDetails';
+
 import imgRoverTRL1 from '/assets/img/RoverTRL1.png'
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProfileCard = (props) => {
+const ProfileCardLegacy = (props) => {
   return (
     <div className="flex flex-col items-center">
       <img
@@ -18,4 +18,4 @@ const ProfileCard = (props) => {
   )
 }
 
-export default ProfileCard
+export default ProfileCardLegacy

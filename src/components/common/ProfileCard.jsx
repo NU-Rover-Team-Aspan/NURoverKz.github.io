@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-const ProfileCardAlt = (props) => {
+const ProfileCard = (props) => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
   return (
     <div>
@@ -22,4 +22,4 @@ const ProfileCardAlt = (props) => {
   )
 }
 
-export default ProfileCardAlt
+export default ProfileCard

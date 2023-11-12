@@ -1,7 +1,7 @@
 import React from 'react'
-import ProfileCardAlt from './sub/ProfileCardAlt'
-
 import { useTranslation } from 'react-i18next'
+
+import ProfileCard from 'src/components/common/ProfileCard'
 // importing images
 import imgBagheri from '/assets/img/advisers/Bagheri.jpg'
 import imgElhadidi from '/assets/img/advisers/Elhadidi.jpg'
@@ -23,27 +23,27 @@ const Advisers = () => {
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
 
         <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
-          <ProfileCardAlt fullname={t('infoElhadidi.fullname')} img={imgElhadidi}
+          <ProfileCard fullname={t('infoElhadidi.fullname')} img={imgElhadidi}
             achievements={t('infoElhadidi.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoJamwal.fullname')} img={imgJamwal}
+          <ProfileCard fullname={t('infoJamwal.fullname')} img={imgJamwal}
             achievements={t('infoJamwal.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoVarol.fullname')} img={imgVarol}
+          <ProfileCard fullname={t('infoVarol.fullname')} img={imgVarol}
             achievements={t('infoVarol.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoBagheri.fullname')} img={imgBagheri}
+          <ProfileCard fullname={t('infoBagheri.fullname')} img={imgBagheri}
             achievements={t('infoBagheri.achievements', { returnObjects: true })} />
         </div>
 
         <div className="mt-10 grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
-          <ProfileCardAlt fullname={t('infoSpitas.fullname')} img={imgSpitas}
+          <ProfileCard fullname={t('infoSpitas.fullname')} img={imgSpitas}
             achievements={t('infoSpitas.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoKostas.fullname')} img={imgKostas}
+          <ProfileCard fullname={t('infoKostas.fullname')} img={imgKostas}
             achievements={t('infoKostas.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoZhao.fullname')} img={imgZhao}
+          <ProfileCard fullname={t('infoZhao.fullname')} img={imgZhao}
             achievements={t('infoZhao.achievements', { returnObjects: true })} />
         </div>
       </div>

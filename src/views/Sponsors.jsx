@@ -6,10 +6,10 @@ import imgSEDS from '/assets/img/partners/NU_SEDS.png'
 import imgNURIS from '/assets/img/partners/NURIS.png'
 import imgFablab from '/assets/img/partners/Fablab.png'
 import imgInstitute from '/assets/img/partners/InstOfBatteries.png'
-import FundingModal from './sub/FundingModal'
+import FundingModal from 'src/components/common/FundingModal'
 
 
-const Partners = () => {
+const Sponsors = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'partners' });
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -17,7 +17,6 @@ const Partners = () => {
   useEffect(() => {
     if (document) {
       document.body.style.overflow = modalVisible ? 'hidden' : 'auto'
-      
     }
   }, [modalVisible])
 
@@ -76,4 +75,4 @@ const Partners = () => {
   )
 }
 
-export default Partners
+export default Sponsors

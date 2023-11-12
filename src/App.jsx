@@ -1,12 +1,12 @@
-import About from "./components/About"
-import Advisers from "./components/Advisers"
-import Contact from "./components/Contact"
-import Hero from "./components/Hero"
-import Mission from "./components/Mission"
-import Navbar from "./components/Navbar"
-import Partners from "./components/Partners"
-import Roadmap from "./components/Roadmap"
-import Team from "./components/Team"
+import About from "./views/About"
+import Advisers from "./views/Advisers"
+import Contact from "./views/Contact"
+import Hero from "./views/Hero"
+import Mission from "./views/Mission"
+import Navbar from "./views/Navbar"
+import Roadmap from "./views/Roadmap"
+import Team from "./views/Team"
+import Sponsors from "./views/Sponsors"
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
         <Roadmap/>
         <Team/>
         <Advisers/>
-        <Partners/>
+        <Sponsors/>
       </main>
       <footer>
         <Contact/>

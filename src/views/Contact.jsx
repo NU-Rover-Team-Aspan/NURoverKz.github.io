@@ -30,19 +30,22 @@ const Contact = () => {
           </p>
           <div className="flex">
             <p className="mr-1 font-medium">{ t('contact.phone.name') }:</p>
-            <a href="tel:+77077040916" aria-label="Our phone" title="Our phone" className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
-              +77077040916
+            <a 
+              href={"tel:" + import.meta.env.VITE_CONTACT_PHONE} 
+              aria-label="Our phone" title="Our phone" 
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">
+              { import.meta.env.VITE_CONTACT_PHONE }
             </a>
           </div>
           <div className="flex">
             <p className="mr-1 font-medium">{ t('contact.email.name') }:</p>
             <a
-              href="mailto:nu.rover.team@gmail.com"
+              href={"mailto:" + import.meta.env.VITE_CONTACT_EMAIL} 
               aria-label="Our email"
               title="Our email"
               className="transition-colors duration-300 hover:text-primary-800"
             >
-              nu.rover.team@gmail.com
+              { import.meta.env.VITE_CONTACT_EMAIL }
             </a>
           </div>
           <div className="flex">

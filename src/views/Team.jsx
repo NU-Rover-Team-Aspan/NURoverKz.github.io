@@ -1,7 +1,8 @@
 import React from 'react'
-import ProfileCardAlt from './sub/ProfileCardAlt'
-
 import { useTranslation } from 'react-i18next'
+
+import ProfileCard from 'src/components/common/ProfileCard'
+
 // importing images
 import imgLeila from '/assets/img/team/Leila.jpg'
 import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
@@ -33,62 +34,62 @@ const Team = () => {
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
         <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
 
-          <ProfileCardAlt fullname={t('infoHeghine.fullname')} position={t('infoHeghine.position')}
+          <ProfileCard fullname={t('infoHeghine.fullname')} position={t('infoHeghine.position')}
             img={imgHeghine} achievements={t('infoHeghine.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAlisher.fullname')} position={t('infoAlisher.position')}
+          <ProfileCard fullname={t('infoAlisher.fullname')} position={t('infoAlisher.position')}
             img={imgAlisher} achievements={t('infoAlisher.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAibat.fullname')} position={t('infoAibat.position')}
+          <ProfileCard fullname={t('infoAibat.fullname')} position={t('infoAibat.position')}
             img={imgAibat} achievements={t('infoAibat.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoSanzhar.fullname')} position={t('infoSanzhar.position')}
+          <ProfileCard fullname={t('infoSanzhar.fullname')} position={t('infoSanzhar.position')}
             img={imgSanzhar} achievements={t('infoSanzhar.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
+          <ProfileCard fullname={t('infoYussuf.fullname')} position={t('infoYussuf.position')}
             img={imgYussuf} achievements={t('infoYussuf.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoSymbat.fullname')} position={t('infoSymbat.position')}
+          <ProfileCard fullname={t('infoSymbat.fullname')} position={t('infoSymbat.position')}
             img={imgSymbat} achievements={t('infoSymbat.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
+          <ProfileCard fullname={t('infoAizhar.fullname')} position={t('infoAizhar.position')}
             img={imgAizhar} achievements={t('infoAizhar.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAruzhan.fullname')} position={t('infoAruzhan.position')}
+          <ProfileCard fullname={t('infoAruzhan.fullname')} position={t('infoAruzhan.position')}
             img={imgAruzhan} achievements={t('infoAruzhan.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoZhuldyz.fullname')} position={t('infoZhuldyz.position')}
+          <ProfileCard fullname={t('infoZhuldyz.fullname')} position={t('infoZhuldyz.position')}
             img={imgZhuldyz} achievements={t('infoZhuldyz.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoTomiris.fullname')} position={t('infoTomiris.position')}
+          <ProfileCard fullname={t('infoTomiris.fullname')} position={t('infoTomiris.position')}
             img={imgTomiris} achievements={t('infoTomiris.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoAlikhan.fullname')} position={t('infoAlikhan.position')}
+          <ProfileCard fullname={t('infoAlikhan.fullname')} position={t('infoAlikhan.position')}
             img={imgAlikhan} achievements={t('infoAlikhan.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoZhaniya.fullname')} position={t('infoZhaniya.position')}
+          <ProfileCard fullname={t('infoZhaniya.fullname')} position={t('infoZhaniya.position')}
             img={imgZhaniya} achievements={t('infoZhaniya.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoZhamila.fullname')} position={t('infoZhamila.position')}
+          <ProfileCard fullname={t('infoZhamila.fullname')} position={t('infoZhamila.position')}
             img={imgZhamila} achievements={t('infoZhamila.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoYerkebulan.fullname')} position={t('infoYerkebulan.position')}
+          <ProfileCard fullname={t('infoYerkebulan.fullname')} position={t('infoYerkebulan.position')}
             img={imgYerkebulan} achievements={t('infoYerkebulan.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoBatyrkhan.fullname')} position={t('infoBatyrkhan.position')}
+          <ProfileCard fullname={t('infoBatyrkhan.fullname')} position={t('infoBatyrkhan.position')}
             img={imgBatyrkhan} achievements={t('infoBatyrkhan.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
+          <ProfileCard fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
         </div>
         <div className="mt-10 grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
-          <ProfileCardAlt fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
+          <ProfileCard fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}
+          <ProfileCard fullname={t('infoMuslim.fullname')} position={t('infoMuslim.position')}
             img={imgMuslim} achievements={t('infoMuslim.achievements', { returnObjects: true })} />
 
-          <ProfileCardAlt fullname={t('infoSultan.fullname')} position={t('infoSultan.position')}
+          <ProfileCard fullname={t('infoSultan.fullname')} position={t('infoSultan.position')}
             img={imgSultan} achievements={t('infoSultan.achievements', { returnObjects: true })} />
         </div>
       </div>

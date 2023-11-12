@@ -6,7 +6,8 @@ import Mission from "./views/Mission"
 import Navbar from "./views/Navbar"
 import Roadmap from "./views/Roadmap"
 import Team from "./views/Team"
-import Sponsors from "./views/Sponsors"
+import Partners from "./views/Partners"
+import Support from "./views/Support"
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         <Roadmap/>
         <Team/>
         <Advisers/>
-        <Sponsors/>
+        <Partners/>
+        <Support/>
       </main>
       <footer>
         <Contact/>

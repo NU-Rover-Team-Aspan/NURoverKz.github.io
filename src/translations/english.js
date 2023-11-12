@@ -314,8 +314,7 @@ const en = {
         header: '"NU Rover" bank details',
         phone: 'Phone number',
         card: 'Card number'
-      },
-      clickToCopy: 'Click to copy'
+      }
     }
   },
   contact: {

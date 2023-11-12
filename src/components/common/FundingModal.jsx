@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 
-import { MdDone } from 'react-icons/md'
 import KaspiIcon from '/assets/icons/Kaspi.svg'
+import CopyButton from './CopyButton'
 
 const FundingModal = ({ isVisible, setIsVisible }) => {
   const { t } = useTranslation('translation', { keyPrefix: 'partners.support' });
@@ -16,12 +16,6 @@ const FundingModal = ({ isVisible, setIsVisible }) => {
     return () =>
       document.removeEventListener("keydown", closeOnEscapePressed);
   }, []);
-
-  const copyOnClick = (e) => {
-    // getting the text content that we want to copy
-    const content = e.target.textContent;    // loading the content into our clipboard
-    navigator.clipboard.writeText(content);
-  }
 
   return isVisible && (
     <>
@@ -45,21 +39,24 @@ const FundingModal = ({ isVisible, setIsVisible }) => {
             </div>
             {/*body*/}
             <div className="relative p-6 flex-auto">
-              <h3 className='md:text-xl sm:text-lg font-bold'>{t('bankDetails.header')}:</h3>
-              <p className='mt-1 text-sm'>{t('clickToCopy')}</p>
               <div className='grid md:grid-cols-2'>
-                <ul className='my-4 font-semibold'>
-                  <li>
-                    <span className="mr-1">{t('bankDetails.card')}:</span>
-                    <span onClick={copyOnClick}>4400 4302 9151 4500</span>
-                  </li>
-                  <li>
-                    <span className="mr-1">{t('bankDetails.phone')}:</span>
-                    <span onClick={copyOnClick}>+77077040916</span>
-                  </li>
-                </ul>
+                <div>
+                  <h3 className='md:text-xl sm:text-lg font-bold'>{t('bankDetails.header')}:</h3>
+                  <ul className='my-4 font-semibold'>
+                    <li className='flex items-center gap-2'>
+                      <span>{ t('bankDetails.card') }:</span>
+                      <span>{ import.meta.env.VITE_BANK_CARD }</span>
+                      <CopyButton content={ import.meta.env.VITE_BANK_CARD } />
+                    </li>
+                    <li className='flex items-center gap-2'>
+                      <span>{t('bankDetails.phone')}:</span>
+                      <span>{ import.meta.env.VITE_CONTACT_PHONE }</span>
+                      <CopyButton content={ import.meta.env.VITE_CONTACT_PHONE }/>
+                    </li>
+                  </ul>
+                </div>
                 <div className='flex justify-center items-center'>
-                  <img src={KaspiIcon} className='h-8' />
+                  <img src={KaspiIcon} className='h-10' />
                 </div>
               </div>
 

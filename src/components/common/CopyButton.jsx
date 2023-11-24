@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsClipboard2, BsClipboard2Check } from 'react-icons/bs'
+import { BsClipboard2, BsCheck2  } from 'react-icons/bs'
 
 const CopyButton = ({ content }) => {
 
@@ -18,26 +18,21 @@ const CopyButton = ({ content }) => {
     return () => clearTimeout(timeout);
   }, [copied]);
 
-
   return (
     <button
+      type='button'
       onClick={() => copyOnClick(content)}
-      css={{
-        cursor: "pointer"
-      }}
     >
       <div className='h-4'>
-        <div className='absolute' css={{
-          strokeDashoffset: copied ? -50 : 0,
-          transition: "all 300ms ease-in-out"
+        <div className={copied ? "hidden" : "visible"} css={{
+          transition: "all 400ms ease-in-out"
         }}>
-          <BsClipboard2 size={20}/>
+          <BsClipboard2 size={18}/>
         </div>
         <div className={copied ? "visible" : "hidden"} css={{
-          strokeDashoffset: copied ? 0 : -50,
-          transition: "all 300ms ease-in-out"
+          transition: "all 400ms ease-in-out"
         }}>
-          <BsClipboard2Check size={20} color='green' />
+          <BsCheck2 className='border border-primary rounded-md' size={18} color='green' />
         </div>
       </div>
     </button>

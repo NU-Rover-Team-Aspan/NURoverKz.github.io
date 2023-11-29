@@ -128,12 +128,6 @@ const en = {
       achievements: ['2nd place Microsoft International AI Hackathon',
         '"Cosmothon" engineering championship organiser with over 100 participants']
     },
-    infoNurzhan: {
-      fullname: 'Nurzhan Rakhimgaliyev',
-      position: 'Science Team',
-      achievements: ['Research Assistant in the laboratory of producing pharmaceuticals from the biomass',
-        'Contributor to Nobel Fest']
-    },
     infoYussuf: {
       fullname: 'Yussuf Shakhin',
       position: 'Electronics Team',
@@ -151,11 +145,6 @@ const en = {
       achievements: ["Research Assistant in two projects with Dana Alina & Constantinos Valagiannopolous",
         "Working with Prof. Dana Alina in filament detection and orientation in the ISM"]
     },
-    infoAlmat: {
-      fullname: 'Almat Orazali',
-      position: 'Software/Control System Team',
-      achievements: ["Backend developer at CaliforniaRP GTA V server", "2 year freelance frontend developer"]
-    },
     infoBatyrkhan: {
       fullname: 'Batyrkhan Sharipbay',
       position: 'Software/Control System Team',
@@ -167,12 +156,6 @@ const en = {
       position: 'Resource and Finance team',
       achievements: ['Ex-President of NU Student Investment Fund',
         'Research Assistant for Dr. Andrey Tkachenko and Dr. Dana Bazarkulova']
-    },
-    infoMagzhan: {
-      fullname: 'Magzhan Balken',
-      position: 'Resource and Finance team',
-      achievements: ['Had multiple sole proprietor businesses starting from age of 18',
-        'Ex-member of Ministry of Residential Life & Security, improving the life of the Nazarbayev University students']
     },
     infoTomiris: {
       fullname: 'Tomiris Zhumagaliyeva',
@@ -190,12 +173,6 @@ const en = {
       fullname: 'Muslim Adedamola Alaran',
       position: 'Software/Control System Team',
       achievements: ['Top 1% graduating class of 2021, University of Ilorin', 'President of National Society of Black Engineers - University of Ilorin']
-    },
-    infoVladimir: {
-      fullname: 'Vladimir Ussoltsev',
-      position: 'Software/Control System Team',
-      achievements: ['Deputy Head of Competitive Robotics Department at ROBOTEK', 
-        'Coach of Kazakhstan national team at World Robot Olympiad 2022']
     },
     infoSymbat: {
       fullname: 'Symbat Akkulova',
@@ -266,6 +243,11 @@ const en = {
       fullname: 'Sanzhar Kosshybay',
       position: 'Mechanical Team',
       achievements: ['Team leader, Cosmothon by SEDS chapter, 2nd place', 'Republican Olympiad during the high school year in physics, 2nd place']
+    },
+    infoZhangir: {
+      fullname: 'Zhangir Zhumadilov',
+      position: 'Science Team',
+      achievements: ['Research Assistant in IMPT project', 'Chemistry olympiads winner (NIS Net, Republican Olympiad of Science projects, KBO, Shoqan Ecology)']
     }
   },
   advisers: {

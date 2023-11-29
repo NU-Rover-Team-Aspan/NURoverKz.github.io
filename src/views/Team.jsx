@@ -23,6 +23,8 @@ import imgAlikhan from '/assets/img/team/Alikhan.jpg'
 import imgSultan from '/assets/img/team/Sultan.jpg'
 import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
 import imgSanzhar from '/assets/img/team/Sanzhar.jpg'
+import imgZhangir from '/assets/img/team/Zhangir.jpg'
+
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
@@ -70,6 +72,9 @@ const Team = () => {
           <ProfileCard fullname={t('infoZhaniya.fullname')} position={t('infoZhaniya.position')}
             img={imgZhaniya} achievements={t('infoZhaniya.achievements', { returnObjects: true })} />
 
+          <ProfileCard fullname={t('infoZhangir.fullname')} position={t('infoZhangir.position')}
+            img={imgZhangir} achievements={t('infoZhangir.achievements', { returnObjects: true })} />
+
           <ProfileCard fullname={t('infoZhamila.fullname')} position={t('infoZhamila.position')}
             img={imgZhamila} achievements={t('infoZhamila.achievements', { returnObjects: true })} />
 
@@ -81,8 +86,7 @@ const Team = () => {
 
           <ProfileCard fullname={t('infoLeila.fullname')} position={t('infoLeila.position')}
             img={imgLeila} achievements={t('infoLeila.achievements', { returnObjects: true })} />
-        </div>
-        <div className="mt-10 grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
+
           <ProfileCard fullname={t('infoDenis.fullname')} position={t('infoDenis.position')}
             img={imgDenis} achievements={t('infoDenis.achievements', { returnObjects: true })} />
 

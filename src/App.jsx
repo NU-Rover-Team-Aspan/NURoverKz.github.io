@@ -8,27 +8,29 @@ import Roadmap from "./views/Roadmap"
 import Team from "./views/Team"
 import Partners from "./views/Partners"
 import Support from "./views/Support"
+import StickyActionButton from "./components/common/StickyActionButton"
 
 function App() {
 
   return (
     <div className="text-white">
       <header className="sticky top-0 z-50 bg-black">
-        <Navbar/>
+        <Navbar />
       </header>
-      <main className="relative">
-        <Hero/>
-        <About/>
-        <Mission/>
-        <Roadmap/>
-        <Team/>
-        <Advisers/>
-        <Partners/>
-        <Support/>
+      <main className="relative overflow-hidden">
+        <Hero />
+        <About />
+        <Mission />
+        <Roadmap />
+        <Team />
+        <Advisers />
+        <Partners />
+        <Support />
       </main>
       <footer>
-        <Contact/>
+        <Contact />
       </footer>
+      <StickyActionButton actionLink="#support" />
     </div>
   )
 }

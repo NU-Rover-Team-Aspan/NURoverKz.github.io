@@ -290,7 +290,7 @@ const en = {
       para: `
           <orange_text>By making a donation to our project, </orange_text>you can directly contribute to the progress and success of this groundbreaking mission.
           Your generosity will help us to: develop prototypes, buy materials, sponsor the participation and other fees in competitions`,
-      action: 'Donate now',
+      action: 'Support now',
       form: {
         header: 'Donation and Support',
         bankHeader: '"NU Rover" bank details',

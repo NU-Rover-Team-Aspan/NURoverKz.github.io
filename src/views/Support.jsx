@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { Trans, useTranslation } from 'react-i18next';
 import CopyButton from 'src/components/common/CopyButton';
 import KaspiIcon from '/assets/icons/Kaspi.svg'
-import PayPalIcon from '/assets/icons/PayPal.png'
 import { Transition } from '@headlessui/react';
 
 const Support = () => {
@@ -22,8 +21,8 @@ const Support = () => {
   return (
     <div id="support" className="w-full pt-10 pb-20">
       <div className='max-w-[1240px] px-4 mx-auto grid text-center'>
-        <div className='flex justify-center'>
-          <Transition className="absolute w-4/7 bg-black" show={formVisible} {...transitionClasses}>
+        <div className='flex justify-center relative'>
+          <Transition className="absolute w-5/7 bg-black" show={formVisible} {...transitionClasses}>
             <h1 className='text-center sm:text-4xl text-3xl font-bold my-4 md:my-8 text-primary'>
               {t('form.header')}
             </h1>
@@ -58,7 +57,7 @@ const Support = () => {
             </div>
             <div className='mt-10 text-center'>
               <button type="button" onClick={() => setFormVisible(!formVisible)}
-                className="px-5 py-2.5 bg-primary transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                className="px-5 py-2.5 bg-primaryDark transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                 {t('form.action')}
               </button>
             </div>

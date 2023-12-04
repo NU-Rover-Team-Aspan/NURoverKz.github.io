@@ -11,6 +11,6 @@ body {
   background-color: #000000;
 }
 
-#home, #about, #mission, #roadmap, #rover, #team, #advisers, #contact {
+#home, #about, #mission, #roadmap, #rover, #team, #advisers, #partners, #contact, #support {
   scroll-margin-top: 110px;
 }

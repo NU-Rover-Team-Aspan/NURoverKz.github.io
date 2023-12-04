@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         primary: '#29EB18', // primary color
+        primaryDark: '#00850b',
         martian: '#FF6605'  // orange color
       }
     },

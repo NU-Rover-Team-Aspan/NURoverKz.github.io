@@ -248,6 +248,11 @@ const ru = {
       fullname: 'Жумадилов Жангир',
       position: 'Команда Научных исследовании',
       achievements: ['Ассистент-исследователь в проекте IMPT', 'Победитель химических олимпиад (NIS Net, проекты Республиканской олимпиады наук, KBO, Shoqan Ecology)']
+    },
+    infoAssylzat: {
+      fullname: 'Аширбаева Асылзат',
+      position: 'Команда Механики',
+      achievements: ['Организовала "Engineering case championship" на 150 человек', 'Победительница многих олимпиад по математике']
     }
   },
   advisers: {

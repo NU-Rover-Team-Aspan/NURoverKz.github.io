@@ -248,6 +248,11 @@ const en = {
       fullname: 'Zhangir Zhumadilov',
       position: 'Science Team',
       achievements: ['Research Assistant in IMPT project', 'Chemistry olympiads winner (NIS Net, Republican Olympiad of Science projects, KBO, Shoqan Ecology)']
+    },
+    infoAssylzat: {
+      fullname: 'Assylzat Ashirbayeva',
+      position: 'Mechanical Team',
+      achievements: ['Organized the "Engineering case championship" for 150 people', 'Winner of many mathematics Olympiads']
     }
   },
   advisers: {

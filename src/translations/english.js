@@ -122,6 +122,14 @@ const en = {
     header: 'Meet our team',
     achievements: 'Achievements',
     caption: 'Hover or click to see more info',
+    departments: {
+      leads: "Team Leads",
+      me: "Mechanics & Electronics",
+      sc: "Software & Control",
+      mf: "Marketing & Finance",
+      sn: "Science & Nuclear",
+      qa: "Quality Assurance"
+    },
     infoHeghine: {
       fullname: 'Heghine Aghajanyan',
       position: 'Team Leader/Mechanical Team',
@@ -139,27 +147,15 @@ const en = {
       position: 'Software/Control System Team',
       achievements: ['Research selection at MIT', "Summer internship'22 in machine learning in Coruna, Spain"]
     },
-    infoTemirkul: {
-      fullname: 'Temirkul Umetaliev',
-      position: 'Software/Control System Team',
-      achievements: ["Research Assistant in two projects with Dana Alina & Constantinos Valagiannopolous",
-        "Working with Prof. Dana Alina in filament detection and orientation in the ISM"]
-    },
     infoBatyrkhan: {
       fullname: 'Batyrkhan Sharipbay',
-      position: 'Software/Control System Team',
+      position: 'Co-head of Software/Control System Team',
       achievements: ['Lead the team which won first place in Software Hackathon by StepIT Academy',
         'Awarded for the contribution in presenting Science Project in the Republican Physics Olympiad']
     },
-    infoMadi: {
-      fullname: 'Madi Lukmanov',
-      position: 'Resource and Finance team',
-      achievements: ['Ex-President of NU Student Investment Fund',
-        'Research Assistant for Dr. Andrey Tkachenko and Dr. Dana Bazarkulova']
-    },
     infoTomiris: {
       fullname: 'Tomiris Zhumagaliyeva',
-      position: 'Nuclear Reactor Team',
+      position: 'Head of Nuclear Reactor Team',
       achievements: ['Research Assistant at Biomaterials and Regenerative Engineering Laboratory',
         'Top 1 CGPA in class (Chemical Engineering-2025) with 3 consecutive Dean’s List Awards']
     },
@@ -171,12 +167,12 @@ const en = {
     },
     infoMuslim: {
       fullname: 'Muslim Adedamola Alaran',
-      position: 'Software/Control System Team',
+      position: 'Co-head of Software/Control System Team',
       achievements: ['Top 1% graduating class of 2021, University of Ilorin', 'President of National Society of Black Engineers - University of Ilorin']
     },
     infoSymbat: {
       fullname: 'Symbat Akkulova',
-      position: 'Marketing/Branding Team',
+      position: 'Head of Marketing/Branding Team',
       achievements: ['Creator of instagram videos and posts targeted towards NU community with over 14k views and thousands of likes',
         'SMM manager, photographer and videographer of a business company for over 3 years']
     },
@@ -188,7 +184,7 @@ const en = {
     },
     infoZhaniya: {
       fullname: 'Zhaniya Kali',
-      position: 'Science Team',
+      position: 'Head of Science Team',
       achievements: ['Top 2 CGPA in class of 2026', 'Volunteered in many areas under the Republican Development Program Elbasy Medal']
     },
     infoDenis: {
@@ -198,7 +194,7 @@ const en = {
     },
     infoZhamila: {
       fullname: 'Zhamila Azizbekova',
-      position: 'Quality Assurance Team',
+      position: 'Head of Quality Assurance Team',
       achievements: ['UniSat Project 2022 by UNICEF Graduate', '2nd place at Microsoft Imagine Cup Junior Local Hackathon']
     },
     infoZhuldyz: {
@@ -214,7 +210,7 @@ const en = {
     },
     infoAruzhan: {
       fullname: 'Aruzhan Akimkhan',
-      position: 'Resource and Finance Team',
+      position: 'Head of Resource and Finance Team',
       achievements: ['IEOx WiC Bronze’21, FBLA 2020 Kazakhstani Delegation', 'Internship as Research Assistant at NU SSH, Physics Department']
     },
     infoAizhar: {
@@ -236,7 +232,7 @@ const en = {
     },
     infoAibat: {
       fullname: 'Aibat Mukametkali',
-      position: 'Mechanical Team',
+      position: 'Head of Mechanical Team',
       achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 'Python Tech Orda grant owner']
     },
     infoSanzhar: {

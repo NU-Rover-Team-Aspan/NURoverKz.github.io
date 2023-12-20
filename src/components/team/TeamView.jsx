@@ -18,7 +18,7 @@ const TeamView = ({ teamByDepartments }) => {
               classNames(
                 'w-full rounded-lg py-2.5 text-sm font-medium leading-5 focus:outline-none',
                 selected
-                  ? 'bg-white text-primary shadow'
+                  ? 'bg-primaryDark text-white shadow'
                   : 'text-blue-100 hover:bg-white/[0.12] hover:text-primary'
               )
             }

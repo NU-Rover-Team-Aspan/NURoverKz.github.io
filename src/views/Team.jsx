@@ -14,11 +14,9 @@ import imgZhamila from '/assets/img/team/Zhamila.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 import imgAlisher from '/assets/img/team/Alisher.jpg'
 import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
-import imgAizhar from '/assets/img/team/Aizhar.jpg'
 import imgAibat from '/assets/img/team/Aibat.jpg'
 import imgAlikhan from '/assets/img/team/Alikhan.jpg'
 import imgSultan from '/assets/img/team/Sultan.jpg'
-import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
 import imgSanzhar from '/assets/img/team/Sanzhar.jpg'
 import imgZhangir from '/assets/img/team/Zhangir.jpg'
 import imgAssylzat from '/assets/img/team/Assylzat.jpg'
@@ -156,23 +154,11 @@ const Team = () => {
         img: imgSymbat
       },
       {
-        fullname: t('infoAizhar.fullname'),
-        position: t('infoAizhar.position'),
-        achievements: t('infoAizhar.achievements', { returnObjects: true }),
-        img: imgAizhar
-      },
-      {
         fullname: t('infoAruzhan.fullname'),
         position: t('infoAruzhan.position'),
         achievements: t('infoAruzhan.achievements', { returnObjects: true }),
         img: imgAruzhan
       },
-      {
-        fullname: t('infoZhuldyz.fullname'),
-        position: t('infoZhuldyz.position'),
-        achievements: t('infoZhuldyz.achievements', { returnObjects: true }),
-        img: imgZhuldyz
-      }
     ],
     [t("departments.sn")]: [
       {

@@ -249,6 +249,11 @@ const ru = {
       fullname: 'Аширбаева Асылзат',
       position: 'Команда Механики',
       achievements: ['Организовала "Engineering case championship" на 150 человек', 'Победительница многих олимпиад по математике']
+    },
+    infoBauyrzhan: {
+      fullname: 'Дуйсенбай Бауыржан',
+      position: 'Команда Механики',
+      achievements: ['Член первой команды FSAE в Казахстане', 'Топ-3 CGPA своего потока']
     }
   },
   advisers: {

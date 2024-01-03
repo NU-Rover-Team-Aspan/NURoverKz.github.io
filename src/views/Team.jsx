@@ -12,7 +12,6 @@ import imgZhaniya from '/assets/img/team/Zhaniya.jpg'
 import imgDenis from '/assets/img/team/Denis.jpg'
 import imgZhamila from '/assets/img/team/Zhamila.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
-import imgAlisher from '/assets/img/team/Alisher.jpg'
 import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
 import imgAibat from '/assets/img/team/Aibat.jpg'
 import imgAlikhan from '/assets/img/team/Alikhan.jpg'
@@ -20,6 +19,7 @@ import imgSultan from '/assets/img/team/Sultan.jpg'
 import imgSanzhar from '/assets/img/team/Sanzhar.jpg'
 import imgZhangir from '/assets/img/team/Zhangir.jpg'
 import imgAssylzat from '/assets/img/team/Assylzat.jpg'
+import imgBauyrzhan from '/assets/img/team/Bauyrzhan.jpg'
 import TeamView from 'src/components/team/TeamView'
 
 
@@ -90,10 +90,10 @@ const Team = () => {
         img: imgAibat
       },
       {
-        fullname: t('infoAlisher.fullname'),
-        position: t('infoAlisher.position'),
-        achievements: t('infoAlisher.achievements', { returnObjects: true }),
-        img: imgAlisher
+        fullname: t('infoBauyrzhan.fullname'),
+        position: t('infoBauyrzhan.position'),
+        achievements: t('infoBauyrzhan.achievements', { returnObjects: true }),
+        img: imgBauyrzhan
       },
       {
         fullname: t('infoSanzhar.fullname'),

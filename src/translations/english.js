@@ -249,6 +249,11 @@ const en = {
       fullname: 'Assylzat Ashirbayeva',
       position: 'Mechanical Team',
       achievements: ['Organized the "Engineering case championship" for 150 people', 'Winner of many mathematics Olympiads']
+    },
+    infoBauyrzhan: {
+      fullname: 'Duisenbay Bauyrzhan',
+      position: 'Mechanical Team',
+      achievements: ['Member of the first FSAE team in Kazakhstan', 'Top 3 CGPA of the class']
     }
   },
   advisers: {

@@ -33,8 +33,8 @@ const TeamView = ({ teamByDepartments }) => {
             <Tab.Panel key={idx} >
               <div className='flex justify-center gap-8 mx-auto flex-wrap'>
                 {mems.map((m, i) => (
-                  <div className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
-                    <ProfileCard fullname={m.fullname} position={m.position} key={i}
+                  <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
+                    <ProfileCard fullname={m.fullname} position={m.position}
                       img={m.img} achievements={m.achievements} />
                   </div>
                 ))}

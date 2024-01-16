@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-i18next": "^12.2.2",
     "react-icons": "^4.8.0",
+    "react-player": "^2.14.1",
     "react-router-dom": "^6.21.1",
     "typed.js": "^2.0.15"
   },

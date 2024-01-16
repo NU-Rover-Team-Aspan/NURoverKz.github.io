@@ -1,11 +1,12 @@
 import React, { useState, Fragment } from 'react'
+import ReactPlayer from 'react-player'
 import { Dialog, Transition } from '@headlessui/react'
 import { useTranslation } from 'react-i18next';
 import { CiSearch } from "react-icons/ci";
 
 import Hero from './Hero'
 import openPositions from 'src/db/open_positions.json'
-
+import recruitmentVideo from '/assets/videos/careersrecruitment.mov?url';
 
 const Careers = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'careers' });
@@ -35,6 +36,16 @@ const Careers = () => {
       <Hero upperQuote={'"Universe is the limit. Mars - a milestone."'}
         headlineTrans={'hero.careers.headline'} staticTrans={''}
         animatedTrans={'hero.careers.typedArr'} />
+
+      <div className='flex justify-center py-12'>
+        <ReactPlayer
+          playing={true}
+          muted={true}
+          controls={true}
+          url={[ {src: recruitmentVideo  , type: 'video/mp4'}] }
+        />
+      </div>
+
       <div className='w-full py-8'>
         <div className='max-w-[1240px] mx-auto px-4'>
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-12 text-center text-primary'>

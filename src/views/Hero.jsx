@@ -4,12 +4,12 @@ import Typed from 'typed.js';
 import { useTranslation } from 'react-i18next'
 
 
-const Hero = () => {
+const Hero = ({ upperQuote, headlineTrans, staticTrans, animatedTrans }) => {
   const { t, i18n } = useTranslation('translation');
-  const [words, setWords] = useState(t('hero.typedArr', { returnObjects: true }));
+  const [words, setWords] = useState(t(animatedTrans, { returnObjects: true }));
 
   const handleLanguageChanged = () => {
-    setWords(t('hero.typedArr', { returnObjects: true }))
+    setWords(t(animatedTrans, { returnObjects: true }))
   };
 
   // typing animation
@@ -33,11 +33,11 @@ const Hero = () => {
 
   return (
     <div id="home" className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-      <p className='font-bold mt-4 md:mt-10'>"Universe is the limit. Mars - a milestone."</p>
-      <h1 className='text-primary md:text-6xl sm:text-5xl text-4xl font-bold my-6'>{t('hero.headline')}</h1>
+      <p className='font-bold mt-4 md:mt-10'>{ upperQuote }</p>
+      <h1 className='text-primary md:text-6xl sm:text-5xl text-4xl font-bold my-6'>{t(headlineTrans)}</h1>
 
       <div className='md:text-4xl sm:text-3xl text-xl font-bold'>
-        <p>{t('hero.infoStatic')}</p>
+        <p>{t(staticTrans)}</p>
         <span ref={el} />
       </div>
     </div>

@@ -5,6 +5,7 @@ import { RxDividerVertical } from 'react-icons/rx'
 import logo from '/assets/icons/logo.png'
 
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -38,12 +39,27 @@ const Navbar = () => {
         <img className='h-14 md:h-24' src={logo} alt='Logo' />
       </a>
       <ul className='hidden lg:flex items-center'>
-        <li className='p-4 hover:text-primary'><a href='#home'>{t('linkHome')}</a></li>
-        <li className='p-4 hover:text-primary'><a href='#about'>{t('linkAbout')}</a></li>
-        <li className='p-4 hover:text-primary'><a href='#roadmap'>{t('linkRoadmap')}</a></li>
-        <li className='p-4 hover:text-primary'><a href='#team'>{t('linkTeam')}</a></li>
-        <li className='p-4 hover:text-primary'><a href='#advisers'>{t('linkAdvisers')}</a></li>
-        <li className='p-4 hover:text-primary'><a href='#partners'>{t('linkPartners')}</a></li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#home`}>{t('linkHome')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#about`}>{t('linkAbout')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#roadmap`}>{t('linkRoadmap')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#team`}>{t('linkTeam')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#advisers`}>{t('linkAdvisers')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary'>
+          <Link to={`/#partners`}>{t('linkPartners')}</Link>
+        </li>
+        <li className='p-4 hover:text-primary text-martian'>
+          <Link to={`careers/#home`}>{t('linkCareers')}</Link>
+        </li>
         <li className='py-4'><RxDividerVertical size={28} /></li>
         <li className='py-4 px-2 hover:text-primary'>
           <a target="_blank" href={import.meta.env.VITE_LINKEDIN} className="transition-colors duration-300 hover:text-primary">
@@ -87,23 +103,26 @@ const Navbar = () => {
           </div>
         </div>
         <ul className='p-4 uppercase'>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#home' onClick={handleNav}>{t('linkHome')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+            <Link to={`/#home`} onClick={handleNav}>{t('linkHome')}</Link>
           </li>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#about' onClick={handleNav}>{t('linkAbout')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+            <Link to={`/#about`} onClick={handleNav}>{t('linkAbout')}</Link>
           </li>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#roadmap' onClick={handleNav}>{t('linkRoadmap')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+          <Link to={`/#roadmap`} onClick={handleNav}>{t('linkRoadmap')}</Link>
           </li>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#team' onClick={handleNav}>{t('linkTeam')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+            <Link to={`/#team`} onClick={handleNav}>{t('linkTeam')}</Link>
           </li>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#advisers' onClick={handleNav}>{t('linkAdvisers')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+            <Link to={`/#advisers`} onClick={handleNav}>{t('linkAdvisers')}</Link>
           </li>
-          <li className='p-4 border-b border-gray-600'>
-            <a className='hover:text-primary' href='#partners' onClick={handleNav}>{t('linkPartners')}</a>
+          <li className='p-4 border-b border-gray-600 hover:text-primary'>
+            <Link to={`/#partners`} onClick={handleNav}>{t('linkPartners')}</Link>
+          </li>
+          <li className='p-4 border-b border-gray-600 hover:text-primary text-martian'>
+            <Link to={`careers/#home`} onClick={handleNav}>{t('linkCareers')}</Link>
           </li>
           <li className='p-4 border-gray-600'>
             <p className='text-primary'>{t('mobileSocialMedia')}:</p>

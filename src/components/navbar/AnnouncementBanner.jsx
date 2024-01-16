@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RxCross1 } from 'react-icons/rx'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom';
 
 
 const AnnouncementBanner = () => {
@@ -29,9 +30,10 @@ const AnnouncementBanner = () => {
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true"><circle cx="1" cy="1" r="1" /></svg>
             { t('info') }
           </p>
-          <a target="_blank" href={import.meta.env.VITE_FORM_LINK} className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+          {/* <a target="_blank" href={import.meta.env.VITE_FORM_LINK} className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
             { t('action') } <span aria-hidden="true">&rarr;</span>
-          </a>
+          </a> */}
+          <Link className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900" to={`careers/#home`}>{ t('action') } <span aria-hidden="true">&rarr;</span></Link>
         </div>
         <div className="flex flex-1 justify-end">
           <button onClick={handleDismiss} type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">

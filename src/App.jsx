@@ -1,3 +1,5 @@
+import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
+
 import About from "./views/About"
 import Advisers from "./views/Advisers"
 import Contact from "./views/Contact"
@@ -10,27 +12,65 @@ import Partners from "./views/Partners"
 import Support from "./views/Support"
 import StickyActionButton from "./components/common/StickyActionButton"
 
+import ErrorPage from './views/ErrorPage';
+import Careers from './views/Careers';
+import ScrollToAnchor from './components/ScrollToAnchor';
+import AnnouncementBanner from './components/navbar/AnnouncementBanner';
+
+const NavbarWrapper = () => {
+  return (
+    <div>
+      <ScrollToAnchor />
+      <header className="sticky top-0 z-50 bg-black">
+        <AnnouncementBanner/>
+        <Navbar />
+      </header>
+      <Outlet />
+      <footer>
+        <Contact />
+      </footer>
+    </div>
+  )
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <NavbarWrapper />,
+    children: [
+      {
+        path: "/",
+        element: (
+          <>
+            <main className="relative overflow-hidden">
+              <Hero upperQuote={'"Universe is the limit. Mars - a milestone."'}
+                headlineTrans={'hero.home.headline'} staticTrans={'hero.home.infoStatic'} 
+                animatedTrans={'hero.home.typedArr'} />
+              <About />
+              <Mission />
+              <Roadmap />
+              <Team />
+              <Advisers />
+              <Partners />
+              <Support />
+            </main>
+            <StickyActionButton actionLink="#support" />
+          </>)
+      },
+      {
+        path: "careers",
+        element: <Careers />
+      },
+    ],
+    errorElement: <ErrorPage/>
+  }
+]);
+
 function App() {
 
   return (
     <div className="text-white">
-      <header className="sticky top-0 z-50 bg-black">
-        <Navbar />
-      </header>
-      <main className="relative overflow-hidden">
-        <Hero />
-        <About />
-        <Mission />
-        <Roadmap />
-        <Team />
-        <Advisers />
-        <Partners />
-        <Support />
-      </main>
-      <footer>
-        <Contact />
-      </footer>
-      <StickyActionButton actionLink="#support" />
+      <RouterProvider router={router} />
     </div>
   )
 }

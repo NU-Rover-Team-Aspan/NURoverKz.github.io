@@ -14,8 +14,8 @@ const Contact = () => {
         <div className="sm:col-span-2">
           <a href="/" aria-label="Go home" title="Company" className="inline-flex items-center">
             <img className='h-12' src={logo} alt='Logo' />
-            <span className="ml-2 text-xl font-bold tracking-wide text-primary uppercase">
-              { t('hero.headline') }
+            <span className="ml-2 sm:text-xl font-bold tracking-wide text-primary uppercase">
+              { t('hero.home.headline') }
             </span>
           </a>
           <div className="mt-3 lg:max-w-sm text-sm">
@@ -82,7 +82,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          Copyright © 2023 Nazarbayev University Rover Team. All rights reserved.
+          Copyright © 2024 Nazarbayev University Rover Team. All rights reserved.
         </p>
         <p className="text-sm text-gray-600">
           Designed by <a href="https://github.com/sb2rhan" target='_blank'>sb2rhan</a>

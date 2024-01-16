@@ -2,10 +2,11 @@ const en = {
   navbar: {
     linkHome: 'Home',
     linkAbout: 'About Us & Mission',
-    linkRoadmap: 'Roadmap & Progress',
+    linkRoadmap: 'Roadmap',
     linkTeam: 'Team',
     linkAdvisers: 'Advisers',
     linkPartners: 'Partners',
+    linkCareers: 'Careers',
     mobileSocialMedia: 'Our social media'
   },
   announcement: {
@@ -15,17 +16,36 @@ const en = {
     full_action: 'Recruitment Application'
   },
   hero: {
-    typedArr: ['Central Asia', 'Kazakhstan'],
-    headline: 'Nazarbayev University Rover Team',
-    infoStatic: 'First ever rover team from '
+    home: {
+      typedArr: ['Central Asia', 'Kazakhstan'],
+      headline: 'Nazarbayev University Rover Team',
+      infoStatic: 'First ever rover team from '
+    },
+    careers: {
+      typedArr: ['Hard Work', 'Ambitious Goals'],
+      headline: 'Careers at NU Rover',
+    }
+  },
+  careers: {
+    header: 'Available job positions',
+    searchbar: 'Search for jobs',
+    positionsList: {
+      title: "Position",
+      department: "Department",
+      actionHeader: "Action",
+      action: "See more",
+    },
+    modal: {
+      action: "Apply"
+    }
   },
   about: {
     header: 'Who are we?',
     para: `The NU Rover Team is a group of space enthusiasts who are working to build the first Martian Rover in Central Asia. 
           The team includes dedicated individuals from various backgrounds - engineering, science, computer science, finance, 
           economics, business management - with a common passion for space and a desire to push the boundaries of their capabilities. 
-          The team divisions are as follows: Quality Assurance, Roboarm, Body & Mobility System, Science & Lab, Nuclear Reactor, 
-          Automatization & Console System, Finance & Resource Management.`
+          The team divisions are as follows: Team Coordination, Mechanical (Roboarm, Body and Mobility System), Science, Nuclear Reactor, 
+          Automatization & Console System, Marketing and Resource Management.`
   },
   mission: {
     header: 'Our Mission',
@@ -126,9 +146,8 @@ const en = {
       leads: "Team Leads",
       me: "Mechanics & Electronics",
       sc: "Software & Control",
-      mf: "Marketing & Finance",
+      mc: "Marketing & Coordination",
       sn: "Science & Nuclear",
-      qa: "Quality Assurance"
     },
     infoHeghine: {
       fullname: 'Heghine Aghajanyan',
@@ -161,7 +180,7 @@ const en = {
     },
     infoAlikhan: {
       fullname: 'Alikhan Kalmakhanbet',
-      position: 'Nuclear Reactor Team',
+      position: 'Head of Nuclear Reactor Team',
       achievements: ['Gold medal on President Olympiad VII', 
         'Involvement in Chemistry Olympiads']
     },
@@ -205,18 +224,13 @@ const en = {
     },
     infoYerkebulan: {
       fullname: 'Tazabek Yerkebulan',
-      position: 'Quality Assurance Team',
+      position: 'Head of Coordination Team',
       achievements: ['IGeo Istanbul 2021 Silver, IGeo Paris 2022 Bronze medal winner', 'National Geographic Qazaqstan intern writer-contributor']
     },
     infoAruzhan: {
       fullname: 'Aruzhan Akimkhan',
       position: 'Head of Resource and Finance Team',
       achievements: ['IEOx WiC Bronze’21, FBLA 2020 Kazakhstani Delegation', 'Internship as Research Assistant at NU SSH, Physics Department']
-    },
-    infoAizhar: {
-      fullname: 'Aizhar Kudenova',
-      position: 'Resource and Finance Team',
-      achievements: ['Semifinalist of Technovation Girls 2021', 'Winner of international math olympiad from MSTU']
     },
     infoAlisher: {
       fullname: 'Alisher Sabigaliyev',

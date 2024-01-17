@@ -33,7 +33,7 @@ const kk = {
       title: "Позиция",
       department: "Департамент",
       actionHeader: "Әрекет",
-      action: "Толығырақ көру",
+      action: "Өтініш беру",
     },
     modal: {
       action: "Өтініш беру"

@@ -33,10 +33,10 @@ const en = {
       title: "Position",
       department: "Department",
       actionHeader: "Action",
-      action: "See more",
+      action: "Apply",
     },
     modal: {
-      action: "Apply"
+      action: "Send application"
     }
   },
   about: {

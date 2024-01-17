@@ -34,14 +34,17 @@ const Careers = () => {
   return (
     <main className="relative">
       <Hero upperQuote={'"Universe is the limit. Mars - a milestone."'}
-        headlineTrans={'hero.careers.headline'} staticTrans={''}
-        animatedTrans={'hero.careers.typedArr'} />
+        headlineTrans={'hero.careers.headline'} headlineColor={'text-martian'}
+        staticTrans={''} animatedTrans={'hero.careers.typedArr'} />
 
       <div className='flex justify-center py-12'>
         <ReactPlayer
+          loop={true}
           playing={true}
           muted={true}
           controls={true}
+          width="70%"
+          height="50%"
           url={[ {src: recruitmentVideo  , type: 'video/mp4'}] }
         />
       </div>
@@ -86,10 +89,10 @@ const Careers = () => {
                     ?
                     positions.map((pos, id) =>
                       <tr key={id} className="hover:bg-gray-900">
-                        <th scope="row" className="px-3 sm:px-6 py-2 sm:py-4 font-medium text-center text-primary">
+                        <th scope="row" className="px-3 sm:px-6 py-2 sm:py-4 font-medium text-center">
                           {pos.title}
                         </th>
-                        <td className="px-3 sm:px-6 py-2 sm:py-4">
+                        <td className="px-3 sm:px-6 py-2 sm:py-4 text-primary">
                           {pos.department}
                         </td>
                         <td className="sm:px-6 sm:py-4 text-center">

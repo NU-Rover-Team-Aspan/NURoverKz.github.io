@@ -44,8 +44,8 @@ const router = createBrowserRouter([
           <>
             <main className="relative overflow-hidden">
               <Hero upperQuote={'"Universe is the limit. Mars - a milestone."'}
-                headlineTrans={'hero.home.headline'} staticTrans={'hero.home.infoStatic'} 
-                animatedTrans={'hero.home.typedArr'} />
+                headlineTrans={'hero.home.headline'} headlineColor={'text-primary'}
+                staticTrans={'hero.home.infoStatic'} animatedTrans={'hero.home.typedArr'} />
               <About />
               <Mission />
               <Roadmap />

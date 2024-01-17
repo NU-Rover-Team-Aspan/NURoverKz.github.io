@@ -33,7 +33,7 @@ const ru = {
       title: "Позиция",
       department: "Департамент",
       actionHeader: "Действие",
-      action: "Узнать подробнее",
+      action: "Податься",
     },
     modal: {
       action: "Подать заявку"

@@ -119,9 +119,9 @@
         ]
     },
     {
-        "title": "Electronics Engineer",
+        "title": "Robotics Engineer",
         "department": "Mechanics & Electronics",
-        "description": "As an Electronics Engineer at NU Rover, you will be an integral part of our interdisciplinary team, working at the intersection of hardware and software. Your primary responsibilities will include:",
+        "description": "As an Robotics Engineer at NU Rover, you will be an integral part of our interdisciplinary team, working at the intersection of hardware and software. Your primary responsibilities will include:",
         "responsibilities": [
             "MCU Programming: Utilize your expertise in Python and C++ to program microcontrollers such as Arduino, Raspberry Pi, and Jetson for seamless integration with various sensors and devices.",
             "Circuit Building: Demonstrate your prowess in building circuits, connecting sensors, and integrating motor drivers with MCUs. Your hands-on experience will be crucial in developing robust and reliable systems.",
@@ -130,7 +130,6 @@
             "Coding Excellence: Contribute to the coding aspects of sensor functionalities and communication protocols, with a focus on I2C and LoRa. Your coding prowess will be key in creating intelligent and responsive robotic systems."
         ],
         "skills": [
-            "A Bachelor's or higher degree in Electrical Engineering, Electronics, or a related field.",
             "Proven experience in MCU programming using Python and C++ for platforms like Arduino, Raspberry Pi, and Jetson.",
             "Hands-on experience in building circuits and connecting sensors or motor drivers to MCUs.",
             "Proficiency in communication protocols such as I2C, SPI, and serial.",
@@ -138,9 +137,9 @@
         ]
     },
     {
-        "title": "Power Electronics Engineer",
+        "title": "Robotics/Electronics Engineer",
         "department": "Mechanics & Electronics",
-        "description": "As a Power Electronics Engineer at NU Rover, your primary responsibilities will include:",
+        "description": "As a Robotics/Electronics Engineer at NU Rover, your primary responsibilities will include:",
         "responsibilities": [
             "Circuit Building and Testing: Utilize your knowledge and experience to build and test circuits, ensuring their functionality and reliability.",
             "Power Converters: Apply your expertise in power converters, particularly buck and boost converters, to design efficient and optimized power systems for our projects.",

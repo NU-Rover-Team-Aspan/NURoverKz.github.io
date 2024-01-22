@@ -10,7 +10,7 @@ const en = {
     mobileSocialMedia: 'Our social media'
   },
   announcement: {
-    header: 'Team Recruitment is Open',
+    header: 'Team Recruitment is Open till January 25',
     info: 'Join our mission to Mars and be a part of history in the making!',
     action: 'Send application',
     full_action: 'Recruitment Application'

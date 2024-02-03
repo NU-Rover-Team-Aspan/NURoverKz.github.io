@@ -15,14 +15,12 @@ import StickyActionButton from "./components/common/StickyActionButton"
 import ErrorPage from './views/ErrorPage';
 import Careers from './views/Careers';
 import ScrollToAnchor from './components/ScrollToAnchor';
-import AnnouncementBanner from './components/navbar/AnnouncementBanner';
 
 const NavbarWrapper = () => {
   return (
     <div>
       <ScrollToAnchor />
       <header className="sticky top-0 z-50 bg-black">
-        <AnnouncementBanner/>
         <Navbar />
       </header>
       <Outlet />

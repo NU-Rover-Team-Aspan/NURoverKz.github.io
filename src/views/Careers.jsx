@@ -51,6 +51,13 @@ const Careers = () => {
 
       <div className='w-full py-8'>
         <div className='max-w-[1240px] mx-auto px-4'>
+          <div className='md:w-7/12 pt-4 pb-8 mx-auto px-4'>
+            <p className="md:text-xl font-medium">
+              "The working culture of NU Rover can be concluded by the following sentence: you will not get it perfect 
+              from first time, so get it done and quickly with the highest excellence you can provide and always go extra."
+            </p>
+          </div>
+          
           <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-12 text-center text-primary'>
             {t('header')}
           </h1>

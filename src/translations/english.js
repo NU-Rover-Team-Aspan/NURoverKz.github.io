@@ -44,7 +44,7 @@ const en = {
     para: `The NU Rover Team is a group of space enthusiasts who are working to build the first Martian Rover in Central Asia. 
           The team includes dedicated individuals from various backgrounds - engineering, science, computer science, finance, 
           economics, business management - with a common passion for space and a desire to push the boundaries of their capabilities. 
-          The team divisions are as follows: Team Coordination, Mechanical (Roboarm, Body and Mobility System), Science, Nuclear Reactor, 
+          The team divisions are as follows: Team Coordination, Mechanical (Roboarm, Body and Mobility System), Science, 
           Automatization & Console System, Marketing and Resource Management.`
   },
   mission: {
@@ -147,7 +147,7 @@ const en = {
       me: "Mechanics & Electronics",
       sc: "Software & Control",
       mc: "Marketing & Coordination",
-      sn: "Science & Nuclear",
+      sn: "Science",
     },
     infoHeghine: {
       fullname: 'Heghine Aghajanyan',
@@ -195,12 +195,6 @@ const en = {
       achievements: ['Creator of instagram videos and posts targeted towards NU community with over 14k views and thousands of likes',
         'SMM manager, photographer and videographer of a business company for over 3 years']
     },
-    infoDana: {
-      fullname: 'Dana Kurmangali',
-      position: 'Marketing/Branding Team',
-      achievements: ['Member of "Unisat Nano-satellite Educational Programme for Girls" (UNEPG), successfully launched nano-satellite into the stratosphere', 
-        'Ex-head of the PR department of NU Student Awards 2023']
-    },
     infoZhaniya: {
       fullname: 'Zhaniya Kali',
       position: 'Head of Science Team',
@@ -210,11 +204,6 @@ const en = {
       fullname: 'Denis Ten',
       position: 'Software/Control System Team',
       achievements: ['World Robot Olympiad Coach', 'FIRST Global Challenge Coach']
-    },
-    infoZhamila: {
-      fullname: 'Zhamila Azizbekova',
-      position: 'Head of Quality Assurance Team',
-      achievements: ['UniSat Project 2022 by UNICEF Graduate', '2nd place at Microsoft Imagine Cup Junior Local Hackathon']
     },
     infoZhuldyz: {
       fullname: 'Zhuldyz Karamatdinova',
@@ -226,11 +215,6 @@ const en = {
       fullname: 'Tazabek Yerkebulan',
       position: 'Head of Coordination Team',
       achievements: ['IGeo Istanbul 2021 Silver, IGeo Paris 2022 Bronze medal winner', 'National Geographic Qazaqstan intern writer-contributor']
-    },
-    infoAruzhan: {
-      fullname: 'Aruzhan Akimkhan',
-      position: 'Head of Resource and Finance Team',
-      achievements: ['IEOx WiC Bronze’21, FBLA 2020 Kazakhstani Delegation', 'Internship as Research Assistant at NU SSH, Physics Department']
     },
     infoAlisher: {
       fullname: 'Alisher Sabigaliyev',
@@ -249,11 +233,6 @@ const en = {
       position: 'Head of Mechanical Team',
       achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 'Python Tech Orda grant owner']
     },
-    infoSanzhar: {
-      fullname: 'Sanzhar Kosshybay',
-      position: 'Mechanical Team',
-      achievements: ['Team leader, Cosmothon by SEDS chapter, 2nd place', 'Republican Olympiad during the high school year in physics, 2nd place']
-    },
     infoZhangir: {
       fullname: 'Zhangir Zhumadilov',
       position: 'Science Team',
@@ -264,10 +243,10 @@ const en = {
       position: 'Mechanical Team',
       achievements: ['Organized the "Engineering case championship" for 150 people', 'Winner of many mathematics Olympiads']
     },
-    infoBauyrzhan: {
-      fullname: 'Duisenbay Bauyrzhan',
-      position: 'Mechanical Team',
-      achievements: ['Member of the first FSAE team in Kazakhstan', 'Top 3 CGPA of the class']
+    infoAruzhan: {
+      fullname: 'Aruzhan Turlybek',
+      position: 'Science Team',
+      achievements: ['Top 1 CGPA in Class of 2026', 'Involvement in the University organized Science events']
     }
   },
   advisers: {
@@ -302,6 +281,14 @@ const en = {
       fullname: 'Prashant Jamwal',
       achievements: ['Jewel of India Award holder', 'Won two grants from the World Bank and has launched the startup companies']
     },
+    infoSalimgerey: {
+      fullname: 'Salimgerey Adilov',
+      achievements: []
+    },
+    infoZorbas: {
+      fullname: 'Dimitrios Zorbas',
+      achievements: ['Developer of several long-range industrial communication protocols', 'Marie Curie Alumnus']
+    }
   },
   partners: {
     header: 'Partners & Sponsors',

@@ -10,7 +10,8 @@ import imgSpitas from '/assets/img/advisers/Spitas.jpg'
 import imgZhao from '/assets/img/advisers/Zhao.jpg'
 import imgJamwal from '/assets/img/advisers/Jamwal.png'
 import imgVarol from '/assets/img/advisers/Varol.jpeg'
-
+import imgSalimgerey from '/assets/img/advisers/Salimgerey.jpg'
+import imgZorbas from '/assets/img/advisers/Zorbas.jpg'
 
 const Advisers = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'advisers' });
@@ -34,9 +35,7 @@ const Advisers = () => {
 
           <ProfileCard fullname={t('infoBagheri.fullname')} img={imgBagheri}
             achievements={t('infoBagheri.achievements', { returnObjects: true })} />
-        </div>
 
-        <div className="mt-10 grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-3">
           <ProfileCard fullname={t('infoSpitas.fullname')} img={imgSpitas}
             achievements={t('infoSpitas.achievements', { returnObjects: true })} />
 
@@ -45,6 +44,12 @@ const Advisers = () => {
 
           <ProfileCard fullname={t('infoZhao.fullname')} img={imgZhao}
             achievements={t('infoZhao.achievements', { returnObjects: true })} />
+
+          {/* <ProfileCard fullname={t('infoSalimgerey.fullname')} img={imgSalimgerey}
+            achievements={t('infoSalimgerey.achievements', { returnObjects: true })} /> */}
+
+          <ProfileCard fullname={t('infoZorbas.fullname')} img={imgZorbas}
+            achievements={t('infoZorbas.achievements', { returnObjects: true })} />
         </div>
       </div>
     </div>

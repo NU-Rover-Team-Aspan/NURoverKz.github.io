@@ -6,15 +6,12 @@ import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
 import imgHeghine from '/assets/img/team/Heghine.jpg'
 import imgYussuf from '/assets/img/team/Yussuf.jpg'
 import imgMuslim from '/assets/img/team/Muslim.jpg'
-import imgSymbat from '/assets/img/team/Symbat.jpg'
 import imgZhaniya from '/assets/img/team/Zhaniya.jpg'
 import imgDenis from '/assets/img/team/Denis.jpg'
 import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
-import imgAibat from '/assets/img/team/Aibat.jpg'
-import imgAlikhan from '/assets/img/team/Alikhan.jpg'
+import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
 import imgSultan from '/assets/img/team/Sultan.jpg'
 import imgAssylzat from '/assets/img/team/Assylzat.jpg'
-import imgBauyrzhan from '/assets/img/team/Bauyrzhan.jpg'
 import TeamView from 'src/components/team/TeamView'
 
 
@@ -27,12 +24,6 @@ const Team = () => {
         position: t('infoHeghine.position'),
         achievements: t('infoHeghine.achievements', { returnObjects: true }),
         img: imgHeghine
-      },
-      {
-        fullname: t('infoAibat.fullname'),
-        position: t('infoAibat.position'),
-        achievements: t('infoAibat.achievements', { returnObjects: true }),
-        img: imgAibat
       },
       {
         fullname: t('infoZhaniya.fullname'),
@@ -53,42 +44,18 @@ const Team = () => {
         img: imgBatyrkhan
       },
       {
-        fullname: t('infoSymbat.fullname'),
-        position: t('infoSymbat.position'),
-        achievements: t('infoSymbat.achievements', { returnObjects: true }),
-        img: imgSymbat
-      },
-      {
         fullname: t('infoYerkebulan.fullname'),
         position: t('infoYerkebulan.position'),
         achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
         img: imgYerkebulan
       },
-      {
-        fullname: t('infoAlikhan.fullname'),
-        position: t('infoAlikhan.position'),
-        achievements: t('infoAlikhan.achievements', { returnObjects: true }),
-        img: imgAlikhan
-      }
     ],
     [t("departments.me")]: [
-      {
-        fullname: t('infoAibat.fullname'),
-        position: t('infoAibat.position'),
-        achievements: t('infoAibat.achievements', { returnObjects: true }),
-        img: imgAibat
-      },
       {
         fullname: t('infoHeghine.fullname'),
         position: t('infoHeghine.position'),
         achievements: t('infoHeghine.achievements', { returnObjects: true }),
         img: imgHeghine
-      },
-      {
-        fullname: t('infoBauyrzhan.fullname'),
-        position: t('infoBauyrzhan.position'),
-        achievements: t('infoBauyrzhan.achievements', { returnObjects: true }),
-        img: imgBauyrzhan
       },
       {
         fullname: t('infoAssylzat.fullname'),
@@ -137,12 +104,6 @@ const Team = () => {
     ],
     [t("departments.mc")]: [
       {
-        fullname: t('infoSymbat.fullname'),
-        position: t('infoSymbat.position'),
-        achievements: t('infoSymbat.achievements', { returnObjects: true }),
-        img: imgSymbat
-      },
-      {
         fullname: t('infoYerkebulan.fullname'),
         position: t('infoYerkebulan.position'),
         achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
@@ -157,10 +118,10 @@ const Team = () => {
         img: imgZhaniya
       },
       {
-        fullname: t('infoAlikhan.fullname'),
-        position: t('infoAlikhan.position'),
-        achievements: t('infoAlikhan.achievements', { returnObjects: true }),
-        img: imgAlikhan
+        fullname: t('infoAruzhan.fullname'),
+        position: t('infoAruzhan.position'),
+        achievements: t('infoAruzhan.achievements', { returnObjects: true }),
+        img: imgAruzhan
       }
     ]
   }

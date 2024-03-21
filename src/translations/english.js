@@ -68,40 +68,36 @@ const en = {
         description: 'Team Set Up'
       },
       {
-        date: 'April, 2023',
-        description: 'TRL 1'
-      },
-      {
         date: 'May, 2023',
-        description: 'TRL 2'
+        description: 'Prototype 1'
       },
       {
         date: 'October, 2023',
-        description: 'TRL 3 and Team Registration to URC'
+        description: 'Prototype 2 and Team Registration to URC'
       },
       {
         date: 'November, 2023',
-        description: 'TRL 4 and Preliminary Design Review Report'
+        description: 'Preliminary Design Review Report'
       },
       {
         date: 'February, 2024',
-        description: 'TRL 5 and System Acceptance Review'
+        description: 'Prototype 3 and System Acceptance Review'
       },
       {
         date: 'May, 2024',
-        description: 'TRL 6 and Science Plan Financial Report'
+        description: 'Prototype 4 and Science Plan Financial Report'
       },
       {
         date: 'June, 2024',
-        description: 'TRL 7 and URC Finals'
+        description: 'URC Finals'
       },
       {
         date: 'Future',
         description: 'Further Development...'
       }
     ],
-    roverTRL1: {
-      header: 'Meet TRL 1 Rover',
+    roverProto1: {
+      header: 'Meet Prototype 1 Rover',
       body: {
         name: 'Body skeleton',
         description: 'From aluminum with a side width of 30 mm'
@@ -116,8 +112,40 @@ const en = {
       },
       moreInfo: 'Find more info here'
     },
-    roverTRL5: {
-      header: 'Main objective: TRL 5 Rover',
+    roverProto2: {
+      header: 'Meet Prototype 2 Rover',
+      body: {
+        name: 'Body skeleton',
+        description: 'From aluminum with a side width of 30 mm'
+      },
+      wheels: {
+        name: 'Wheels',
+        description: '6 wheels with the new differential for better soil traction and load distribution'
+      },
+      controls: {
+        name: 'Controls',
+        description: 'Manually controlled by the Console over the internet and LoRa'
+      },
+      moreInfo: 'Find more info here'
+    },
+    roverProto3: {
+      header: 'Meet Prototype 3 Rover',
+      body: {
+        name: 'Body skeleton',
+        description: 'From aluminum with a side width of 30 mm'
+      },
+      wheels: {
+        name: 'Wheels',
+        description: '4 wheels with new suspension designed to keep soil traction and evenly distribute the load'
+      },
+      controls: {
+        name: 'Controls',
+        description: 'Manually controlled by the Console over the internet and LoRa'
+      },
+      moreInfo: 'Find more info here'
+    },
+    roverProto4: {
+      header: 'Main objective: Prototype 4 Rover',
       size: {
         name: 'Size',
         width: '1.2 m',

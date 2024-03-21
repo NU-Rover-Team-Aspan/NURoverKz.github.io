@@ -67,40 +67,36 @@ const kk = {
         description: 'Топтың құрылуы'
       },
       {
-        date: 'Сәуір, 2023',
-        description: 'TRL 1'
-      },
-      {
         date: 'Мамыр, 2023',
-        description: 'TRL 2'
+        description: 'Прототип 1'
       },
       {
         date: 'Қазан, 2023',
-        description: 'TRL 3, URC байқауына тіркелу'
+        description: 'Прототип 2, URC байқауына тіркелу'
       },
       {
         date: 'Қараша, 2023',
-        description: 'TRL 4, Дизайн бойынша алғашқы есеп'
+        description: 'Дизайн бойынша алғашқы есеп'
       },
       {
         date: 'Ақпан, 2024',
-        description: 'TRL 5, Ровер сапасының бағалануы'
+        description: 'Прототип 3, Ровер сапасының бағалануы'
       },
       {
         date: 'Мамыр, 2024',
-        description: 'TRL 6, Қаржылық және Зерттеу есептері'
+        description: 'Прототип 4, Қаржылық және Зерттеу есептері'
       },
       {
         date: 'Маусым, 2024',
-        description: 'TRL 7, URC нәтижелері'
+        description: 'URC нәтижелері'
       },
       {
         date: 'Келешек',
         description: 'Жоба дамуының жалғасы...'
       }
     ],
-    roverTRL1: {
-      header: 'TRL 1 Ровері',
+    roverProto1: {
+      header: 'Прототип 1 Ровері',
       body: {
         name: 'Корпусы',
         description: 'Шеткі ені 30 мм алюминийден'
@@ -115,8 +111,40 @@ const kk = {
       },
       moreInfo: 'Қосымша ақпаратты көру'
     },
-    roverTRL5: {
-      header: 'Негізгі мақсат: TRL 5 Ровері',
+    roverProto2: {
+      header: 'Прототип 2 Ровері',
+      body: {
+        name: 'Корпусы',
+        description: 'Шеткі ені 30 мм алюминийден'
+      },
+      wheels: {
+        name: 'Дөңгелегі',
+        description: 'Жаңа дифференциалы бар 6 дөңгелегі ровер салмағын біркелкі бөлуге арналған'
+      },
+      controls: {
+        name: 'Басқарылуы',
+        description: 'Интернет және LoRa арқылы Консоль қолданбасымен басқарылады'
+      },
+      moreInfo: 'Қосымша ақпаратты көру'
+    },
+    roverProto3: {
+      header: 'Прототип 3 Ровері',
+      body: {
+        name: 'Корпусы',
+        description: 'Шеткі ені 30 мм алюминийден'
+      },
+      wheels: {
+        name: 'Дөңгелегі',
+        description: 'Жаңа амортизациясы бар 4 дөңгелегі ровер салмағын біркелкі бөлуге арналған'
+      },
+      controls: {
+        name: 'Басқарылуы',
+        description: 'Интернет және LoRa арқылы Консоль қолданбасымен басқарылады'
+      },
+      moreInfo: 'Қосымша ақпаратты көру'
+    },
+    roverProto4: {
+      header: 'Негізгі мақсат: Прототип 4 Ровері',
       size: {
         name: 'Өлшемі',
         width: '1.2 м',

@@ -35,7 +35,7 @@ const Roadmap = () => {
                           className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
                         }
                         
-                        <h4 className="-mt-2 text-xl font-semibold">{milestone.description}</h4>
+                        <h4 className="-mt-2 text-xl font-semibold">{milestone.description} &#8592;</h4>
                       </div>
                       <div className="mb-6 ms-6 pb-6">
                         <p

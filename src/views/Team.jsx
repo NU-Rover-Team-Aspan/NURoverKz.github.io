@@ -58,12 +58,6 @@ const Team = () => {
         img: imgHeghine
       },
       {
-        fullname: t('infoAssylzat.fullname'),
-        position: t('infoAssylzat.position'),
-        achievements: t('infoAssylzat.achievements', { returnObjects: true }),
-        img: imgAssylzat
-      },
-      {
         fullname: t('infoYussuf.fullname'),
         position: t('infoYussuf.position'),
         achievements: t('infoYussuf.achievements', { returnObjects: true }),
@@ -83,24 +77,6 @@ const Team = () => {
         achievements: t('infoBatyrkhan.achievements', { returnObjects: true }),
         img: imgBatyrkhan
       },
-      {
-        fullname: t('infoLeila.fullname'),
-        position: t('infoLeila.position'),
-        achievements: t('infoLeila.achievements', { returnObjects: true }),
-        img: imgLeila
-      },
-      {
-        fullname: t('infoDenis.fullname'),
-        position: t('infoDenis.position'),
-        achievements: t('infoDenis.achievements', { returnObjects: true }),
-        img: imgDenis
-      },
-      {
-        fullname: t('infoSultan.fullname'),
-        position: t('infoSultan.position'),
-        achievements: t('infoSultan.achievements', { returnObjects: true }),
-        img: imgSultan
-      }
     ],
     [t("departments.mc")]: [
       {

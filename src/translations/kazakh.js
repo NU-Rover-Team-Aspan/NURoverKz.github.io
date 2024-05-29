@@ -316,7 +316,7 @@ const kk = {
     },
     infoSalimgerey: {
       fullname: 'Salimgerey Adilov',
-      achievements: []
+      achievements: ['Worcester Polytechnic Institute оқытушы ассистенті', 'Полимерлі материалдардың синтезі саласында зертеуші']
     },
     infoZorbas: {
       fullname: 'Dimitrios Zorbas',

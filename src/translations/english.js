@@ -311,7 +311,7 @@ const en = {
     },
     infoSalimgerey: {
       fullname: 'Salimgerey Adilov',
-      achievements: []
+      achievements: ['Teaching assistantship from Worcester Polytechnic Institute', 'Research interest in the field of synthesis of polymeric materials']
     },
     infoZorbas: {
       fullname: 'Dimitrios Zorbas',

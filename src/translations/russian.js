@@ -310,7 +310,7 @@ const ru = {
     },
     infoSalimgerey: {
       fullname: 'Salimgerey Adilov',
-      achievements: []
+      achievements: ['Ассистент в Worcester Polytechnic Institute', 'Научный интерес в области синтеза полимерных материалов']
     },
     infoZorbas: {
       fullname: 'Dimitrios Zorbas',

@@ -58,7 +58,7 @@ const Careers = () => {
             </p>
           </div>
           
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-12 text-center text-primary'>
+          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-6 md:py-12 text-center text-primary'>
             {t('header')}
           </h1>
           <div className="overflow-x-auto sm:rounded-lg">
@@ -159,7 +159,7 @@ const Careers = () => {
                   </Dialog.Title>
                   <Dialog.Description as='div' className="my-4 text-sm md:text-base">
                     <p>Department: {modalPos?.department}</p>
-                    <p>{modalPos?.description}</p>
+                    <p className='mt-2'>{modalPos?.description}</p>
                     <ul className='ps-8 list-disc text-xs md:text-sm'>
                       {
                         modalPos?.responsibilities && modalPos.responsibilities.length
@@ -174,7 +174,7 @@ const Careers = () => {
                   </Dialog.Description>
 
                   <div className='text-sm md:text-base'>
-                    <p>Required skills:</p>
+                    <p>Skills that we expect (don't have to match all of them):</p>
                     <ul className='ps-8 list-disc text-xs md:text-sm'>
                       {
                         modalPos?.skills && modalPos.skills.length

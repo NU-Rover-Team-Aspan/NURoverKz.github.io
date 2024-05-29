@@ -7,7 +7,6 @@ import imgBagheri from '/assets/img/advisers/Bagheri.jpg'
 import imgElhadidi from '/assets/img/advisers/Elhadidi.jpg'
 import imgKostas from '/assets/img/advisers/Kostas.jpg'
 import imgSpitas from '/assets/img/advisers/Spitas.jpg'
-import imgZhao from '/assets/img/advisers/Zhao.jpg'
 import imgJamwal from '/assets/img/advisers/Jamwal.png'
 import imgVarol from '/assets/img/advisers/Varol.jpeg'
 import imgSalimgerey from '/assets/img/advisers/Salimgerey.jpg'
@@ -42,11 +41,8 @@ const Advisers = () => {
           <ProfileCard fullname={t('infoKostas.fullname')} img={imgKostas}
             achievements={t('infoKostas.achievements', { returnObjects: true })} />
 
-          <ProfileCard fullname={t('infoZhao.fullname')} img={imgZhao}
-            achievements={t('infoZhao.achievements', { returnObjects: true })} />
-
-          {/* <ProfileCard fullname={t('infoSalimgerey.fullname')} img={imgSalimgerey}
-            achievements={t('infoSalimgerey.achievements', { returnObjects: true })} /> */}
+          <ProfileCard fullname={t('infoSalimgerey.fullname')} img={imgSalimgerey}
+            achievements={t('infoSalimgerey.achievements', { returnObjects: true })} />
 
           <ProfileCard fullname={t('infoZorbas.fullname')} img={imgZorbas}
             achievements={t('infoZorbas.achievements', { returnObjects: true })} />

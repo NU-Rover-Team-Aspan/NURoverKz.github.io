@@ -273,8 +273,18 @@ const en = {
     },
     infoAruzhan: {
       fullname: 'Aruzhan Turlybek',
-      position: 'Science Team',
+      position: 'Head of Science Team',
       achievements: ['Top 1 CGPA in Class of 2026', 'Involvement in the University organized Science events']
+    },
+    infoSabina: {
+      fullname: 'Sabina Askarbekova',
+      position: "Science Team",
+      achievements: ['Former Research Assistant of the Biomaterials and Regenerative Engineering Laboratory at Nazarbayev University', 'Top 5 on the CGPA Ranking']
+    },
+    infoAbylay: {
+      fullname: 'Abylay Sansyzbay',
+      position: 'Mechanical Team',
+      achievements: ['Top graduate of Republican Physical and Mathematical School']
     }
   },
   advisers: {

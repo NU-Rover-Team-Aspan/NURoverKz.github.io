@@ -25,36 +25,36 @@ const Roadmap = () => {
                 milestones.map((milestone, index) => {
                   return (
                     prototypeIndices.includes(index) ?
-                    <li key={index} onClick={() => setCurrIndex(index)} className='cursor-pointer'>
-                      <div className="flex-start flex items-center">
-                        {
-                          currIndex === index ? 
-                          <div
-                          className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-white"></div>
-                          :<div
-                          className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
-                        }
-                        
-                        <h4 className="-mt-2 text-xl font-semibold">{milestone.description} &#8592;</h4>
-                      </div>
-                      <div className="mb-6 ms-6 pb-6">
-                        <p
-                          className="text-sm text-primary"
-                        >{milestone.date}</p>
-                      </div>
-                    </li>
+                      <li key={index} onClick={() => setCurrIndex(index)} className='cursor-pointer'>
+                        <div className="flex-start flex items-center">
+                          {
+                            currIndex === index ? 
+                            <div
+                            className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-white"></div>
+                            :<div
+                            className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
+                          }
+                          
+                          <h4 className="-mt-2 text-xl font-semibold underline">{milestone.description}</h4>
+                        </div>
+                        <div className="mb-6 ms-6 pb-6">
+                          <p
+                            className="text-sm text-primary"
+                          >{milestone.date}</p>
+                        </div>
+                      </li>
                     :
-                    <li key={index}>
-                      <div className="flex-start flex items-center">
-                        <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
-                        <h4 className="-mt-2 text-xl font-semibold">{milestone.description}</h4>
-                      </div>
-                      <div className="mb-6 ms-6 pb-6">
-                        <p
-                          className="text-sm text-primary"
-                        >{milestone.date}</p>
-                      </div>
-                    </li>
+                      <li key={index}>
+                        <div className="flex-start flex items-center">
+                          <div className="-ms-[9px] -mt-2 me-3 flex h-4 w-4 items-center justify-center rounded-full bg-primary"></div>
+                          <h4 className="-mt-2 text-xl font-semibold">{milestone.description}</h4>
+                        </div>
+                        <div className="mb-6 ms-6 pb-6">
+                          <p
+                            className="text-sm text-primary"
+                          >{milestone.date}</p>
+                        </div>
+                      </li>
                   );
                 })
               }

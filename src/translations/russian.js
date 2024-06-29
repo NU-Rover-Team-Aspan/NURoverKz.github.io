@@ -284,6 +284,16 @@ const ru = {
       fullname: 'Сансызбай Абылай',
       position: 'Команда Механики',
       achievements: ['Красный аттестат выпускника Республиканской физико-математической школы']
+    },
+    infoZhuldyz: {
+      fullname: 'Алтаева Жұлдыз',
+      position: 'Команда Механики',
+      achievements: ['Провела в школе IQanat образовательную презентацию о области STEM', 'Стажировка и внеклассные занятия по механическому проектированию']
+    },
+    infoAldiyar: {
+      fullname: 'Разак Алдияр',
+      position: 'Команда Электроники',
+      achievements: ['Награда за социальные медиа на Central Asia FIRST Global Challenge', '1-е место на турнире Алматы Techcup FTC']
     }
   },
   advisers: {

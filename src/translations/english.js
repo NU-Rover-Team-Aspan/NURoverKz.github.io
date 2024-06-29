@@ -285,6 +285,16 @@ const en = {
       fullname: 'Abylay Sansyzbay',
       position: 'Mechanical Team',
       achievements: ['Top graduate of Republican Physical and Mathematical School']
+    },
+    infoZhuldyz: {
+      fullname: 'Zhuldyz Altayeva',
+      position: 'Mechanical Team',
+      achievements: ['Provided educational presentation in IQanat school about STEM field', 'Internship and extracurricular in mechanical design']
+    },
+    infoAldiyar: {
+      fullname: 'Aldiyar Razak',
+      position: 'Electronics Team',
+      achievements: ['Social Media Award at Central Asia FIRST Global Challenge', '1st Place at Almaty Techcup FTC Tournament']
     }
   },
   advisers: {

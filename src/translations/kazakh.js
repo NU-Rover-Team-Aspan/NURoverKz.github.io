@@ -291,6 +291,16 @@ const kk = {
       fullname: 'Абылай Сансызбай',
       position: 'Механика тобы',
       achievements: ['Республикалық Физика-Математикалық Мектебінің қызыл аттестат түлегі']
+    },
+    infoZhuldyz: {
+      fullname: 'Жұлдыз Алтаева',
+      position: 'Механика тобы',
+      achievements: ['IQanat мектебінде STEM саласы туралы білім беру презентациясы ұсынылды', 'Механикалық дизайндағы қосымша тағылымдама']
+    },
+    infoAldiyar: {
+      fullname: 'Алдияр Разак',
+      position: 'Электроника тобы',
+      achievements: ['Central Asia FIRST Global Challenge әлеуметтік медиасы сыйлығы', 'Almaty Techcup FTC турнирінде 1 орын']
     }
   },
   advisers: {

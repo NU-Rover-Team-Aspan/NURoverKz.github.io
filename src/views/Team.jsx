@@ -8,6 +8,8 @@ import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
 import imgSabina from '/assets/img/team/Sabina.jpg'
 import imgAbylay from '/assets/img/team/Abylay.jpg'
+import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
+import imgAldiyar from '/assets/img/team/Aldiyar.jpg'
 import TeamView from 'src/components/team/TeamView'
 
 
@@ -54,10 +56,22 @@ const Team = () => {
         img: imgHeghine
       },
       {
+        fullname: t('infoZhuldyz.fullname'),
+        position: t('infoZhuldyz.position'),
+        achievements: t('infoZhuldyz.achievements', { returnObjects: true }),
+        img: imgZhuldyz
+      },
+      {
         fullname: t('infoAbylay.fullname'),
         position: t('infoAbylay.position'),
         achievements: t('infoAbylay.achievements', { returnObjects: true }),
         img: imgAbylay
+      },
+      {
+        fullname: t('infoAldiyar.fullname'),
+        position: t('infoAldiyar.position'),
+        achievements: t('infoAldiyar.achievements', { returnObjects: true }),
+        img: imgAldiyar
       }
     ],
     [t("departments.sc")]: [

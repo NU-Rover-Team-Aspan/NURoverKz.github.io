@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { Tab } from '@headlessui/react'
 
 import ProfileCard from 'src/components/common/ProfileCard'
@@ -32,15 +32,18 @@ const TeamView = ({ teamByDepartments }) => {
           Object.values(teamByDepartments).map((mems, idx) => (
             <Tab.Panel key={idx} >
               <div className='flex justify-center gap-8 mx-auto flex-wrap'>
-                {mems.map((m, i) => (
-                  <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
-                    <ProfileCard fullname={m.fullname} position={m.position}
-                      img={m.img} achievements={m.achievements} />
-                  </div>
-                ))}
+                {
+                  mems.map((m, i) => (
+                    <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
+                      <ProfileCard fullname={m.fullname} position={m.position}
+                        img={m.img} achievements={m.achievements} />
+                    </div>
+                  ))
+                }
               </div>
             </Tab.Panel>
-          ))}
+          ))
+        }
       </Tab.Panels>
     </Tab.Group>
   )

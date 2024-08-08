@@ -1,19 +1,20 @@
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import About from "./views/About"
-import Advisers from "./views/Advisers"
-import Contact from "./views/Contact"
-import Hero from "./views/Hero"
-import Mission from "./views/Mission"
-import Navbar from "./views/Navbar"
-import Roadmap from "./views/Roadmap"
-import Team from "./views/Team"
-import Partners from "./views/Partners"
-import Support from "./views/Support"
-import StickyActionButton from "./components/common/StickyActionButton"
+import About from "./pages/About"
+import Advisers from "./pages/Advisers"
+import Contact from "./pages/Contact"
+import Hero from "./pages/Hero"
+import Mission from "./pages/Mission"
+import Navbar from "./pages/Navbar"
+import Roadmap from "./pages/Roadmap"
+import Team from "./pages/Team"
+import Partners from "./pages/Partners"
+import Support from "./pages/Support"
+import Contributors from './pages/Contributors';
+import ErrorPage from './pages/ErrorPage';
+import Careers from './pages/Careers';
 
-import ErrorPage from './views/ErrorPage';
-import Careers from './views/Careers';
+import StickyActionButton from "./components/common/StickyActionButton"
 import ScrollToAnchor from './components/ScrollToAnchor';
 
 const NavbarWrapper = () => {
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
         path: "careers",
         element: <Careers />
       },
+      {
+        path: "contributors",
+        element: <Contributors/>
+      }
     ],
     errorElement: <ErrorPage/>
   }

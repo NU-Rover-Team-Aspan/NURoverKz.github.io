@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 // importing images
 import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
 import imgHeghine from '/assets/img/team/Heghine.jpg'
@@ -118,6 +119,10 @@ const Team = () => {
         <h1 className='text-primary md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 text-center'>{t('header')}</h1>
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
         <TeamView teamByDepartments={teamMembers} />
+        <div className='text-center pt-10'>
+          <Link className='px-8 py-2.5 bg-primaryDark text-center font-semibold hover:ring-2 hover:ring-offset-2 focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg'
+            to={`contributors/#home`}>{t('contributorsLink')}</Link>
+        </div>
       </div>
     </div>
   )

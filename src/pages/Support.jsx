@@ -57,7 +57,7 @@ const Support = () => {
             </div>
             <div className='mt-10 text-center'>
               <button type="button" onClick={() => setFormVisible(!formVisible)}
-                className="px-5 py-2.5 bg-primaryDark transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                className="px-5 py-2.5 bg-primaryDark transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 hover:ring-2 hover:ring-offset-2 rounded-lg">
                 {t('form.action')}
               </button>
             </div>
@@ -74,7 +74,7 @@ const Support = () => {
               </p>
               <div className="mt-8">
                 <button type="button" onClick={() => setFormVisible(!formVisible)}
-                  className="px-5 py-2.5 bg-martian transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                  className="px-5 py-2.5 bg-martian transition ease-in duration-200 text-center font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 hover:ring-2 hover:ring-offset-2 rounded-lg">
                   {t('action')}
                 </button>
               </div>

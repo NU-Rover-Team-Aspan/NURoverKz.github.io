@@ -170,6 +170,7 @@ const en = {
     header: 'Meet our team',
     achievements: 'Achievements',
     caption: 'Hover or click to see more info',
+    contributorsLink: 'See our project contributors',
     departments: {
       leads: "Team Leads",
       me: "Mechanics & Electronics",
@@ -223,6 +224,12 @@ const en = {
       achievements: ['Creator of instagram videos and posts targeted towards NU community with over 14k views and thousands of likes',
         'SMM manager, photographer and videographer of a business company for over 3 years']
     },
+    infoDana: {
+      fullname: 'Dana Kurmangali',
+      position: 'Marketing/Branding Team',
+      achievements: ['Member of "Unisat Nano-satellite Educational Programme for Girls" (UNEPG), successfully launched nano-satellite into the stratosphere', 
+        'Ex-head of the PR department of NU Student Awards 2023']
+    },
     infoZhaniya: {
       fullname: 'Zhaniya Kali',
       position: 'Head of Science Team',
@@ -233,7 +240,12 @@ const en = {
       position: 'Software/Control System Team',
       achievements: ['World Robot Olympiad Coach', 'FIRST Global Challenge Coach']
     },
-    infoZhuldyz: {
+    infoZhamila: {
+      fullname: 'Zhamila Azizbekova',
+      position: 'Head of Quality Assurance Team',
+      achievements: ['UniSat Project 2022 by UNICEF Graduate', '2nd place at Microsoft Imagine Cup Junior Local Hackathon']
+    },
+    infoZhuldyzK: {
       fullname: 'Zhuldyz Karamatdinova',
       position: 'Resource and Finance Team',
       achievements: ['Winner of the silver award in IYMC 2021', 
@@ -261,6 +273,11 @@ const en = {
       position: 'Head of Mechanical Team',
       achievements: ['2nd place in the engineering hackathon orgnaized by NU IMechE', 'Python Tech Orda grant owner']
     },
+    infoSanzhar: {
+      fullname: 'Sanzhar Kosshybay',
+      position: 'Mechanical Team',
+      achievements: ['Team leader, Cosmothon by SEDS chapter, 2nd place', 'Republican Olympiad during the high school year in physics, 2nd place']
+    },
     infoZhangir: {
       fullname: 'Zhangir Zhumadilov',
       position: 'Science Team',
@@ -271,10 +288,26 @@ const en = {
       position: 'Mechanical Team',
       achievements: ['Organized the "Engineering case championship" for 150 people', 'Winner of many mathematics Olympiads']
     },
+    infoBauyrzhan: {
+      fullname: 'Duisenbay Bauyrzhan',
+      position: 'Mechanical Team',
+      achievements: ['Member of the first FSAE team in Kazakhstan', 'Top 3 CGPA of the class']
+    },
     infoAruzhan: {
       fullname: 'Aruzhan Turlybek',
       position: 'Head of Science Team',
       achievements: ['Top 1 CGPA in Class of 2026', 'Involvement in the University organized Science events']
+    },
+    infoAizhar: {
+      fullname: 'Aizhar Kudenova',
+      position: 'Resource and Finance Team',
+      achievements: ['Semifinalist of Technovation Girls 2021', 'Winner of international math olympiad from MSTU']
+    },
+    infoAlisher: {
+      fullname: 'Alisher Sabigaliyev',
+      position: 'Mechanical Team',
+      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation', 
+        '3rd degree Diploma at the XVI International Scientific Competition in Space Research "Opening the World of Science"']
     },
     infoSabina: {
       fullname: 'Sabina Askarbekova',
@@ -296,6 +329,13 @@ const en = {
       position: 'Electronics Team',
       achievements: ['Social Media Award at Central Asia FIRST Global Challenge', '1st Place at Almaty Techcup FTC Tournament']
     }
+  },
+  contributors: {
+    header: 'Team Contributors/Alumni',
+    para: `We extend our heartfelt gratitude to all the incredible individuals who have contributed 
+          to our Rover Team over the years. Your dedication, expertise, and passion have been the driving 
+          force behind our many achievements. Though you have moved on to new adventures, your 
+          legacy continues to inspire and propel us forward.`
   },
   advisers: {
     header: 'Advisory board',

@@ -58,7 +58,7 @@ const Careers = () => {
             </p>
           </div>
           
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-6 md:py-12 text-center text-primary'>
+          <h1 id="positions" className='md:text-4xl sm:text-3xl text-2xl font-bold py-6 md:py-12 text-center text-primary'>
             {t('header')}
           </h1>
           <div className="overflow-x-auto sm:rounded-lg">

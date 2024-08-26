@@ -10,7 +10,7 @@ const en = {
     mobileSocialMedia: 'Our social media'
   },
   announcement: {
-    header: 'Team Recruitment is Open till January 25',
+    header: 'Team Recruitment is Open',
     info: 'Join our mission to Mars and be a part of history in the making!',
     action: 'Send application',
     full_action: 'Recruitment Application'
@@ -84,11 +84,11 @@ const en = {
         description: 'Prototype 3 and System Acceptance Review'
       },
       {
-        date: 'May, 2024',
-        description: 'Prototype 4 and Science Plan Financial Report'
+        date: 'October, 2024',
+        description: 'Prototype 4 and Team Registration to URC, ARC'
       },
       {
-        date: 'June, 2024',
+        date: 'June, 2025',
         description: 'URC Finals'
       },
       {

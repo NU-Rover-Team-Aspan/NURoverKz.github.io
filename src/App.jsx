@@ -16,12 +16,14 @@ import Careers from './pages/Careers';
 
 import StickyActionButton from "./components/common/StickyActionButton"
 import ScrollToAnchor from './components/ScrollToAnchor';
+import AnnouncementBanner from './components/navbar/AnnouncementBanner';
 
 const NavbarWrapper = () => {
   return (
     <div>
       <ScrollToAnchor />
       <header className="sticky top-0 z-50 bg-black">
+        <AnnouncementBanner/> {/* remove this banner after recruitment */}
         <Navbar />
       </header>
       <Outlet />

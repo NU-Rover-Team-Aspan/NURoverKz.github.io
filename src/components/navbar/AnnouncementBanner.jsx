@@ -33,7 +33,7 @@ const AnnouncementBanner = () => {
           {/* <a target="_blank" href={import.meta.env.VITE_FORM_LINK} className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
             { t('action') } <span aria-hidden="true">&rarr;</span>
           </a> */}
-          <Link className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900" to={`careers/#home`}>{ t('action') } <span aria-hidden="true">&rarr;</span></Link>
+          <Link className="flex-none rounded-full  px-3.5 py-1 text-sm font-semibold text-primary shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900" to={`careers/#positions`}>{ t('action') } <span aria-hidden="true">&rarr;</span></Link>
         </div>
         <div className="flex flex-1 justify-end">
           <button onClick={handleDismiss} type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">

@@ -8,7 +8,6 @@ import imgAlikhan from '/assets/img/team/ex/Alikhan.jpg'
 import imgAlisher from '/assets/img/team/ex/Alisher.jpg'
 import imgAruzhan from '/assets/img/team/ex/Aruzhan.jpg'
 import imgAssylzat from '/assets/img/team/ex/Assylzat.jpg'
-import imgBauyrzhan from '/assets/img/team/ex/Bauyrzhan.jpg'
 import imgDana from '/assets/img/team/ex/Dana.jpg'
 import imgDenis from '/assets/img/team/ex/Denis.jpg'
 import imgLeila from '/assets/img/team/ex/Leila.jpg'
@@ -17,9 +16,10 @@ import imgSymbat from '/assets/img/team/ex/Symbat.jpg'
 import imgTomiris from '/assets/img/team/ex/Tomiris.jpg'
 import imgYussuf from '/assets/img/team/ex/Yussuf.jpg'
 import imgZhamila from '/assets/img/team/ex/Zhamila.jpg'
-import imgZhangir from '/assets/img/team/ex/Zhangir.jpg'
 import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg'
 import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg'
+import imgMuslim from '/assets/img/team/Muslim.jpg'
+import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 
 
 const Contributors = () => {
@@ -63,12 +63,6 @@ const Contributors = () => {
       img: imgAssylzat
     },
     {
-      fullname: t('team.infoBauyrzhan.fullname'),
-      position: t('team.infoBauyrzhan.position'),
-      achievements: t('team.infoBauyrzhan.achievements', { returnObjects: true }),
-      img: imgBauyrzhan
-    },
-    {
       fullname: t('team.infoDana.fullname'),
       position: t('team.infoDana.position'),
       achievements: t('team.infoDana.achievements', { returnObjects: true }),
@@ -85,6 +79,18 @@ const Contributors = () => {
       position: t('team.infoLeila.position'),
       achievements: t('team.infoLeila.achievements', { returnObjects: true }),
       img: imgLeila
+    },
+    {
+      fullname: t('team.infoMuslim.fullname'),
+      position: t('team.infoMuslim.position'),
+      achievements: t('team.infoMuslim.achievements', { returnObjects: true }),
+      img: imgMuslim
+    },
+    {
+      fullname: t('team.infoYerkebulan.fullname'),
+      position: t('team.infoYerkebulan.position'),
+      achievements: t('team.infoYerkebulan.achievements', { returnObjects: true }),
+      img: imgYerkebulan
     },
     {
       fullname: t('team.infoSultan.fullname'),
@@ -121,12 +127,6 @@ const Contributors = () => {
       position: t('team.infoZhaniya.position'),
       achievements: t('team.infoZhaniya.achievements', { returnObjects: true }),
       img: imgZhaniya
-    },
-    {
-      fullname: t('team.infoZhangir.fullname'),
-      position: t('team.infoZhangir.position'),
-      achievements: t('team.infoZhangir.achievements', { returnObjects: true }),
-      img: imgZhangir
     },
     {
       fullname: t('team.infoZhuldyzK.fullname'),

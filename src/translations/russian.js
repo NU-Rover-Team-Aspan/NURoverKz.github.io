@@ -328,6 +328,11 @@ const ru = {
       fullname: 'Разак Алдияр',
       position: 'Команда Электроники',
       achievements: ['Награда за социальные медиа на Central Asia FIRST Global Challenge', '1-е место на турнире Алматы Techcup FTC']
+    },
+    infoMussa: {
+      fullname: 'Муса Алиев',
+      position: 'Команда Механики',
+      achievements: ['Стажер в SpaceLab, проектирующий 3D-принтеры для космической отрасли', 'Руководитель группы по структурной механике в NU Rocketry']
     }
   },
   contributors: {

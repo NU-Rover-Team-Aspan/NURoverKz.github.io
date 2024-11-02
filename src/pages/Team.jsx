@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom'
 // importing images
 import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
 import imgHeghine from '/assets/img/team/Heghine.jpg'
-import imgMuslim from '/assets/img/team/Muslim.jpg'
-import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
 import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
 import imgSabina from '/assets/img/team/Sabina.jpg'
 import imgAbylay from '/assets/img/team/Abylay.jpg'
 import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
 import imgAldiyar from '/assets/img/team/Aldiyar.jpg'
+import imgMussa from '/assets/img/team/Mussa.jpg'
 import TeamView from 'src/components/team/TeamView'
 
 
@@ -25,22 +24,10 @@ const Team = () => {
         img: imgHeghine
       },
       {
-        fullname: t('infoMuslim.fullname'),
-        position: t('infoMuslim.position'),
-        achievements: t('infoMuslim.achievements', { returnObjects: true }),
-        img: imgMuslim
-      },
-      {
         fullname: t('infoBatyrkhan.fullname'),
         position: t('infoBatyrkhan.position'),
         achievements: t('infoBatyrkhan.achievements', { returnObjects: true }),
         img: imgBatyrkhan
-      },
-      {
-        fullname: t('infoYerkebulan.fullname'),
-        position: t('infoYerkebulan.position'),
-        achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
-        img: imgYerkebulan
       },
       {
         fullname: t('infoAruzhan.fullname'),
@@ -69,6 +56,12 @@ const Team = () => {
         img: imgAbylay
       },
       {
+        fullname: t('infoMussa.fullname'),
+        position: t('infoMussa.position'),
+        achievements: t('infoMussa.achievements', { returnObjects: true }),
+        img: imgMussa
+      },
+      {
         fullname: t('infoAldiyar.fullname'),
         position: t('infoAldiyar.position'),
         achievements: t('infoAldiyar.achievements', { returnObjects: true }),
@@ -77,26 +70,20 @@ const Team = () => {
     ],
     [t("departments.sc")]: [
       {
-        fullname: t('infoMuslim.fullname'),
-        position: t('infoMuslim.position'),
-        achievements: t('infoMuslim.achievements', { returnObjects: true }),
-        img: imgMuslim
-      },
-      {
         fullname: t('infoBatyrkhan.fullname'),
         position: t('infoBatyrkhan.position'),
         achievements: t('infoBatyrkhan.achievements', { returnObjects: true }),
         img: imgBatyrkhan
       },
     ],
-    [t("departments.mc")]: [
-      {
-        fullname: t('infoYerkebulan.fullname'),
-        position: t('infoYerkebulan.position'),
-        achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
-        img: imgYerkebulan
-      }
-    ],
+    // [t("departments.mc")]: [
+    //   {
+    //     fullname: t('infoYerkebulan.fullname'),
+    //     position: t('infoYerkebulan.position'),
+    //     achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
+    //     img: imgYerkebulan
+    //   }
+    // ],
     [t("departments.sn")]: [
       {
         fullname: t('infoAruzhan.fullname'),

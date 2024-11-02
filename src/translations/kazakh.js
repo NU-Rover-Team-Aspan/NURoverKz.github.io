@@ -329,6 +329,11 @@ const kk = {
       fullname: 'Алдияр Разак',
       position: 'Электроника тобы',
       achievements: ['Central Asia FIRST Global Challenge әлеуметтік медиасы сыйлығы', 'Almaty Techcup FTC турнирінде 1 орын']
+    },
+    infoMussa: {
+      fullname: 'Муса Алиев',
+      position: 'Механика тобы',
+      achievements: ['Ғарыш техникасына 3D принтерлерді жобалау бойынша SpaceLab тәжірибе', 'NU Rocketry құрылымдық механика тобының жетекшісі']
     }
   },
   contributors: {

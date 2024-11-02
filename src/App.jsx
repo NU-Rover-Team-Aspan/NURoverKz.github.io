@@ -23,7 +23,6 @@ const NavbarWrapper = () => {
     <div>
       <ScrollToAnchor />
       <header className="sticky top-0 z-50 bg-black">
-        <AnnouncementBanner/> {/* remove this banner after recruitment */}
         <Navbar />
       </header>
       <Outlet />

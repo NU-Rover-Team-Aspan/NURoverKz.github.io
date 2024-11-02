@@ -328,6 +328,11 @@ const en = {
       fullname: 'Aldiyar Razak',
       position: 'Electronics Team',
       achievements: ['Social Media Award at Central Asia FIRST Global Challenge', '1st Place at Almaty Techcup FTC Tournament']
+    },
+    infoMussa: {
+      fullname: 'Mussa Aliyev',
+      position: 'Mechanical Team',
+      achievements: ['Intern at SpaceLab designing 3D printers for spacetech', 'Head of Structural Mechanics team in NU Rocketry']
     }
   },
   contributors: {

@@ -23,6 +23,7 @@ const NavbarWrapper = () => {
     <div>
       <ScrollToAnchor />
       <header className="sticky top-0 z-50 bg-black">
+        <AnnouncementBanner/>
         <Navbar />
       </header>
       <Outlet />

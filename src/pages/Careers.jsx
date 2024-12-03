@@ -96,7 +96,7 @@ const Careers = () => {
                     ?
                     positions.map((pos, id) =>
                       <tr key={id} className="hover:bg-gray-900">
-                        <th scope="row" className="px-3 sm:px-6 py-2 sm:py-4 font-medium text-center">
+                        <th scope="row" className="px-3 sm:px-6 py-2 sm:py-4 text-center">
                           {pos.title}
                         </th>
                         <td className="px-3 sm:px-6 py-2 sm:py-4 text-primary">
@@ -159,7 +159,7 @@ const Careers = () => {
                   </Dialog.Title>
                   <Dialog.Description as='div' className="my-4 text-sm md:text-base">
                     <p>Department: {modalPos?.department}</p>
-                    <p className='mt-2'>{modalPos?.description}</p>
+                    <p className='my-4'>{modalPos?.description}</p>
                     <ul className='ps-8 list-disc text-xs md:text-sm'>
                       {
                         modalPos?.responsibilities && modalPos.responsibilities.length
@@ -173,7 +173,7 @@ const Careers = () => {
                     </ul>
                   </Dialog.Description>
 
-                  <div className='text-sm md:text-base'>
+                  {/* <div className='text-sm md:text-base'>
                     <p>Skills that we expect (don't have to match all of them):</p>
                     <ul className='ps-8 list-disc text-xs md:text-sm'>
                       {
@@ -186,7 +186,7 @@ const Careers = () => {
                           <li>No skills required</li>
                       }
                     </ul>
-                  </div>
+                  </div> */}
 
                   <div className="mt-4 flex flex-row-reverse">
                     <a

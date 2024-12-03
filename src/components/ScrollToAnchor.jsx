@@ -1,6 +1,10 @@
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
 
+/**
+ * Used to smoothly scroll the content till the specified anchor in the URL
+ * @returns null
+ */
 function ScrollToAnchor() {
   const location = useLocation();
   const lastHash = useRef('');

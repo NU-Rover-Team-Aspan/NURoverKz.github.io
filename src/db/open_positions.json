@@ -1,8 +1,19 @@
 [
     {
-        "title": "Manufacturing and Assembly Engineer",
+        "title": "Science Specialist (Chemistry, Biology, Physics)",
+        "department": "Science & Experiments",
+        "description": "As a Science Specialist at NU Rover, your primary responsibilities will include:",
+        "responsibilities": [
+            "Literature Review: Conduct thorough literature reviews to stay abreast of the latest developments and chemical tests in the field.",
+            "Lab Experiments: Take charge of designing and conducting experiments in the laboratory, ensuring precision and accuracy.",
+            "Presentation of Findings: Effectively communicate your research findings through presentations to both internal and external stakeholders.",
+            "Innovation and Development: Drive innovation by creating and developing new chemical experiments, contributing to the advancement of scientific knowledge."
+        ]
+    },
+    {
+        "title": "Mechanics Engineer",
         "department": "Mechanics & Electronics",
-        "description": "As a Manufacturing and Assembly Engineer at NU Rover, your primary responsibilities will include:",
+        "description": "As a Mechanics Engineer at NU Rover, your primary responsibilities will include:",
         "responsibilities": [
             "Perfectionist Approach: Aspire to perfection in assembling prototypes, ensuring the highest standards in craftsmanship and attention to detail.",
             "Hands-On Assembly: Use your expertise to assemble components, including 3D printed and metallic parts, meticulously following design specifications.",
@@ -10,13 +21,6 @@
             "SolidWorks Proficiency: Navigate SolidWorks to understand design specifications and take measurements, collaborating closely with designers to improve parts and assembly processes.",
             "Deadline Commitment: Be ready to work flexible hours, including nights if necessary, to meet tight project deadlines and contribute to the timely delivery of prototypes.",
             "Responsibility: Stay engaged and responsive in communication channels, ensuring that information is relayed promptly, and contribute actively to continuous improvement efforts."
-        ],
-        "skills": [
-            "A keen eye for perfection and precision in assembly processes.",
-            "Proficiency in using basic tools such as a screwdriver and drill bit.",
-            "Knowledge of SolidWorks for interpreting design specifications and taking accurate measurements.",
-            "Willingness to work flexible hours, including nights, to meet project deadlines.",
-            "High levels of responsibility, ensuring active and responsive communication."
         ]
     },
     {
@@ -29,12 +33,6 @@
             "Communication Protocols: Leverage your knowledge of communication protocols, including I2C, SPI, and serial, to establish efficient and reliable connections between sensors, MCUs, and other components.",
             "Sensor Integration: Take charge of connecting sensors to our robotic systems, ensuring optimal functionality and performance. Your skills will be vital in enhancing the sensory capabilities of our robots.",
             "Coding Excellence: Contribute to the coding aspects of sensor functionalities and communication protocols, with a focus on I2C and LoRa. Your coding prowess will be key in creating intelligent and responsive robotic systems."
-        ],
-        "skills": [
-            "Proven experience in MCU programming using Python and C++ for platforms like Arduino, Raspberry Pi, and Jetson.",
-            "Hands-on experience in building circuits and connecting sensors or motor drivers to MCUs.",
-            "Proficiency in communication protocols such as I2C, SPI, and serial.",
-            "Strong problem-solving skills and the ability to work in a collaborative, fast-paced environment."
         ]
     },
     {
@@ -47,106 +45,6 @@
             "Filter Design: Implement knowledge in basic filters, such as low-pass filters, to enhance the performance of electronic circuits.",
             "Battery Systems: Contribute to the design and integration of batteries and Battery.",
             "Management Systems (BMS) to ensure efficient and safe power supply solutions."
-        ],
-        "skills": [
-            "Knowledge and experience in building and testing circuits.",
-            "Expertise in power converters, with a focus on buck and boost converters.",
-            "Familiarity with basic filters, especially low-pass filters.",
-            "Understanding of batteries and Battery Management Systems (BMS)."
-        ]
-    },
-    {
-        "title": "Designer",
-        "department": "Marketing & Coordination",
-        "description": "As a Designer at NU Rover, your primary responsibilities will include:",
-        "responsibilities": [
-            "Technical Presentations: Design visually impactful technical presentations to effectively communicate complex concepts and innovations.",
-            "Social Media Content: Create visually stunning Instagram posts and other social media content to engage our audience and showcase our projects.",
-            "Posters and Visuals: Design eye-catching posters and visuals for various applications, contributing to the overall branding and visibility of NU Rover.",
-            "Design Tools Proficiency: Utilize design tools such as Photoshop, Canva, Figma, and others to bring creative concepts to life."
-        ],
-        "skills": [
-            "Proficiency in design tools such as Photoshop, Canva, Figma, or similar.",
-            "Creativity and an eye for detail in crafting visually appealing content.",
-            "Experience in creating technical presentations, posters, and social media visuals.",
-            "Optional skills in site design, motion design, or 3D design (beneficial but not compulsory)."
-        ]
-    },
-    {
-        "title": "Social Media Targetologist",
-        "department": "Marketing & Coordination",
-        "description": "As a Social Media Targetologist at NU Rover, your key responsibilities will include:",
-        "responsibilities": [
-            "Target Audience Identification: Utilize tools and analytics to identify and define our target audience, ensuring precision in marketing efforts.",
-            "Brand Building: Develop and execute strategies to build and strengthen the NU Rover brand across various social media platforms.",
-            "Local Recognition: Tailor promotional efforts to increase brand recognition specifically in NU and Kazakhstan, understanding the local market and cultural nuances.",
-            "Social Media Tools: Leverage your knowledge of tools like target ads, reels, and other relevant features to create engaging and targeted content.",
-            "Follower Growth: Develop and implement strategies to increase the number of followers on social media platforms.",
-            "Engagement Strategies: Build and execute engagement strategies to foster a vibrant online community around the NU Rover brand."
-        ],
-        "skills": [
-            "Knowledge of social media tools and features, including target ads, reels, and other promotional tools.",
-            "Experience in developing and implementing strategies to increase followers and engagement.",
-            "Understanding of target audience analysis and precision targeting in brand promotion.",
-            "Familiarity with local nuances and market dynamics in NU and Kazakhstan.",
-            "Creativity in content creation and storytelling to enhance brand appeal."
-        ]
-    },
-    {
-        "title": "Team coordinator",
-        "department": "Marketing & Coordination",
-        "description": "As a Team Coordinator at NU Rover, your key responsibilities will include:",
-        "responsibilities": [
-            "Facilitate Team Collaboration: Act as a bridge between team members, fostering effective communication and ensuring a collaborative work environment.",
-            "Task Assignment and Tracking: Oversee the assignment of tasks, ensuring alignment with project goals, and track progress to meet deadlines.",
-            "Project Timeline Management: Utilize your time management skills to oversee project timelines, identifying potential issues and implementing solutions to keep projects on track.",
-            "Organizational Abilities: Demonstrate strong organizational skills to coordinate team activities, meetings, and project-related tasks.",
-            "Effective Communication: Communicate project expectations, updates, and priorities clearly to team members, promoting a shared understanding of project objectives."
-        ],
-        "skills": [
-            "Strong organizational and multitasking abilities to manage various aspects of team coordination efficiently.",
-            "Effective communication and interpersonal skills to facilitate collaboration within the team.",
-            "Time management skills to oversee project timelines and ensure timely project delivery.",
-            "Attention to detail for accurate task assignment and thorough tracking of project progress.",
-            "Knowledge of project management principles to contribute to the overall success of projects."
-        ]
-    },
-    {
-        "title": "Simulations Engineer",
-        "department": "Science & Experiments",
-        "description": "As a Simulations Engineer at NU Rover, your primary responsibilities will include:",
-        "responsibilities": [
-            "COMSOL Simulations: Use your expertise to conduct simulations on COMSOL, with a specific focus on heat transfer in solids and fluids.",
-            "Research Paper Writing: Translate simulation results into insightful research papers, contributing valuable insights to the scientific community.",
-            "Parameter Sweeps: Perform parameter sweeps to identify optimal values for various simulation parameters, ensuring accuracy and efficiency.",
-            "Thermopar Theory: Apply your knowledge of thermopar theory to enhance the precision and relevance of simulations.",
-            "Responsibility: Take ownership of your work, ensuring that simulations are conducted with precision, and results are communicated effectively.",
-            "Problem-Solving: Showcase strong problem-solving skills to address challenges and refine simulation methodologies."
-        ],
-        "skills": [
-            "Proficiency in conducting simulations using COMSOL, with a focus on heat transfer in solids and fluids.",
-            "Familiarity with thermopar theory to inform simulation methodologies.",
-            "Experience in writing research papers, demonstrating the ability to communicate complex technical concepts effectively.",
-            "Strong problem-solving abilities to address challenges in simulation processes.",
-            "Knowledge of heat transfer principles and methodologies."
-        ]
-    },
-    {
-        "title": "Science Specialist (Chemistry, Physics, Geology)",
-        "department": "Science & Experiments",
-        "description": "As a Science Specialist at NU Rover, your primary responsibilities will include:",
-        "responsibilities": [
-            "Literature Review: Conduct thorough literature reviews to stay abreast of the latest developments and chemical tests in the field.",
-            "Lab Experiments: Take charge of designing and conducting experiments in the laboratory, ensuring precision and accuracy.",
-            "Presentation of Findings: Effectively communicate your research findings through presentations to both internal and external stakeholders.",
-            "Innovation and Development: Drive innovation by creating and developing new chemical experiments, contributing to the advancement of scientific knowledge."
-        ],
-        "skills": [
-            "Responsibility: Demonstrated responsibility in managing and executing scientific experiments and projects.",
-            "Creativity: A creative mindset to innovate and develop novel chemical experiments.",
-            "Open-Mindedness: An open-minded approach to exploring new ideas and embracing different perspectives in scientific research.",
-            "Relevant Background: A background in Chemistry/Physics/Geology, with a strong understanding of scientific principles.",
-            "Lab Work Experience: Some experience in laboratory work, showcasing hands-on experience with scientific experiments."
         ]
     },
     {
@@ -160,12 +58,6 @@
             "Linux OS Knowledge: Leverage your familiarity with Linux OS to create seamless integrations and troubleshoot system-level challenges.",
             "Python Programming: Utilize Python programming language to script and develop automation solutions for various applications.",
             "Robot Operating System (ROS): Apply your knowledge of Robot Operating System to integrate robotic components and ensure smooth communication within the system."
-        ],
-        "skills": [
-            "Resilience, perseverance, and an unwavering commitment to problem-solving.",
-            "Familiarity with Linux OS for efficient system integration and troubleshooting.",
-            "Proficiency in Python programming language for scripting and automation development.",
-            "Some knowledge of Robot Operating System (ROS) for robotic components integration."
         ]
     },
     {
@@ -177,49 +69,79 @@
             "Optimization: Continuously optimize existing software to ensure maximum performance and reliability.",
             "Problem-Solving: Demonstrate resilience and perseverance in troubleshooting and resolving issues related to automated systems.",
             "Robot Operating System (ROS): Apply your knowledge of Robot Operating System to integrate robotic components and ensure smooth communication within the system."
-        ],
-        "skills": [
-            "Resilience, perseverance, and an unwavering commitment to problem-solving.",
-            "Familiarity with JavaScript and its frameworks, like React.",
-            "Some knowledge of Robot Operating System (ROS) for robotic components integration."
         ]
     },
     {
-        "title": "External Affairs Officer",
-        "department": "Finance & Business",
-        "description": "As an External Affairs Officer at NU Rover, your key responsibilities will include:",
+        "title": "Head of Marketing and Coordination",
+        "department": "Marketing & Coordination",
+        "description": "As a Head of Marketing and Coordination at NU Rover, your primary responsibilities will include:",
         "responsibilities": [
-            "Strategic Communication: Develop and execute strategic communication plans to ensure consistent and positive messaging across all external channels.",
-            "Stakeholder Engagement: Cultivate and manage relationships with external stakeholders, including partners, government agencies, and community organizations.",
+            "Facilitate Team Collaboration: Act as a bridge between team members, fostering effective communication and ensuring a collaborative work environment.",
+            "Task Assignment and Tracking: Oversee the assignment of tasks, ensuring alignment with project goals, and track progress to meet deadlines.",
             "Public Relations: Implement public relations campaigns to enhance NU Rover's visibility and reputation in the public eye.",
+            "Project Timeline Management: Utilize your time management skills to oversee project timelines, identifying potential issues and implementing solutions to keep projects on track.",
+            "Organizational Abilities: Demonstrate strong organizational skills to coordinate team activities, meetings, and project-related tasks.",
+            "Effective Communication: Communicate project expectations, updates, and priorities clearly to team members, promoting a shared understanding of project objectives."
+        ]
+    },
+    {
+        "title": "Designer",
+        "department": "Marketing & Coordination",
+        "description": "As a Designer at NU Rover, your primary responsibilities will include:",
+        "responsibilities": [
+            "Technical Presentations: Design visually impactful technical presentations to effectively communicate complex concepts and innovations.",
+            "Social Media Content: Create visually stunning Instagram posts and other social media content to engage our audience and showcase our projects.",
+            "Posters and Visuals: Design eye-catching posters and visuals for various applications, contributing to the overall branding and visibility of NU Rover.",
+            "Design Tools Proficiency: Utilize design tools such as Photoshop, Canva, Figma, and others to bring creative concepts to life."
+        ]
+    },
+    {
+        "title": "Social Media Manager",
+        "department": "Marketing & Coordination",
+        "description": "As a Social Media Manger at NU Rover, your key responsibilities will include:",
+        "responsibilities": [
+            "Brand Building: Develop and execute strategies to build and strengthen the NU Rover brand across various social media platforms.",
+            "Local Recognition: Tailor promotional efforts to increase brand recognition specifically in NU and Kazakhstan, understanding the local market and cultural nuances.",
+            "Target Audience Identification: Utilize tools and analytics to identify and define our target audience, ensuring precision in marketing efforts.",
+            "Social Media Tools: Leverage your knowledge of tools like target ads, reels, and other relevant features to create engaging and targeted content.",
+            "Follower Growth: Develop and implement strategies to increase the number of followers on social media platforms.",
+            "Engagement Strategies: Build and execute engagement strategies to foster a vibrant online community around the NU Rover brand."
+        ]
+    },
+    {
+        "title": "Head of Finance and Resource Management",
+        "department": "Finance & Resources",
+        "description": "As an Head of Finance and Resource Management at NU Rover, you will play a pivotal role in securing the financial support necessary for our groundbreaking projects. Your key responsibilities will include:",
+        "responsibilities": [
+            "Facilitate Team Collaboration: Act as a bridge between team members, fostering effective communication and ensuring a collaborative work environment.",
+            "Task Assignment and Tracking: Oversee the assignment of tasks, ensuring alignment with project goals, and track progress to meet deadlines.",
+            "Strategic Communication: Develop and execute strategic communication plans to ensure consistent and positive messaging across all external channels.",
             "Media Outreach: Utilize your proficiency in media outreach to secure positive coverage, manage press releases, and foster positive relationships with media outlets.",
             "Networking and Advocacy: Leverage your strong networking skills to advocate for NU Rover's goals and initiatives within diverse external environments.",
-            "Adaptability: Navigate and adapt to diverse external environments, ensuring effective communication and representation in various contexts."
-        ],
-        "skills": [
-            "Excellent communication and interpersonal skills to convey the organization's message effectively.",
-            "Strategic thinking and planning abilities to align communication efforts with organizational goals.",
-            "Proficiency in public relations and media outreach to enhance the organization's public image.",
-            "Strong networking and advocacy capabilities to build positive relationships with key stakeholders.",
-            "Adaptability to navigate and represent NU Rover in diverse external environments."
+            "Adaptability: Navigate and adapt to diverse external environments, ensuring effective communication and representation in various contexts.",
+            "Effective Communication: Communicate project expectations, updates, and priorities clearly to team members, promoting a shared understanding of project objectives."
         ]
     },
     {
         "title": "Fundraiser",
-        "department": "Finance & Business",
-        "description": "As a Fundraiser at NU Rover, you will play a pivotal role in securing the financial support necessary for our groundbreaking projects. Your main responsibilities will include:",
+        "department": "Finance & Resources",
+        "description": "As a Fundraiser at NU Rover, your main responsibilities will include:",
         "responsibilities": [
             "Fundraising Strategy: Develop and implement comprehensive fundraising strategies to meet financial goals and support organizational initiatives.",
             "Donor Cultivation: Cultivate and maintain strong relationships with donors, sponsors, and partners to secure ongoing support for NU Rover's mission and projects.",
             "Financial Management: Utilize your financial management skills to track, analyze, and report on fundraising efforts, ensuring transparency and accountability.",
             "Event Coordination: Plan and coordinate fundraising events, ensuring they align with NU Rover's mission and contribute to achieving financial objectives.",
             "Strategic Thinking: Apply strategic thinking to devise effective fundraising plans, identifying opportunities for growth and optimizing fundraising efforts."
-        ],
-        "skills": [
-            "Fundraising knowledge or fundraising experience (desirable but not mandatory).",
-            "Strong financial management skills, with the ability to handle budgets and financial reporting.",
-            "Excellent communication and presentation abilities to engage and inspire potential donors.",
-            "Strategic thinking and the ability to devise effective fundraising plans aligned with organizational goals."
+        ]
+    },
+    {
+        "title": "Purchase and Procurement Manager",
+        "department": "Finance & Resources",
+        "description": "As a Purchase and Procurement Manager at NU Rover, your main responsibilities will include:",
+        "responsibilities": [
+            "Procurement Strategy: Develop and implement comprehensive procurement plan that meets the budget constraints and supports the project needs.",
+            "Financial Management: Utilize your financial management skills to track, analyze, and report on purchased items, ensuring transparency and accountability.",
+            "Strategic Thinking: Apply strategic thinking to devise effective procurement plans, identifying opportunities at optimizing costs."
         ]
     }
 ]

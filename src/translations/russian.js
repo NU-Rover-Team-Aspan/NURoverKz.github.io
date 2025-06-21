@@ -176,12 +176,88 @@ const ru = {
       sc: "Программирование и Контроль",
       mc: "Маркетинг и Координация",
       sn: "Научные исследования",
+      mk: "Маркетинг"
     },
     infoHeghine: {
       fullname: 'Агаджанян Егине',
       position: 'Лидер команды/Команда Механики',
       achievements: ['Второе место по Microsoft International AI Hackathon',
       'Организатор инженерного чемпионата "Cosmothon" с более чем 100 участниками']
+    },
+    infoKamilaTashimova: {
+      fullname: 'Ташимова Камила',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
+    },
+    infoAngelina: {
+      fullname: 'Ангелина',
+      position: '',
+      achievements: [],
+    },
+    infoAruzhanNew: {
+      fullname: 'Аружан',
+      position: 'Команда Механики',
+      achievements: [],
+    },
+    infoBolatkhan: {
+      fullname: 'Болатхан',
+      position: 'Команда Механики',
+      achievements: [],
+    },
+    infoChingiz: {
+      fullname: 'Чингиз',
+      position: 'Команда Электроники',
+      achievements: [],
+    },
+    infoJalgas: {
+      fullname: 'Бейсенбай Жалгас',
+      position: 'Команда Механики',
+      achievements: [],
+    },
+    infoJalgasbek: {
+      fullname: 'Тлеу Жалгасбек',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
+    },
+    infoMalika: {
+      fullname: 'Мейрамова Малика',
+      position: 'Команда Маркетинга/Брендинга',
+      achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
+    },
+    infoMansur: {
+      fullname: 'Мансур',
+      position: 'Команда Механики',
+      achievements: [],
+    },
+    infoNurbanu: {
+      fullname: 'Женисова Нурбану',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
+    },
+    infoSaule: {
+      fullname: 'Киборг 578468',
+      position: 'Команда Механики',
+      achievements: [],
+    },
+    infoYerassyl: {
+      fullname: 'Әуесхан Ерасыл',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
+    },
+    infoZhanserik: {
+      fullname: 'Каниев Жансерик',
+      position: 'Команда Программирования/Системы',
+      achievements: ['+100 прочитанных манг'],
+    },
+    infoZhansenZhalel: {
+      fullname: 'Жалел Жансен',
+      position: 'Команда Программирования/Системы',
+      achievements: ['Будущий глава NU Bober'],
+    },
+    infoKirillZavgorodniy: {
+      fullname: 'Завгородний Кирилл',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
     },
     infoYussuf: {
       fullname: 'Шахин Юсуф',

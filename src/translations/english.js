@@ -89,7 +89,7 @@ const en = {
       },
       {
         date: 'June, 2025',
-        description: 'URC Finals'
+        description: 'Prototype 5 and URC Finals'
       },
       {
         date: 'Future',
@@ -164,6 +164,9 @@ const en = {
         name: 'Tools',
         description: 'roboarm, in-suit biolab, and soil collecting mechanism'
       }
+    },
+    roverProto5: {
+      header: 'Main objective: Prototype 5 Rover',
     }
   },
   team: {
@@ -177,12 +180,88 @@ const en = {
       sc: "Software & Control",
       mc: "Marketing & Coordination",
       sn: "Science",
+      mk: "Marketing"
     },
     infoHeghine: {
       fullname: 'Heghine Aghajanyan',
       position: 'Team Leader/Mechanical Team',
       achievements: ['2nd place Microsoft International AI Hackathon',
         '"Cosmothon" engineering championship organiser with over 100 participants']
+    },
+    infoKamilaTashimova: {
+      fullname: 'Kamila Tashimova',
+      position: 'Co-head of Software/Control System Team',
+      achievements: [],
+    },
+    infoAngelina: {
+      fullname: 'Angelina',
+      position: 'Science Team',
+      achievements: [],
+    },
+    infoAruzhanNew: {
+      fullname: 'Aruzhan',
+      position: 'Mechanical Team',
+      achievements: [],
+    },
+    infoBolatkhan: {
+      fullname: 'Bolatkhan',
+      position: 'Mechanical Team',
+      achievements: [],
+    },
+    infoChingiz: {
+      fullname: 'Chingiz',
+      position: 'Electronics Team',
+      achievements: [],
+    },
+    infoJalgas: {
+      fullname: 'Zhalgas Beisenbay',
+      position: 'Mechanical Team',
+      achievements: [],
+    },
+    infoJalgasbek: {
+      fullname: 'Zhalgasbek Tleu',
+      position: 'Software/Control System Team',
+      achievements: [],
+    },
+    infoMalika: {
+      fullname: 'Malika Meiramova',
+      position: 'Marketing/Branding Team',
+      achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
+    },
+    infoMansur: {
+      fullname: 'Mansur',
+      position: 'Mechanical Team',
+      achievements: [],
+    },
+    infoNurbanu: {
+      fullname: 'Nurbanu Zhenissova',
+      position: 'Software/Control System Team',
+      achievements: [],
+    },
+    infoSaule: {
+      fullname: 'Cyborg 578468',
+      position: 'Mechanical Team',
+      achievements: [],
+    },
+    infoYerassyl: {
+      fullname: 'Yerassyl Auyeskhan',
+      position: 'Software/Control System Team',
+      achievements: [],
+    },
+    infoZhanserik: {
+      fullname: 'Kaniev Zhanserik',
+      position: 'Software/Control System Team',
+      achievements: ['+100 прочитанных манг'],
+    },
+    infoZhansenZhalel: {
+      fullname: 'Zhalel Zhansen',
+      position: 'Software/Control System Team',
+      achievements: ['Будущий глава NU Bober'],
+    },
+    infoKirillZavgorodniy: {
+      fullname: 'Kirill',
+      position: 'Mechanical Team',
+      achievements: [],
     },
     infoYussuf: {
       fullname: 'Yussuf Shakhin',
@@ -210,7 +289,7 @@ const en = {
     infoAlikhan: {
       fullname: 'Alikhan Kalmakhanbet',
       position: 'Head of Nuclear Reactor Team',
-      achievements: ['Gold medal on President Olympiad VII', 
+      achievements: ['Gold medal on President Olympiad VII',
         'Involvement in Chemistry Olympiads']
     },
     infoMuslim: {
@@ -227,7 +306,7 @@ const en = {
     infoDana: {
       fullname: 'Dana Kurmangali',
       position: 'Marketing/Branding Team',
-      achievements: ['Member of "Unisat Nano-satellite Educational Programme for Girls" (UNEPG), successfully launched nano-satellite into the stratosphere', 
+      achievements: ['Member of "Unisat Nano-satellite Educational Programme for Girls" (UNEPG), successfully launched nano-satellite into the stratosphere',
         'Ex-head of the PR department of NU Student Awards 2023']
     },
     infoZhaniya: {
@@ -248,8 +327,8 @@ const en = {
     infoZhuldyzK: {
       fullname: 'Zhuldyz Karamatdinova',
       position: 'Resource and Finance Team',
-      achievements: ['Winner of the silver award in IYMC 2021', 
-      '3rd and 2nd places in Phystech International Olympiad in Mathematics and Physics']
+      achievements: ['Winner of the silver award in IYMC 2021',
+        '3rd and 2nd places in Phystech International Olympiad in Mathematics and Physics']
     },
     infoYerkebulan: {
       fullname: 'Tazabek Yerkebulan',
@@ -259,13 +338,13 @@ const en = {
     infoAlisher: {
       fullname: 'Alisher Sabigaliyev',
       position: 'Mechanical Team',
-      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation', 
+      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation',
         '3rd degree Diploma at the XVI International Scientific Competition in Space Research "Opening the World of Science"']
     },
     infoSultan: {
       fullname: 'Sultan Kasenov',
       position: 'Software/Control System Team',
-      achievements: ['3rd place winner in the Machine Learning Hackathon organized by Quantori and GDSC in NU', 
+      achievements: ['3rd place winner in the Machine Learning Hackathon organized by Quantori and GDSC in NU',
         '1st place in the Republican Astrophysics Olympiad']
     },
     infoAibat: {
@@ -306,7 +385,7 @@ const en = {
     infoAlisher: {
       fullname: 'Alisher Sabigaliyev',
       position: 'Mechanical Team',
-      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation', 
+      achievements: ['Founder of NIS VOLUNTEERS SEMEY Organisation',
         '3rd degree Diploma at the XVI International Scientific Competition in Space Research "Opening the World of Science"']
     },
     infoSabina: {
@@ -352,7 +431,7 @@ const en = {
     infoSpitas: {
       fullname: 'Christos Spitas',
       achievements: ['Principal Investigator of projects with partners Paramount Engineering, etc.',
-      '15 major projects funded by the European Commission, ESA, CERN, Toyota and others']
+        '15 major projects funded by the European Commission, ESA, CERN, Toyota and others']
     },
     infoVarol: {
       fullname: 'Huseyin Atakan Varol',

@@ -1,21 +1,27 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 // importing images
-import imgBatyrkhan from '/assets/img/team/Batyrkhan.jpg'
-import imgHeghine from '/assets/img/team/Heghine.jpg'
-import imgAruzhan from '/assets/img/team/Aruzhan.jpg'
-import imgSabina from '/assets/img/team/Sabina.jpg'
-import imgAbylay from '/assets/img/team/Abylay.jpg'
-import imgZhuldyz from '/assets/img/team/Zhuldyz.jpg'
-import imgAldiyar from '/assets/img/team/Aldiyar.jpg'
-import imgMussa from '/assets/img/team/Mussa.jpg'
 import TeamView from 'src/components/team/TeamView'
-
+import imgAngelina from '/assets/img/team/Angie.jpg'; //
+import imgAruzhan from '/assets/img/team/Aruzhan New.jpg'; // 
+import imgBolatkhan from '/assets/img/team/Bolatkhan.jpg'; //
+import imgChingiz from '/assets/img/team/Chingiz.jpg'; //
+import imgHeghine from '/assets/img/team/Heghine.jpg'; //
+import imgJalgas from '/assets/img/team/Jalgas.jpg'; //
+import imgJalgasbek from '/assets/img/team/Jalgasbek.jpg'; //
+import imgKamila from '/assets/img/team/Kamosh.jpg'; //
+import imgMalika from '/assets/img/team/Malika.jpg'; //
+import imgMansur from '/assets/img/team/Mansur.jpg'; //
+import imgMussa from '/assets/img/team/Mussich.jpg'; //
+import imgNurbanu from '/assets/img/team/Nurbanu.jpg'; //
+import imgSaule from '/assets/img/team/Saule.jpg'; //
+import imgYerassyl from '/assets/img/team/Yerassyl.jpg'; //
+import imgZhanserik from '/assets/img/team/Zhanserik.jpg'; //
+import imgZhuldyz from '/assets/img/team/Zhuldyz New.jpg'; //
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
-  const teamMembers  = {
+  const teamMembers = {
     [t("departments.leads")]: [
       {
         fullname: t('infoHeghine.fullname'),
@@ -24,16 +30,16 @@ const Team = () => {
         img: imgHeghine
       },
       {
-        fullname: t('infoBatyrkhan.fullname'),
-        position: t('infoBatyrkhan.position'),
-        achievements: t('infoBatyrkhan.achievements', { returnObjects: true }),
-        img: imgBatyrkhan
+        fullname: t('infoKamilaTashimova.fullname'),
+        position: t('infoKamilaTashimova.position'),
+        achievements: t('infoKamilaTashimova.achievements', { returnObjects: true }),
+        img: imgKamila
       },
       {
-        fullname: t('infoAruzhan.fullname'),
-        position: t('infoAruzhan.position'),
-        achievements: t('infoAruzhan.achievements', { returnObjects: true }),
-        img: imgAruzhan
+        fullname: t('infoJalgas.fullname'),
+        position: t('infoJalgas.position'),
+        achievements: t('infoJalgas.achievements', { returnObjects: true }),
+        img: imgJalgas
       },
     ],
     [t("departments.me")]: [
@@ -44,16 +50,16 @@ const Team = () => {
         img: imgHeghine
       },
       {
+        fullname: t('infoJalgas.fullname'),
+        position: t('infoJalgas.position'),
+        achievements: t('infoJalgas.achievements', { returnObjects: true }),
+        img: imgJalgas
+      },
+      {
         fullname: t('infoZhuldyz.fullname'),
         position: t('infoZhuldyz.position'),
         achievements: t('infoZhuldyz.achievements', { returnObjects: true }),
         img: imgZhuldyz
-      },
-      {
-        fullname: t('infoAbylay.fullname'),
-        position: t('infoAbylay.position'),
-        achievements: t('infoAbylay.achievements', { returnObjects: true }),
-        img: imgAbylay
       },
       {
         fullname: t('infoMussa.fullname'),
@@ -62,41 +68,83 @@ const Team = () => {
         img: imgMussa
       },
       {
-        fullname: t('infoAldiyar.fullname'),
-        position: t('infoAldiyar.position'),
-        achievements: t('infoAldiyar.achievements', { returnObjects: true }),
-        img: imgAldiyar
-      }
-    ],
-    [t("departments.sc")]: [
-      {
-        fullname: t('infoBatyrkhan.fullname'),
-        position: t('infoBatyrkhan.position'),
-        achievements: t('infoBatyrkhan.achievements', { returnObjects: true }),
-        img: imgBatyrkhan
-      },
-    ],
-    // [t("departments.mc")]: [
-    //   {
-    //     fullname: t('infoYerkebulan.fullname'),
-    //     position: t('infoYerkebulan.position'),
-    //     achievements: t('infoYerkebulan.achievements', { returnObjects: true }),
-    //     img: imgYerkebulan
-    //   }
-    // ],
-    [t("departments.sn")]: [
-      {
-        fullname: t('infoAruzhan.fullname'),
-        position: t('infoAruzhan.position'),
-        achievements: t('infoAruzhan.achievements', { returnObjects: true }),
+        fullname: t('infoAruzhanNew.fullname'),
+        position: t('infoAruzhanNew.position'),
+        achievements: t('infoAruzhanNew.achievements', { returnObjects: true }),
         img: imgAruzhan
       },
       {
-        fullname: t('infoSabina.fullname'),
-        position: t('infoSabina.position'),
-        achievements: t('infoSabina.achievements', { returnObjects: true }),
-        img: imgSabina
-      }
+        fullname: t('infoChingiz.fullname'),
+        position: t('infoChingiz.position'),
+        achievements: t('infoChingiz.achievements', { returnObjects: true }),
+        img: imgChingiz
+      },
+      {
+        fullname: t('infoMansur.fullname'),
+        position: t('infoMansur.position'),
+        achievements: t('infoMansur.achievements', { returnObjects: true }),
+        img: imgMansur
+      },
+      {
+        fullname: t('infoBolatkhan.fullname'),
+        position: t('infoBolatkhan.position'),
+        achievements: t('infoBolatkhan.achievements', { returnObjects: true }),
+        img: imgBolatkhan
+      },
+      {
+        fullname: t('infoSaule.fullname'),
+        position: t('infoSaule.position'),
+        achievements: t('infoSaule.achievements', { returnObjects: true }),
+        img: imgSaule
+      },
+    ],
+    [t("departments.sc")]: [
+      {
+        fullname: t('infoZhanserik.fullname'),
+        position: t('infoZhanserik.position'),
+        achievements: t('infoZhanserik.achievements', { returnObjects: true }),
+        img: imgZhanserik
+      },
+      {
+        fullname: t('infoKamilaTashimova.fullname'),
+        position: t('infoKamilaTashimova.position'),
+        achievements: t('infoKamilaTashimova.achievements', { returnObjects: true }),
+        img: imgKamila
+      },
+      {
+        fullname: t('infoYerassyl.fullname'),
+        position: t('infoYerassyl.position'),
+        achievements: t('infoYerassyl.achievements', { returnObjects: true }),
+        img: imgYerassyl
+      },
+      {
+        fullname: t('infoNurbanu.fullname'),
+        position: t('infoNurbanu.position'),
+        achievements: t('infoNurbanu.achievements', { returnObjects: true }),
+        img: imgNurbanu
+      },
+      {
+        fullname: t('infoJalgasbek.fullname'),
+        position: t('infoJalgasbek.position'),
+        achievements: t('infoJalgasbek.achievements', { returnObjects: true }),
+        img: imgJalgasbek
+      },
+    ],
+    [t("departments.sn")]: [
+      {
+        fullname: t('infoAngelina.fullname'),
+        position: t('infoAngelina.position'),
+        achievements: t('infoAngelina.achievements', { returnObjects: true }),
+        img: imgAngelina
+      },
+    ],
+    [t("departments.mk")]: [
+      {
+        fullname: t('infoMalika.fullname'),
+        position: t('infoMalika.position'),
+        achievements: t('infoMalika.achievements', { returnObjects: true }),
+        img: imgMalika
+      },
     ]
   }
 

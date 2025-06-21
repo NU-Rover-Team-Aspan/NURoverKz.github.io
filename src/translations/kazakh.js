@@ -176,12 +176,88 @@ const kk = {
       sc: "Бағдарламалау және Система",
       mc: "Маркетинг және Топ координациясы",
       sn: "Ғылыми зерттеу",
+      mk: "Маркетинг"
     },
     infoHeghine: {
       fullname: 'Егине Агаджанян',
       position: 'Команда жетекшісі/Механика тобы',
       achievements: ['Microsoft International AI Hackathon бойынша 2-орын',
         '100-ден астам қатысушы болған "Cosmothon" инженерлік байқауының ұйымдастырушысы']
+    },
+    infoKamilaTashimova: {
+      fullname: 'Ташимова Камила',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: [],
+    },
+    infoAngelina: {
+      fullname: 'Ангелина',
+      position: '',
+      achievements: [],
+    },
+    infoAruzhanNew: {
+      fullname: 'Аружан',
+      position: '',
+      achievements: [],
+    },
+    infoBolatkhan: {
+      fullname: 'Болатхан',
+      position: '',
+      achievements: [],
+    },
+    infoChingiz: {
+      fullname: 'Чингиз',
+      position: '',
+      achievements: [],
+    },
+    infoJalgas: {
+      fullname: 'Бейсенбай Жалғас',
+      position: '',
+      achievements: [],
+    },
+    infoJalgasbek: {
+      fullname: 'Жалгасбек Тлеу',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: [],
+    },
+    infoMalika: {
+      fullname: 'Мейрамова Малика',
+      position: 'Маркетинг/Брендинг тобы',
+      achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
+    },
+    infoMansur: {
+      fullname: 'Мансур',
+      position: 'Команда ',
+      achievements: [],
+    },
+    infoNurbanu: {
+      fullname: 'Нурбану Женисова',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: [],
+    },
+    infoSaule: {
+      fullname: 'Киборг 578468',
+      position: 'Команда ',
+      achievements: [],
+    },
+    infoYerassyl: {
+      fullname: 'Әуесхан Ерасыл',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: [],
+    },
+    infoZhanserik: {
+      fullname: 'Каниев Жансерик',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: ['+100 прочитанных манг'],
+    },
+    infoZhansenZhalel: {
+      fullname: 'Жалел Жансен',
+      position: 'Бағдарламалау/Система тобы жетекшісі',
+      achievements: ['Будущий глава NU Bober'],
+    },
+    infoKirillZavgorodniy: {
+      fullname: 'Завгородний Кирилл',
+      position: 'Команда Программирования/Системы',
+      achievements: [],
     },
     infoYussuf: {
       fullname: 'Юсуф Шахин',

@@ -18,8 +18,8 @@ import imgYussuf from '/assets/img/team/ex/Yussuf.jpg'
 import imgZhamila from '/assets/img/team/ex/Zhamila.jpg'
 import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg'
 import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg'
-import imgMuslim from '/assets/img/team/Muslim.jpg'
-import imgYerkebulan from '/assets/img/team/Yerkebulan.jpg'
+import imgMuslim from '/assets/img/team/ex/Muslim.jpg'
+import imgYerkebulan from '/assets/img/team/ex/Yerkebulan.jpg'
 
 
 const Contributors = () => {

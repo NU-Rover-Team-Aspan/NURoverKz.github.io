@@ -306,7 +306,7 @@ const en = {
     infoDaniel: {
       fullname: 'Daniel Tolegenov',
       position: 'Mechanical Team',
-      achievements: ['']
+      achievements: ['WRO competitor', 'Member of the first Central Asian FSAE team that qualified to participate in FSG']
     },
     infoZhaniya: {
       fullname: 'Zhaniya Kali',

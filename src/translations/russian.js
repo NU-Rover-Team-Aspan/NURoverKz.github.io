@@ -387,7 +387,7 @@ const ru = {
     infoDaniel: {
       fullname: 'Даниел Толегенов',
       position: 'Команда Механики',
-      achievements: ['']
+      achievements: ['Участник WRO', 'Member of a first Central Asian FSAE team that qualified to participate in FSG']
     },
     infoAbylay: {
       fullname: 'Абылай Сансызбай',

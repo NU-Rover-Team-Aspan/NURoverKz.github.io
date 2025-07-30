@@ -194,22 +194,22 @@ const en = {
       achievements: [],
     },
     infoAngelina: {
-      fullname: 'Angelina',
+      fullname: 'Angelina Grigoryeva',
       position: 'Science Team',
       achievements: [],
     },
     infoAruzhanNew: {
-      fullname: 'Aruzhan',
+      fullname: 'Aruzhan Kerimkul',
       position: 'Mechanical Team',
       achievements: [],
     },
     infoBolatkhan: {
-      fullname: 'Bolatkhan',
+      fullname: 'Bolatkhan Sairamov',
       position: 'Mechanical Team',
       achievements: [],
     },
     infoChingiz: {
-      fullname: 'Chingiz',
+      fullname: 'Chingiz Bakhitzhanov',
       position: 'Electronics Team',
       achievements: [],
     },
@@ -229,7 +229,7 @@ const en = {
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
-      fullname: 'Mansur',
+      fullname: 'Mansur Mustafa',
       position: 'Mechanical Team',
       achievements: [],
     },
@@ -239,7 +239,7 @@ const en = {
       achievements: [],
     },
     infoSaule: {
-      fullname: 'Cyborg 578468',
+      fullname: 'Saule Kazetova',
       position: 'Mechanical Team',
       achievements: [],
     },
@@ -249,25 +249,19 @@ const en = {
       achievements: [],
     },
     infoZhanserik: {
-      fullname: 'Kaniev Zhanserik',
+      fullname: 'Zhanserik Kaniyev',
       position: 'Software/Control System Team',
-      achievements: ['+100 прочитанных манг'],
+      achievements: [''],
     },
     infoZhansenZhalel: {
-      fullname: 'Zhalel Zhansen',
+      fullname: 'Zhansen Zhalel',
       position: 'Software/Control System Team',
-      achievements: ['Будущий глава NU Bober'],
+      achievements: [''],
     },
     infoKirillZavgorodniy: {
       fullname: 'Kirill',
       position: 'Mechanical Team',
       achievements: [],
-    },
-    infoYussuf: {
-      fullname: 'Yussuf Shakhin',
-      position: 'Electronics Team',
-      achievements: ['President of Robotics in Ala-Too International University',
-        'Research Assistant in PCMC and Smart Energy laboratories']
     },
     infoLeila: {
       fullname: 'Leila Akisheva',
@@ -308,6 +302,11 @@ const en = {
       position: 'Marketing/Branding Team',
       achievements: ['Member of "Unisat Nano-satellite Educational Programme for Girls" (UNEPG), successfully launched nano-satellite into the stratosphere',
         'Ex-head of the PR department of NU Student Awards 2023']
+    },
+    infoDaniel: {
+      fullname: 'Daniel Tolegenov',
+      position: 'Mechanical Team',
+      achievements: ['']
     },
     infoZhaniya: {
       fullname: 'Zhaniya Kali',
@@ -421,6 +420,18 @@ const en = {
           force behind our many achievements. Though you have moved on to new adventures, your 
           legacy continues to inspire and propel us forward.`
   },
+  mentors: {
+    header: 'Mentors',
+    infoGourav: {
+      fullname: 'Gourav Moger',
+      achievements: ['']
+    },
+    infoYussuf: {
+      fullname: 'Yussuf Shakhin',
+      achievements: ['President of Robotics in Ala-Too International University',
+        'Research Assistant in PCMC and Smart Energy laboratories']
+    },
+  },
   advisers: {
     header: 'Advisory board',
     caption: 'Hover or click to see more info',
@@ -458,7 +469,7 @@ const en = {
       achievements: ['Teaching assistantship from Worcester Polytechnic Institute', 'Research interest in the field of synthesis of polymeric materials']
     },
     infoZorbas: {
-      fullname: 'Dimitrios Zorbas',
+      fullname: 'Dimitrios Zormpas',
       achievements: ['Developer of several long-range industrial communication protocols', 'Marie Curie Alumnus']
     }
   },

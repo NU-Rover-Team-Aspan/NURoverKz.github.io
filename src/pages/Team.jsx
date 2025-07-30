@@ -1,23 +1,21 @@
-import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 // importing images
-import TeamView from 'src/components/team/TeamView'
-import imgAngelina from '/assets/img/team/Angie.jpg'; //
-import imgAruzhan from '/assets/img/team/Aruzhan New.jpg'; // 
-import imgBolatkhan from '/assets/img/team/Bolatkhan.jpg'; //
-import imgChingiz from '/assets/img/team/Chingiz.jpg'; //
-import imgHeghine from '/assets/img/team/Heghine.jpg'; //
-import imgJalgas from '/assets/img/team/Jalgas.jpg'; //
-import imgJalgasbek from '/assets/img/team/Jalgasbek.jpg'; //
-import imgKamila from '/assets/img/team/Kamosh.jpg'; //
-import imgMalika from '/assets/img/team/Malika.jpg'; //
-import imgMansur from '/assets/img/team/Mansur.jpg'; //
-import imgMussa from '/assets/img/team/Mussich.jpg'; //
-import imgNurbanu from '/assets/img/team/Nurbanu.jpg'; //
-import imgSaule from '/assets/img/team/Saule.jpg'; //
-import imgYerassyl from '/assets/img/team/Yerassyl.jpg'; //
-import imgZhanserik from '/assets/img/team/Zhanserik.jpg'; //
-import imgZhuldyz from '/assets/img/team/Zhuldyz New.jpg'; //
+import TeamView from 'src/components/team/TeamView';
+import imgAngelina from '/assets/img/team/Angie.jpg';
+import imgBolatkhan from '/assets/img/team/Bolatkhan.jpg';
+import imgHeghine from '/assets/img/team/Heghine.jpg';
+import imgJalgas from '/assets/img/team/Jalgas.jpg';
+import imgJalgasbek from '/assets/img/team/Jalgasbek.jpg';
+import imgKamila from '/assets/img/team/Kamosh.jpg';
+import imgMalika from '/assets/img/team/Malika.jpg';
+import imgMansur from '/assets/img/team/Mansur.jpg';
+import imgMussa from '/assets/img/team/Mussich.jpg';
+import imgNurbanu from '/assets/img/team/Nurbanu.jpg';
+import imgSaule from '/assets/img/team/Saule.jpg';
+import imgYerassyl from '/assets/img/team/Yerassyl.jpg';
+import imgZhansen from '/assets/img/team/Zhansen.jpeg';
+import imgZhanserik from '/assets/img/team/Zhanserik.jpg';
 
 const Team = () => {
   const { t } = useTranslation('translation', { keyPrefix: 'team' });
@@ -56,28 +54,10 @@ const Team = () => {
         img: imgJalgas
       },
       {
-        fullname: t('infoZhuldyz.fullname'),
-        position: t('infoZhuldyz.position'),
-        achievements: t('infoZhuldyz.achievements', { returnObjects: true }),
-        img: imgZhuldyz
-      },
-      {
         fullname: t('infoMussa.fullname'),
         position: t('infoMussa.position'),
         achievements: t('infoMussa.achievements', { returnObjects: true }),
         img: imgMussa
-      },
-      {
-        fullname: t('infoAruzhanNew.fullname'),
-        position: t('infoAruzhanNew.position'),
-        achievements: t('infoAruzhanNew.achievements', { returnObjects: true }),
-        img: imgAruzhan
-      },
-      {
-        fullname: t('infoChingiz.fullname'),
-        position: t('infoChingiz.position'),
-        achievements: t('infoChingiz.achievements', { returnObjects: true }),
-        img: imgChingiz
       },
       {
         fullname: t('infoMansur.fullname'),
@@ -104,6 +84,12 @@ const Team = () => {
         position: t('infoZhanserik.position'),
         achievements: t('infoZhanserik.achievements', { returnObjects: true }),
         img: imgZhanserik
+      },
+      {
+        fullname: t('infoZhansenZhalel.fullname'),
+        position: t('infoZhansenZhalel.position'),
+        achievements: t('infoZhansenZhalel.achievements', { returnObjects: true }),
+        img: imgZhansen
       },
       {
         fullname: t('infoKamilaTashimova.fullname'),

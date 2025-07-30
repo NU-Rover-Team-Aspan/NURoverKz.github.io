@@ -1,31 +1,47 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next';
 import ProfileCard from 'src/components/common/ProfileCard';
 
-import imgAibat from '/assets/img/team/ex/Aibat.jpg'
-import imgAizhar from '/assets/img/team/ex/Aizhar.jpg'
-import imgAlikhan from '/assets/img/team/ex/Alikhan.jpg'
-import imgAlisher from '/assets/img/team/ex/Alisher.jpg'
-import imgAruzhan from '/assets/img/team/ex/Aruzhan.jpg'
-import imgAssylzat from '/assets/img/team/ex/Assylzat.jpg'
-import imgDana from '/assets/img/team/ex/Dana.jpg'
-import imgDenis from '/assets/img/team/ex/Denis.jpg'
-import imgLeila from '/assets/img/team/ex/Leila.jpg'
-import imgSultan from '/assets/img/team/ex/Sultan.jpg'
-import imgSymbat from '/assets/img/team/ex/Symbat.jpg'
-import imgTomiris from '/assets/img/team/ex/Tomiris.jpg'
-import imgYussuf from '/assets/img/team/ex/Yussuf.jpg'
-import imgZhamila from '/assets/img/team/ex/Zhamila.jpg'
-import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg'
-import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg'
-import imgMuslim from '/assets/img/team/ex/Muslim.jpg'
-import imgYerkebulan from '/assets/img/team/ex/Yerkebulan.jpg'
+import imgAruzhanNew from '/assets/img/team/ex/Aruzhan New.jpg';
+import imgAldiyar from '/assets/img/team/ex/Aldiyar.jpg';
+import imgChingiz from '/assets/img/team/Chingiz.jpg';
+import imgAbylay from '/assets/img/team/ex/Abylay.jpg';
+import imgAibat from '/assets/img/team/ex/Aibat.jpg';
+import imgAizhar from '/assets/img/team/ex/Aizhar.jpg';
+import imgAlikhan from '/assets/img/team/ex/Alikhan.jpg';
+import imgAlisher from '/assets/img/team/ex/Alisher.jpg';
+import imgAruzhan from '/assets/img/team/ex/Aruzhan.jpg';
+import imgAssylzat from '/assets/img/team/ex/Assylzat.jpg';
+import imgDana from '/assets/img/team/ex/Dana.jpg';
+import imgDaniel from '/assets/img/team/ex/Daniel.jpg';
+import imgDenis from '/assets/img/team/ex/Denis.jpg';
+import imgLeila from '/assets/img/team/ex/Leila.jpg';
+import imgMuslim from '/assets/img/team/ex/Muslim.jpg';
+import imgSultan from '/assets/img/team/ex/Sultan.jpg';
+import imgSymbat from '/assets/img/team/ex/Symbat.jpg';
+import imgTomiris from '/assets/img/team/ex/Tomiris.jpg';
+import imgYerkebulan from '/assets/img/team/ex/Yerkebulan.jpg';
+import imgZhamila from '/assets/img/team/ex/Zhamila.jpg';
+import imgZhaniya from '/assets/img/team/ex/Zhaniya.jpg';
+import imgZhuldyz from '/assets/img/team/ex/Zhuldyz.jpg';
+import imgZhuldyzNew from '/assets/img/team/Zhuldyz New.jpg';
 
 
 const Contributors = () => {
   const { t } = useTranslation('translation');
 
   const teamMembers = [
+    {
+      fullname: t('team.infoAbylay.fullname'),
+      position: t('team.infoAbylay.position'),
+      achievements: t('team.infoAbylay.achievements', { returnObjects: true }),
+      img: imgAbylay
+    },
+    {
+      fullname: t('team.infoAldiyar.fullname'),
+      position: t('team.infoAldiyar.position'),
+      achievements: t('team.infoAldiyar.achievements', { returnObjects: true }),
+      img: imgAldiyar
+    },
     {
       fullname: t('team.infoAibat.fullname'),
       position: t('team.infoAibat.position'),
@@ -37,6 +53,12 @@ const Contributors = () => {
       position: t('team.infoAizhar.position'),
       achievements: t('team.infoAizhar.achievements', { returnObjects: true }),
       img: imgAizhar
+    },
+    {
+      fullname: t('team.infoDaniel.fullname'),
+      position: t('team.infoDaniel.position'),
+      achievements: t('team.infoDaniel.achievements', { returnObjects: true }),
+      img: imgDaniel
     },
     {
       fullname: t('team.infoAlikhan.fullname'),
@@ -57,10 +79,22 @@ const Contributors = () => {
       img: imgAruzhan
     },
     {
+      fullname: t('team.infoAruzhanNew.fullname'),
+      position: t('team.infoAruzhanNew.position'),
+      achievements: t('team.infoAruzhanNew.achievements', { returnObjects: true }),
+      img: imgAruzhanNew
+    },
+    {
       fullname: t('team.infoAssylzat.fullname'),
       position: t('team.infoAssylzat.position'),
       achievements: t('team.infoAssylzat.achievements', { returnObjects: true }),
       img: imgAssylzat
+    },
+    {
+      fullname: t('team.infoChingiz.fullname'),
+      position: t('team.infoChingiz.position'),
+      achievements: t('team.infoChingiz.achievements', { returnObjects: true }),
+      img: imgChingiz
     },
     {
       fullname: t('team.infoDana.fullname'),
@@ -111,12 +145,6 @@ const Contributors = () => {
       img: imgTomiris
     },
     {
-      fullname: t('team.infoYussuf.fullname'),
-      position: t('team.infoYussuf.position'),
-      achievements: t('team.infoYussuf.achievements', { returnObjects: true }),
-      img: imgYussuf
-    },
-    {
       fullname: t('team.infoZhamila.fullname'),
       position: t('team.infoZhamila.position'),
       achievements: t('team.infoZhamila.achievements', { returnObjects: true }),
@@ -134,28 +162,34 @@ const Contributors = () => {
       achievements: t('team.infoZhuldyzK.achievements', { returnObjects: true }),
       img: imgZhuldyz
     },
+    {
+      fullname: t('team.infoZhuldyz.fullname'),
+      position: t('team.infoZhuldyz.position'),
+      achievements: t('team.infoZhuldyz.achievements', { returnObjects: true }),
+      img: imgZhuldyzNew
+    },
   ]
 
   return (
     <main className="relative">
       <div id="home" className='w-full bg-primaryDark py-20 mb-10'>
         <div className='max-w-6xl mx-auto px-4'>
-          <h1 className='md:text-5xl sm:text-4xl text-2xl font-bold mb-8 text-center'>{ t('contributors.header') }</h1>
-          <p className='font-medium'>{ t('contributors.para') }</p>
+          <h1 className='md:text-5xl sm:text-4xl text-2xl font-bold mb-8 text-center'>{t('contributors.header')}</h1>
+          <p className='font-medium'>{t('contributors.para')}</p>
         </div>
       </div>
       <div className='my-8'>
-            <div className='flex justify-center gap-8 mx-auto flex-wrap'>
-              {
-                teamMembers.map((m, i) => (
-                  <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
-                    <ProfileCard fullname={m.fullname} position={m.position}
-                      img={m.img} achievements={m.achievements} />
-                  </div>
-                ))
-              }
-            </div>
-          </div>
+        <div className='flex justify-center gap-8 mx-auto flex-wrap'>
+          {
+            teamMembers.map((m, i) => (
+              <div key={i} className='flex-grow-0 flex-shrink-0 basis-full md:basis-1/4'>
+                <ProfileCard fullname={m.fullname} position={m.position}
+                  img={m.img} achievements={m.achievements} />
+              </div>
+            ))
+          }
+        </div>
+      </div>
     </main>
   )
 }

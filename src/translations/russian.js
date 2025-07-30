@@ -179,91 +179,85 @@ const ru = {
       mk: "Маркетинг"
     },
     infoHeghine: {
-      fullname: 'Агаджанян Егине',
+      fullname: 'Егине Агаджанян',
       position: 'Лидер команды/Команда Механики',
       achievements: ['Второе место по Microsoft International AI Hackathon',
       'Организатор инженерного чемпионата "Cosmothon" с более чем 100 участниками']
     },
     infoKamilaTashimova: {
-      fullname: 'Ташимова Камила',
+      fullname: 'Камила Ташимова',
       position: 'Команда Программирования/Системы',
       achievements: [],
     },
     infoAngelina: {
-      fullname: 'Ангелина',
+      fullname: 'Ангелина Григорьева',
       position: '',
       achievements: [],
     },
     infoAruzhanNew: {
-      fullname: 'Аружан',
+      fullname: 'Аружан Керимкул',
       position: 'Команда Механики',
       achievements: [],
     },
     infoBolatkhan: {
-      fullname: 'Болатхан',
+      fullname: 'Болатхан Сайрамов',
       position: 'Команда Механики',
       achievements: [],
     },
     infoChingiz: {
-      fullname: 'Чингиз',
+      fullname: 'Чингиз Бахитжанов',
       position: 'Команда Электроники',
       achievements: [],
     },
     infoJalgas: {
-      fullname: 'Бейсенбай Жалгас',
+      fullname: 'Жалгас Бейсенбай',
       position: 'Команда Механики',
       achievements: [],
     },
     infoJalgasbek: {
-      fullname: 'Тлеу Жалгасбек',
+      fullname: 'Жалгасбек Тлеу',
       position: 'Команда Программирования/Системы',
       achievements: [],
     },
     infoMalika: {
-      fullname: 'Мейрамова Малика',
+      fullname: 'Малика Мейрамова',
       position: 'Команда Маркетинга/Брендинга',
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
-      fullname: 'Мансур',
+      fullname: 'Мансур Мустафа',
       position: 'Команда Механики',
       achievements: [],
     },
     infoNurbanu: {
-      fullname: 'Женисова Нурбану',
+      fullname: 'Нурбану Женисова',
       position: 'Команда Программирования/Системы',
       achievements: [],
     },
     infoSaule: {
-      fullname: 'Киборг 578468',
+      fullname: 'Сауле Казетова',
       position: 'Команда Механики',
       achievements: [],
     },
     infoYerassyl: {
-      fullname: 'Әуесхан Ерасыл',
+      fullname: 'Ерасыл Ауесхан',
       position: 'Команда Программирования/Системы',
       achievements: [],
     },
     infoZhanserik: {
-      fullname: 'Каниев Жансерик',
+      fullname: 'Жансерик Каниев',
       position: 'Команда Программирования/Системы',
-      achievements: ['+100 прочитанных манг'],
+      achievements: [''],
     },
     infoZhansenZhalel: {
-      fullname: 'Жалел Жансен',
+      fullname: 'Жансен Жалел',
       position: 'Команда Программирования/Системы',
-      achievements: ['Будущий глава NU Bober'],
+      achievements: [''],
     },
     infoKirillZavgorodniy: {
       fullname: 'Завгородний Кирилл',
       position: 'Команда Программирования/Системы',
       achievements: [],
-    },
-    infoYussuf: {
-      fullname: 'Шахин Юсуф',
-      position: 'Команда Электроники',
-      achievements: ['Президент клуба робототехники в Международном университете Ала-Тоо',
-      'Ассистент по исследованиям в лаборатории преобразования мощности']
     },
     infoLeila: {
       fullname: 'Акишева Лейла',
@@ -390,13 +384,18 @@ const ru = {
       position: "Команда Научных исследовании",
       achievements: ['Бывший ассистент лаборатории биоматериалов и регенеративной инженерии Назарбаев Университета', 'Топ-5 в рейтинге CGPA']
     },
+    infoDaniel: {
+      fullname: 'Даниел Толегенов',
+      position: 'Команда Механики',
+      achievements: ['']
+    },
     infoAbylay: {
-      fullname: 'Сансызбай Абылай',
+      fullname: 'Абылай Сансызбай',
       position: 'Команда Механики',
       achievements: ['Красный аттестат выпускника Республиканской физико-математической школы']
     },
     infoZhuldyz: {
-      fullname: 'Алтаева Жұлдыз',
+      fullname: 'Жулдыз Алтаева',
       position: 'Команда Механики',
       achievements: ['Провела в школе IQanat образовательную презентацию о области STEM', 'Стажировка и внеклассные занятия по механическому проектированию']
     },
@@ -416,6 +415,18 @@ const ru = {
     para: `Мы выражаем нашу искреннюю благодарность всем невероятным людям, которые внесли свой вклад в NU Rover на протяжении многих лет.
           Ваша преданность, опыт и страсть были движущей силой наших многочисленных достижений.
           Хоть вы и перешли к новым приключениям вне команды, ваше наследие продолжает вдохновлять и двигать нас вперед.`
+  },
+  mentors: {
+    header: 'Менторы',
+    infoGourav: {
+      fullname: 'Могер Гоурав',
+      achievements: ['']
+    },
+    infoYussuf: {
+      fullname: 'Шахин Юсуф',
+      achievements: ['Президент клуба робототехники в Международном университете Ала-Тоо',
+      'Ассистент по исследованиям в лаборатории преобразования мощности']
+    },
   },
   advisers: {
     header: 'Консультативный совет',

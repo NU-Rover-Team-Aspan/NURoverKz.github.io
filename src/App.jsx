@@ -2,6 +2,7 @@ import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import About from "./pages/About"
 import Advisers from "./pages/Advisers"
+import Mentors from "./pages/Mentors"
 import Contact from "./pages/Contact"
 import Hero from "./pages/Hero"
 import Mission from "./pages/Mission"
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
               <Mission />
               <Roadmap />
               <Team />
+              <Mentors />
               <Advisers />
               <Partners />
               <Support />

@@ -185,33 +185,33 @@ const kk = {
         '100-ден астам қатысушы болған "Cosmothon" инженерлік байқауының ұйымдастырушысы']
     },
     infoKamilaTashimova: {
-      fullname: 'Ташимова Камила',
+      fullname: 'Камила Ташимова',
       position: 'Бағдарламалау/Система тобы жетекшісі',
       achievements: [],
     },
     infoAngelina: {
-      fullname: 'Ангелина',
-      position: '',
+      fullname: 'Ангелина Григорьева',
+      position: 'Ғылыми зерттеу тобы',
       achievements: [],
     },
     infoAruzhanNew: {
-      fullname: 'Аружан',
-      position: '',
+      fullname: 'Аружан Керімқұл',
+      position: 'Механика тобы',
       achievements: [],
     },
     infoBolatkhan: {
-      fullname: 'Болатхан',
-      position: '',
+      fullname: 'Болатхан Сайрамов',
+      position: 'Механика тобы',
       achievements: [],
     },
     infoChingiz: {
-      fullname: 'Чингиз',
-      position: '',
+      fullname: 'Чингиз Бахитжанов',
+      position: 'Электроника тобы',
       achievements: [],
     },
     infoJalgas: {
-      fullname: 'Бейсенбай Жалғас',
-      position: '',
+      fullname: 'Жалғас Бейсенбай',
+      position: 'Механика тобы',
       achievements: [],
     },
     infoJalgasbek: {
@@ -220,13 +220,13 @@ const kk = {
       achievements: [],
     },
     infoMalika: {
-      fullname: 'Мейрамова Малика',
+      fullname: 'Малика Мейрамова',
       position: 'Маркетинг/Брендинг тобы',
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
-      fullname: 'Мансур',
-      position: 'Команда ',
+      fullname: 'Мансур Мустафа',
+      position: 'Механика тобы',
       achievements: [],
     },
     infoNurbanu: {
@@ -235,35 +235,29 @@ const kk = {
       achievements: [],
     },
     infoSaule: {
-      fullname: 'Киборг 578468',
-      position: 'Команда ',
+      fullname: 'Сауле Казетова',
+      position: 'Механика тобы',
       achievements: [],
     },
     infoYerassyl: {
-      fullname: 'Әуесхан Ерасыл',
+      fullname: 'Ерасыл Әуесхан',
       position: 'Бағдарламалау/Система тобы жетекшісі',
       achievements: [],
     },
     infoZhanserik: {
-      fullname: 'Каниев Жансерик',
+      fullname: 'Жансерiк Қаниев',
       position: 'Бағдарламалау/Система тобы жетекшісі',
-      achievements: ['+100 прочитанных манг'],
+      achievements: [''],
     },
     infoZhansenZhalel: {
-      fullname: 'Жалел Жансен',
+      fullname: 'Жансен Жәлел',
       position: 'Бағдарламалау/Система тобы жетекшісі',
       achievements: ['Будущий глава NU Bober'],
     },
     infoKirillZavgorodniy: {
       fullname: 'Завгородний Кирилл',
-      position: 'Команда Программирования/Системы',
+      position: 'Механика тобы',
       achievements: [],
-    },
-    infoYussuf: {
-      fullname: 'Юсуф Шахин',
-      position: 'Электроника тобы',
-      achievements: ['Ала-Тоо Халықаралық Университетіндегі Робототехника Президенті',
-        'PCMC and Smart Energy лабораториясы зерттеу ассистенті']
     },
     infoLeila: {
       fullname: 'Лейла Акишева',
@@ -391,6 +385,11 @@ const kk = {
       position: "Ғылыми зерттеу тобы",
       achievements: ['Назарбаев Университетінің биоматериалдар және регенеративті инженерия зертханасы зерттеу ассистенті', 'CGPA рейтингі бойынша үздік 5']
     },
+    infoDaniel: {
+      fullname: 'Даниел Толегенов',
+      position: 'Механика тобы',
+      achievements: ['']
+    },
     infoAbylay: {
       fullname: 'Абылай Сансызбай',
       position: 'Механика тобы',
@@ -417,6 +416,18 @@ const kk = {
     para: `Біз көптеген жылдар бойы NU Rover тобына үлес қосқан барлық керемет тұлғаларға шын жүректен алғысымызды білдіреміз.
           Осы тұлғалардың тәжірибесі мен ынтасы арқасында команда көптеген жетістіктерге жетті.
           Қазір олар бізбен бірге болмаса да, қалдырған мұралары бізді шабыттандырады және алға жетелейді.`
+  },
+  mentors: {
+    header: 'Менторлар',
+    infoGourav: {
+      fullname: 'Гоурав Могер',
+      achievements: ['']
+    },
+    infoYussuf: {
+      fullname: 'Юссуф Шахин',
+      achievements: ['Ала-Тоо Халықаралық Университетіндегі Робототехника Президенті',
+        'PCMC and Smart Energy лабораториясы зерттеу ассистенті']
+    },
   },
   advisers: {
     header: 'Кеңесші профессорлар',

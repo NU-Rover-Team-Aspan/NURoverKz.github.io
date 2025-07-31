@@ -431,22 +431,9 @@ const ru = {
   advisers: {
     header: 'Консультативный совет',
     caption: 'Наведите или нажмите, чтобы увидеть больше',
-    infoElhadidi: {
-      fullname: 'Basman Elhadidi',
-      achievements: ['Автор дизайнов для низкоорбитальных спутников', 'Обладатель награды Университета Нотр-Дам']
-    },
-    infoSpitas: {
-      fullname: 'Christos Spitas',
-      achievements: ['Руководитель проектов для Paramount Engineering и т.д.',
-      'Лидер 15 проектов, спонсируемых Еврокомиссией, CERN, Toyota']
-    },
     infoVarol: {
       fullname: 'Huseyin Atakan Varol',
       achievements: ['Более 60 опубликованных статьей по робототехнике', 'Старший член и технических редактор IEEE']
-    },
-    infoBagheri: {
-      fullname: 'Mehdi Bagheri',
-      achievements: ['Обладатель престижной награды Scopus', 'Входит в лучшие 2% исследователей по количеству публикаций']
     },
     infoKostas: {
       fullname: 'Konstantinos Kostas',

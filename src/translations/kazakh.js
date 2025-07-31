@@ -432,21 +432,9 @@ const kk = {
   advisers: {
     header: 'Кеңесші профессорлар',
     caption: 'Қосымша ақпарат үшін меңзерді апарыңыз немесе басыңыз',
-    infoElhadidi: {
-      fullname: 'Basman Elhadidi',
-      achievements: ['Төмен орбиталық спутниктерге арналған конструкциялардың авторы', 'Нотр-Дам университеті сыйлығының иегері']
-    },
-    infoSpitas: {
-      fullname: 'Christos Spitas',
-      achievements: ['Paramount Engineering бойынша жоба менеджері', 'Еуропалық комиссия, CERN, Toyota демеушілік ететін 15 жобаның жетекшісі']
-    },
     infoVarol: {
       fullname: 'Huseyin Atakan Varol',
       achievements: ['Робототехника бойынша 60-тан астам жұмыс авторы', 'IEEE аға мүшесі және техникалық редакторы']
-    },
-    infoBagheri: {
-      fullname: 'Mehdi Bagheri',
-      achievements: ['Беделді Scopus сыйлығының иегері', 'Публикациялар саны бойынша зерттеушілердің үздік 2%-ына кіреді']
     },
     infoKostas: {
       fullname: 'Konstantinos Kostas',

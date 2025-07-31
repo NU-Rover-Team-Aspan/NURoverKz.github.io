@@ -435,22 +435,9 @@ const en = {
   advisers: {
     header: 'Advisory board',
     caption: 'Hover or click to see more info',
-    infoElhadidi: {
-      fullname: 'Basman Elhadidi',
-      achievements: ['Designed challenges for very low earth orbit satellite design', 'University of Notre Dame Award']
-    },
-    infoSpitas: {
-      fullname: 'Christos Spitas',
-      achievements: ['Principal Investigator of projects with partners Paramount Engineering, etc.',
-        '15 major projects funded by the European Commission, ESA, CERN, Toyota and others']
-    },
     infoVarol: {
       fullname: 'Huseyin Atakan Varol',
       achievements: ['Over 60 published paper on Robotics', 'Senior member and technical editor of IEEE']
-    },
-    infoBagheri: {
-      fullname: 'Mehdi Bagheri',
-      achievements: ['Scopus Award holder (prestigious scientific award)', 'World’s top 2% of scientists according to the publications']
     },
     infoKostas: {
       fullname: 'Konstantinos Kostas',

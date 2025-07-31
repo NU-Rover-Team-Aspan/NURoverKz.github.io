@@ -1,15 +1,11 @@
-import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import ProfileCard from 'src/components/common/ProfileCard'
 // importing images
-import imgBagheri from '/assets/img/advisers/Bagheri.jpg'
-import imgElhadidi from '/assets/img/advisers/Elhadidi.jpg'
-import imgKostas from '/assets/img/advisers/Kostas.jpg'
-import imgSpitas from '/assets/img/advisers/Spitas.jpg'
 import imgJamwal from '/assets/img/advisers/Jamwal.png'
-import imgVarol from '/assets/img/advisers/Varol.jpeg'
+import imgKostas from '/assets/img/advisers/Kostas.jpg'
 import imgSalimgerey from '/assets/img/advisers/Salimgerey.jpg'
+import imgVarol from '/assets/img/advisers/Varol.jpeg'
 import imgZorbas from '/assets/img/advisers/Zorbas.jpg'
 
 const Advisers = () => {
@@ -23,20 +19,11 @@ const Advisers = () => {
         <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
 
         <div className="grid gap-10 mx-auto sm:grid-cols-2 lg:grid-cols-4">
-          <ProfileCard fullname={t('infoElhadidi.fullname')} img={imgElhadidi}
-            achievements={t('infoElhadidi.achievements', { returnObjects: true })} />
-
           <ProfileCard fullname={t('infoJamwal.fullname')} img={imgJamwal}
             achievements={t('infoJamwal.achievements', { returnObjects: true })} />
 
           <ProfileCard fullname={t('infoVarol.fullname')} img={imgVarol}
             achievements={t('infoVarol.achievements', { returnObjects: true })} />
-
-          <ProfileCard fullname={t('infoBagheri.fullname')} img={imgBagheri}
-            achievements={t('infoBagheri.achievements', { returnObjects: true })} />
-
-          <ProfileCard fullname={t('infoSpitas.fullname')} img={imgSpitas}
-            achievements={t('infoSpitas.achievements', { returnObjects: true })} />
 
           <ProfileCard fullname={t('infoKostas.fullname')} img={imgKostas}
             achievements={t('infoKostas.achievements', { returnObjects: true })} />

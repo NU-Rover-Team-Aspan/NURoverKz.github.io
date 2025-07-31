@@ -422,6 +422,7 @@ const en = {
   },
   mentors: {
     header: 'Mentors',
+    caption: 'Hover or click to see more info',
     infoGourav: {
       fullname: 'Gourav Moger',
       achievements: ['Master of Science in Robotics Engineering from Bristol University', 'researcher at the NU Institute of Smart Systems and Artificial Intelligence', 'author of 5 research papers on AI, robotics, and mechatronics']

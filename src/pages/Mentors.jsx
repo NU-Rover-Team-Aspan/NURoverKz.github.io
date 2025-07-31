@@ -13,6 +13,7 @@ const Mentors = () => {
             <div className='max-w-[1240px] mx-auto px-4'>
 
                 <h1 className='text-primary md:text-5xl sm:text-4xl text-3xl font-bold md:py-6 text-center'>{t('header')}</h1>
+                <p className='font-light lg:font-normal text-center mt-2 mb-8'>{t('caption')}</p>
 
                 <div className="flex justify-center gap-8 mx-auto flex-wrap">
                     <div className="flex-grow-0 flex-shrink-0 basis-full md:basis-1/4">

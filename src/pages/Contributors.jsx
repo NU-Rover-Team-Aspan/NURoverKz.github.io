@@ -102,8 +102,8 @@ const Contributors = () => {
       img: imgLeila
     },
     {
-      fullname: t('infoMansur.fullname'),
-      position: t('infoMansur.position'),
+      fullname: t('team.infoMansur.fullname'),
+      position: t('team.infoMansur.position'),
       img: imgMansur
     },
     {

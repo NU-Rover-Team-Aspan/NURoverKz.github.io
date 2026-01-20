@@ -187,13 +187,28 @@ const en = {
       fullname: 'Aidana Karayeva',
       position: '',
       achievements: []},
+    infoNazira: {
+      fullname: 'Nazira Akmoldayeva',
+      position: '',
+      achievements: [],   
+    },
+    infoDias: {
+      fullname: 'Dias Amantay',
+      position: '',
+      achievements: [],
+    },
     infoMeiirzhan: {
-      fullname: 'Meiirzhan Duisenov',
+      fullname: 'Meiirzhan Yersain',
       position: '',
       achievements: [],
     },
     infoAknur: {
       fullname: 'Aknur Sarsembayeva',
+      position: '',
+      achievements: [],
+    },
+    infoAlmaz: {
+      fullname: 'Almaz Orymbetov',
       position: '',
       achievements: [],
     },

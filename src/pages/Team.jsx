@@ -2,14 +2,17 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import TeamView from 'src/components/team/TeamView';
 
+import imgAlmaz from '/assets/img/team/Almaz.webp';
 import imgAngelina from '/assets/img/team/Angie.webp';
 import imgBolatkhan from '/assets/img/team/Bolatkhan.webp';
+import imgDias from '/assets/img/team/Dias.webp';
 import imgHeghine from '/assets/img/team/Heghine.webp';
 import imgJalgas from '/assets/img/team/Jalgas.webp';
 import imgJalgasbek from '/assets/img/team/Jalgasbek.webp';
 import imgKamila from '/assets/img/team/Kamosh.webp';
 import imgMalika from '/assets/img/team/Malika.webp';
 import imgMussa from '/assets/img/team/Mussich.webp';
+import imgNazira from '/assets/img/team/Nazira.webp';
 import imgNurbanu from '/assets/img/team/Nurbanu.webp';
 import imgSaule from '/assets/img/team/Saule.webp';
 import imgYerassyl from '/assets/img/team/Yerassyl.webp';
@@ -38,6 +41,21 @@ const Team = () => {
         fullname: t('infoJalgas.fullname'),
         position: t('infoJalgas.position'),
         img: imgJalgas
+      },
+      {
+        fullname: t('infoAlmaz.fullname'),
+        position: t('infoAlmaz.position'),
+        img: imgAlmaz
+      },
+      {
+        fullname: t('infoNazira.fullname'),
+        position: t('infoNazira.position'),
+        img: imgNazira
+      },
+      {
+        fullname: t('infoDias.fullname'),
+        position: t('infoDias.position'),
+        img: imgDias
       },
       {
         fullname: t('infoAidana.fullname'),
@@ -88,6 +106,7 @@ const Team = () => {
         position: t('infoMeiirzhan.position'),
         img: imgZhansen
       },
+
       {
         fullname: t('infoAknur.fullname'),
         position: t('infoAknur.position'),

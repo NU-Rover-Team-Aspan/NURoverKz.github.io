@@ -31,7 +31,7 @@ const Partners = () => {
               <a className='flex justify-center' target="_blank" href="https://nu.edu.kz/">
                 <img className='h-36' src={imgNULogo} alt='Nazarbayev University' />
               </a>
-              <a className='flex justify-center' target="_blank" href="https://nuris.nu.edu.kz/machineshop">
+              <a className='flex justify-center' target="_blank" href="https://www.kazzinc.com/eng">
                 <img className='h-36' src={imgNuris} alt='NURIS' />
               </a>
               <div className='flex justify-center'>

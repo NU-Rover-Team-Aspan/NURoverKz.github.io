@@ -172,76 +172,76 @@ const kk = {
     contributorsLink: 'Жобаға үлес қосқан мүшелер',
     departments: {
       leads: "Топ жетекшілері",
-      me: "Механика және Электроника",
+      me: "Механика",
       sc: "Бағдарламалау және Система",
       mc: "Маркетинг және Топ координациясы",
       sn: "Ғылыми зерттеу",
-      mk: "Маркетинг"
+      mk: "Электроника"
     },
     infoHeghine: {
       fullname: 'Егине Агаджанян',
-      position: 'Команда жетекшісі/Механика тобы',
+      position: '',
       achievements: ['Microsoft International AI Hackathon бойынша 2-орын',
         '100-ден астам қатысушы болған "Cosmothon" инженерлік байқауының ұйымдастырушысы']
     },
     infoKamilaTashimova: {
       fullname: 'Камила Ташимова',
-      position: 'Бағдарламалау/Система тобы жетекшісі',
+      position: '',
       achievements: [],
     },
     infoAngelina: {
       fullname: 'Ангелина Григорьева',
-      position: 'Ғылыми зерттеу тобы',
+      position: '',
       achievements: [],
     },
     infoAruzhanNew: {
       fullname: 'Аружан Керімқұл',
-      position: 'Механика тобы',
+      position: '',
       achievements: [],
     },
     infoBolatkhan: {
       fullname: 'Болатхан Сайрамов',
-      position: 'Механика тобы',
+      position: '',
       achievements: [],
     },
     infoChingiz: {
       fullname: 'Чингиз Бахитжанов',
-      position: 'Электроника тобы',
+      position: '',
       achievements: [],
     },
     infoJalgas: {
       fullname: 'Жалғас Бейсенбай',
-      position: 'Механика тобы',
+      position: '',
       achievements: [],
     },
     infoJalgasbek: {
       fullname: 'Жалгасбек Тлеу',
-      position: 'Бағдарламалау/Система тобы жетекшісі',
+      position: '',
       achievements: [],
     },
     infoMalika: {
       fullname: 'Малика Мейрамова',
-      position: 'Маркетинг/Брендинг тобы',
+      position: '',
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
       fullname: 'Мансур Мустафа',
-      position: 'Механика тобы',
+      position: '',
       achievements: [],
     },
     infoNurbanu: {
       fullname: 'Нурбану Женисова',
-      position: 'Бағдарламалау/Система тобы жетекшісі',
+      position: '',
       achievements: [],
     },
     infoSaule: {
       fullname: 'Сауле Казетова',
-      position: 'Механика тобы',
+      position: '',
       achievements: [],
     },
     infoYerassyl: {
       fullname: 'Ерасыл Әуесхан',
-      position: 'Бағдарламалау/Система тобы жетекшісі',
+      position: '',
       achievements: [],
     },
     infoZhanserik: {

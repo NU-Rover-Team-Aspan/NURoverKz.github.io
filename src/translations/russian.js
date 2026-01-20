@@ -172,21 +172,21 @@ const ru = {
     contributorsLink: 'Участники, внесшие свой вклад в проект',
     departments: {
       leads: "Руководители команды",
-      me: "Механика и Электроника",
+      me: "Механика",
       sc: "Программирование и Контроль",
       mc: "Маркетинг и Координация",
       sn: "Научные исследования",
-      mk: "Маркетинг"
+      mk: "Электроника"
     },
     infoHeghine: {
       fullname: 'Егине Агаджанян',
-      position: 'Лидер команды/Команда Механики',
+      position: '',
       achievements: ['Второе место по Microsoft International AI Hackathon',
       'Организатор инженерного чемпионата "Cosmothon" с более чем 100 участниками']
     },
     infoKamilaTashimova: {
       fullname: 'Камила Ташимова',
-      position: 'Команда Программирования/Системы',
+      position: '',
       achievements: [],
     },
     infoAngelina: {
@@ -196,52 +196,52 @@ const ru = {
     },
     infoAruzhanNew: {
       fullname: 'Аружан Керимкул',
-      position: 'Команда Механики',
+      position: '',
       achievements: [],
     },
     infoBolatkhan: {
       fullname: 'Болатхан Сайрамов',
-      position: 'Команда Механики',
+      position: '',
       achievements: [],
     },
     infoChingiz: {
       fullname: 'Чингиз Бахитжанов',
-      position: 'Команда Электроники',
+      position: '',
       achievements: [],
     },
     infoJalgas: {
       fullname: 'Жалгас Бейсенбай',
-      position: 'Команда Механики',
+      position: '',
       achievements: [],
     },
     infoJalgasbek: {
       fullname: 'Жалгасбек Тлеу',
-      position: 'Команда Программирования/Системы',
+      position: '',
       achievements: [],
     },
     infoMalika: {
       fullname: 'Малика Мейрамова',
-      position: 'Команда Маркетинга/Брендинга',
+      position: '',
       achievements: ['Participant of International Economic Olympiad 2023 in Slovakia'],
     },
     infoMansur: {
       fullname: 'Мансур Мустафа',
-      position: 'Команда Механики',
+      position: '',
       achievements: [],
     },
     infoNurbanu: {
       fullname: 'Нурбану Женисова',
-      position: 'Команда Программирования/Системы',
+      position: '',
       achievements: [],
     },
     infoSaule: {
       fullname: 'Сауле Казетова',
-      position: 'Команда Механики',
+      position: '',
       achievements: [],
     },
     infoYerassyl: {
       fullname: 'Ерасыл Ауесхан',
-      position: 'Команда Программирования/Системы',
+      position: '',
       achievements: [],
     },
     infoZhanserik: {
